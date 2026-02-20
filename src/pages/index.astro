@@ -43,6 +43,23 @@ const skills = [
   },
 ];
 
+const education = [
+  {
+    degree: 'Doctoral Candidate, Communication Studies (ABD)',
+    credential: 'MA, Rhetoric and Public Advocacy (2013)',
+    institution: 'University of Iowa',
+    location: 'Iowa City, IA',
+    note: 'Graduate Teaching Assistant 2011–2014. Instructed Argumentation, Communication Methods, and Media Studies. Designed course materials and assessments for diverse student audiences.',
+  },
+  {
+    degree: 'BA, Communication (2010)',
+    credential: null,
+    institution: "St. Edward's University",
+    location: 'Austin, TX',
+    note: 'College Instructor 2015–2018. Designed and taught courses in Communication, Film, and Presentational Speaking. Built assessment rubrics and evaluation frameworks for measuring learner performance.',
+  },
+];
+
 const endorsements = [
   {
     quote: 'Rebecca exemplifies the kind of strategic contributor, a continuous learner, while maintaining operational excellence. Her combination of technical curiosity, collaborative leadership, and willingness to expand beyond traditional role boundaries makes her invaluable.',
@@ -90,6 +107,30 @@ const endorsements = [
         </li>
       ))}
     </ul>
+  </section>
+
+  <hr class="section-divider container" />
+
+  <!-- Education -->
+  <section class="container" style="padding-bottom: 4rem;">
+    <h2 class="section-heading">Education</h2>
+    <div style="display: flex; flex-direction: column; gap: 1.75rem; max-width: 640px;">
+      {education.map((item) => (
+        <div>
+          <p style="font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 0.3rem;">
+            {item.institution} &middot; {item.location}
+          </p>
+          <p style="font-weight: 600; margin-bottom: 0;">{item.degree}</p>
+          {item.credential && (
+            <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 0.1rem;">{item.credential}</p>
+          )}
+          <p style="color: var(--color-text-muted); font-size: 0.875rem; margin-top: 0.4rem;">{item.note}</p>
+        </div>
+      ))}
+    </div>
+    <p style="font-size: 0.85rem; color: var(--color-text-muted); margin-top: 1.5rem;">
+      CV with academic achievements and professional service available on request.
+    </p>
   </section>
 
   <hr class="section-divider container" />

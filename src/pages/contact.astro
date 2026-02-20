@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Base
+  title="Contact — Rebecca Alves"
+  description="Get in touch with Rebecca Alves."
+>
+  <div class="container" style="padding-block: 4rem;">
+    <h1 style="font-family: var(--font-heading); font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 0.75rem;">
+      Get in touch
+    </h1>
+    <p style="color: var(--color-text-muted); font-size: 1.1rem; max-width: 560px; margin-bottom: 3rem;">
+      Have a question or want to connect? Send a message and I'll get back to you.
+    </p>
+
+    <div id="success-message" style="display: none; max-width: 560px; padding: 1.25rem 1.5rem; background: var(--color-accent-light); border-left: 3px solid var(--color-accent); border-radius: 0 var(--radius) var(--radius) 0; margin-bottom: 2rem;">
+      <p style="font-weight: 600; color: var(--color-accent-dark); margin: 0;">Message sent — thank you!</p>
+      <p style="color: var(--color-text-muted); font-size: 0.9rem; margin: 0.25rem 0 0;">I'll be in touch soon.</p>
+    </div>
+
+    <form
+      id="contact-form"
+      action="https://formspree.io/f/mykddaee"
+      method="POST"
+      style="max-width: 560px; display: flex; flex-direction: column; gap: 1.25rem;"
+    >
+      <input type="hidden" name="_next" value={`${base}/contact?thanks=1`} />
+
+      <div class="form-field">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" id="name" name="name" required class="form-input" placeholder="Your name" />
+      </div>
+
+      <div class="form-field">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" id="email" name="email" required class="form-input" placeholder="you@example.com" />
+      </div>
+
+      <div class="form-field">
+        <label for="message" class="form-label">Message</label>
+        <textarea id="message" name="message" required rows="6" class="form-input" placeholder="What's on your mind?"></textarea>
+      </div>
+
+      <button type="submit" class="form-submit">Send message</button>
+    </form>
+  </div>
+</Base>
+
+<script>
+  if (window.location.search.includes('thanks=1')) {
+    const msg = document.getElementById('success-message');
+    const form = document.getElementById('contact-form');
+    if (msg) msg.style.display = 'block';
+    if (form) form.style.display = 'none';
+  }
+</script>

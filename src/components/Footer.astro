@@ -1,0 +1,11 @@
+---
+const variant = (import.meta.env.SITE_VARIANT ?? 'external') as 'external' | 'internal';
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <span>&copy; {year} Rebecca Alves</span>
+    <span class="site-footer__variant">[{variant}]</span>
+  </div>
+</footer>

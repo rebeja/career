@@ -1,0 +1,152 @@
+---
+import Base from '../layouts/Base.astro';
+import CaseStudyCard from '../components/CaseStudyCard.astro';
+import { getCollection } from 'astro:content';
+
+const variant = (import.meta.env.SITE_VARIANT ?? 'external') as 'external' | 'internal';
+const entries = await getCollection(variant);
+const sorted = entries.sort((a, b) => a.data.order - b.data.order);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+const timeline = [
+  { period: 'Jul 2025 – Present', role: 'Senior Technical Writer', org: 'Indeed – Partner Platform Product' },
+  { period: 'Mar 2023 – Jun 2025', role: 'Technical Writing Manager', org: 'Indeed – Interoperability → Product Platform Experience' },
+  { period: 'Jan 2022 – Feb 2023', role: 'API Technical Writer II', org: 'Indeed – Interoperability' },
+  { period: 'Jan 2019 – Dec 2021', role: 'Outreach Technical Writer', org: 'Indeed – Technical Content Management' },
+  { period: '2015 – 2018', role: 'College Instructor', org: "St. Edward's University, Austin TX" },
+];
+
+const skills = [
+  {
+    label: 'AI & Automation',
+    items: ['Claude Code / LLM pipelines', 'Prompt engineering', 'MCP (Model Context Protocol)', 'AI quality assessment', 'Python automation', 'AI governance'],
+  },
+  {
+    label: 'Content Systems',
+    items: ['Information architecture', 'Modular content design', 'Content strategy', 'Taxonomy', 'Component libraries', 'Docs-as-code'],
+  },
+  {
+    label: 'Technical Content',
+    items: ['REST APIs', 'GraphQL', 'OpenAPI / Swagger', 'SDK documentation', 'Developer portals', 'Release notes'],
+  },
+  {
+    label: 'Tooling & Platforms',
+    items: ['Git / GitLab / GitHub', 'Docusaurus', 'Jira / Confluence', 'Postman / Stoplight', 'Cursor', 'Markdown'],
+  },
+  {
+    label: 'Leadership',
+    items: ['People management', 'Sprint planning', 'Cross-functional strategy', 'Change management', 'Mentoring', 'Hiring'],
+  },
+  {
+    label: 'Training & Curriculum',
+    items: ['Instructional design', 'LMS architecture', 'Facilitator guides', 'Assessment design', 'Train-the-trainer', 'Webinar delivery'],
+  },
+];
+
+const endorsements = [
+  {
+    quote: 'Rebecca exemplifies the kind of strategic contributor, a continuous learner, while maintaining operational excellence. Her combination of technical curiosity, collaborative leadership, and willingness to expand beyond traditional role boundaries makes her invaluable.',
+    source: 'Manager, H1 2025',
+  },
+  {
+    quote: 'A great collaborator cross-functionally and a strong leader in the technical writing function. Demonstrated both strategic direction and tactical guidance. Was the steady force in the changes that drastically affected teams and product.',
+    source: 'Manager, H2 2024',
+  },
+  {
+    quote: 'Strong technical expertise in the documentation site architecture. Openness to alternative approaches to solve problems, demonstrating a collaborative and open approach.',
+    source: 'Engineering Manager',
+  },
+  {
+    quote: "An excellent manager. Forward thinking and always keeps customers' needs in the forefront.",
+    source: 'Technical Writer peer',
+  },
+];
+---
+
+<Base title="Rebecca Alves — Technical Writing & Documentation Systems">
+  <!-- Hero -->
+  <section class="hero container">
+    <p class="hero__eyebrow">Portfolio</p>
+    <h1 class="hero__title">Rebecca Alves</h1>
+    <p class="hero__subtitle">
+      Senior technical writer and documentation systems architect. I build AI-augmented workflows,
+      scalable content infrastructure, and the enablement programs that let small teams operate at the
+      output level of a full organization.
+    </p>
+    <a href={`${base}/portfolio`} class="hero__cta">View portfolio →</a>
+  </section>
+
+  <hr class="section-divider container" />
+
+  <!-- Career Timeline -->
+  <section class="container" style="padding-bottom: 4rem;">
+    <h2 class="section-heading">Career Timeline</h2>
+    <ul class="timeline" style="max-width: 640px;">
+      {timeline.map((item) => (
+        <li class="timeline__item">
+          <p class="timeline__period">{item.period}</p>
+          <p class="timeline__role">{item.role}</p>
+          <p class="timeline__org">{item.org}</p>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <hr class="section-divider container" />
+
+  <!-- Portfolio Preview -->
+  <section class="container" style="padding-bottom: 4rem;">
+    <h2 class="section-heading">Portfolio Highlights</h2>
+    <div class="card-grid">
+      {sorted.slice(0, 3).map((entry) => (
+        <CaseStudyCard
+          title={entry.data.title}
+          period={entry.data.period}
+          role={entry.data.role}
+          organization={entry.data.organization}
+          summary={entry.data.summary}
+          tags={entry.data.tags}
+          href={`${base}/portfolio/${entry.slug}`}
+          order={entry.data.order}
+        />
+      ))}
+    </div>
+    <p style="margin-top: 2rem;">
+      <a href={`${base}/portfolio`}>View all {sorted.length} case studies →</a>
+    </p>
+  </section>
+
+  <hr class="section-divider container" />
+
+  <!-- Skills -->
+  <section class="container" style="padding-bottom: 4rem;">
+    <h2 class="section-heading">Skills</h2>
+    <div class="skills-grid">
+      {skills.map((group) => (
+        <div class="skill-group">
+          <p class="skill-group__label">{group.label}</p>
+          <ul class="skill-group__items">
+            {group.items.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <hr class="section-divider container" />
+
+  <!-- Endorsements -->
+  <section class="container" style="padding-bottom: 4rem;">
+    <h2 class="section-heading">What colleagues say</h2>
+    <div class="endorsements">
+      {endorsements.map((e) => (
+        <div class="endorsement">
+          <blockquote>"{e.quote}"</blockquote>
+          <cite>— {e.source}</cite>
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>

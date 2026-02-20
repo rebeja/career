@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const variant = (import.meta.env.SITE_VARIANT ?? 'external') as 'external' | 'internal';
+  const entries = await getCollection(variant);
+  return entries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const { title, period, role, organization, tags, showEvidence } = entry.data;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Base title={`${title} — Rebecca Alves`}>
+  <div class="container">
+    <header class="case-study-header">
+      <a href={`${base}/portfolio`} class="case-study-header__back">← Back to portfolio</a>
+      <p class="case-study-header__meta">
+        {String(entry.data.order).padStart(2, '0')} &mdash; {period}
+      </p>
+      <h1 class="case-study-header__title">{title}</h1>
+      <p class="case-study-header__role">{role} &middot; {organization}</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.75rem;">
+        {tags.map((tag: string) => (
+          <span class="tag">{tag}</span>
+        ))}
+      </div>
+    </header>
+
+    <article class="prose prose-content" style="padding-bottom: 5rem;">
+      <Content />
+
+      {showEvidence && (
+        <section>
+          <h2>Evidence</h2>
+          <p><em>Internal links and artifacts available in the internal version of this portfolio.</em></p>
+        </section>
+      )}
+    </article>
+  </div>
+</Base>

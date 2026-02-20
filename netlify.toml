@@ -1,0 +1,17 @@
+# Phase 2: Netlify deployment with internal content
+# Password protection is enabled via:
+#   Netlify dashboard → Site configuration → Access control → Visitor access → Password protection
+
+[build]
+  base    = "site"
+  command = "npm run build:internal"
+  publish = "dist"
+
+[build.environment]
+  SITE_VARIANT = "internal"
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200

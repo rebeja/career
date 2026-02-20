@@ -1,0 +1,23 @@
+---
+const currentPath = Astro.url.pathname;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+function isActive(path: string) {
+  if (path === '/') return currentPath === base + '/' || currentPath === base;
+  return currentPath.startsWith(base + path);
+}
+---
+
+<nav class="site-nav" aria-label="Main navigation">
+  <div class="site-nav__inner">
+    <a href={`${base}/`} class="site-nav__brand">Rebecca Alves</a>
+    <ul class="site-nav__links">
+      <li>
+        <a href={`${base}/`} aria-current={isActive('/') ? 'page' : undefined}>About</a>
+      </li>
+      <li>
+        <a href={`${base}/portfolio`} aria-current={isActive('/portfolio') ? 'page' : undefined}>Portfolio</a>
+      </li>
+    </ul>
+  </div>
+</nav>

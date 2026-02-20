@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+
+const variant = (import.meta.env.SITE_VARIANT ?? 'external') as 'external' | 'internal';
+const entries = await getCollection(variant);
+const sorted = entries.sort((a, b) => a.data.order - b.data.order);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Base
+  title="Portfolio — Rebecca Alves"
+  description="Five case studies spanning speaker enablement, API documentation, systems tooling, function leadership, and AI-enhanced documentation workflows."
+>
+  <div class="container" style="padding-block: 4rem;">
+    <h1 style="font-family: var(--font-heading); font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 0.75rem;">
+      Portfolio
+    </h1>
+    <p style="color: var(--color-text-muted); font-size: 1.1rem; max-width: 680px; margin-bottom: 3rem;">
+      Five case studies spanning speaker enablement, developer documentation, systems tooling,
+      function leadership, and AI-augmented workflows.
+    </p>
+
+    <div class="portfolio-list">
+      {sorted.map((entry) => (
+        <a href={`${base}/portfolio/${entry.slug}`} class="portfolio-item">
+          <div class="portfolio-item__left">
+            <p class="portfolio-item__number">
+              {String(entry.data.order).padStart(2, '0')} &mdash; {entry.data.period}
+            </p>
+            <h2 class="portfolio-item__title">{entry.data.title}</h2>
+            <p class="portfolio-item__meta">
+              {entry.data.role} &middot; {entry.data.organization}
+            </p>
+            <p class="portfolio-item__summary">{entry.data.summary}</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
+              {entry.data.tags.map((tag: string) => (
+                <span class="tag">{tag}</span>
+              ))}
+            </div>
+          </div>
+          <div class="portfolio-item__arrow" aria-hidden="true">→</div>
+        </a>
+      ))}
+    </div>
+  </div>
+</Base>

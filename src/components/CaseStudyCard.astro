@@ -1,0 +1,25 @@
+---
+interface Props {
+  title: string;
+  period: string;
+  role: string;
+  organization: string;
+  summary: string;
+  tags: string[];
+  href: string;
+  order: number;
+}
+
+const { title, period, role, organization, summary, tags, href, order } = Astro.props;
+---
+
+<a href={href} class="case-study-card">
+  <div class="case-study-card__meta">{String(order).padStart(2, '0')} &mdash; {period}</div>
+  <div class="case-study-card__title">{title}</div>
+  <div class="case-study-card__summary">{summary}</div>
+  <div class="case-study-card__tags">
+    {tags.map((tag) => (
+      <span class="tag">{tag}</span>
+    ))}
+  </div>
+</a>

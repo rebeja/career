@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'site/**'
-      - 'portfolio/**'
 
   # Allow manual trigger from Actions tab
   workflow_dispatch:
@@ -33,14 +30,12 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-          cache-dependency-path: site/package-lock.json
+          cache-dependency-path: package-lock.json
 
       - name: Install dependencies
-        working-directory: site
         run: npm ci
 
       - name: Build
-        working-directory: site
         env:
           SITE_VARIANT: external
         run: npm run build:external
@@ -48,7 +43,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site/dist
+          path: dist
 
   deploy:
     needs: build

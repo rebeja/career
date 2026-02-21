@@ -1,43 +1,64 @@
-# Astro Starter Kit: Minimal
+# Portfolio Site — Rebecca Alves
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Astro static site deployed to GitHub Pages. Structured to support a second internal deployment (Netlify) without changes to the codebase.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-## 🚀 Project Structure
+## Commands
 
-Inside of your Astro project, you'll see the following folders and files:
+Run from `career/site/`:
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+| Command | Action |
+|---------|--------|
+| `npm run dev` | Local dev server (external variant) at localhost:4321 |
+| `npm run dev:internal` | Local dev server (internal variant) |
+| `npm run build:external` | Production build — external/public content |
+| `npm run build:internal` | Production build — internal content (Phase 2) |
+| `npm run preview` | Preview last build locally |
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+---
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Architecture
 
-Any static assets, like images, can be placed in the `public/` directory.
+Two content variants from one codebase, switched via `SITE_VARIANT` env var (`external` or `internal`).
 
-## 🧞 Commands
+- `src/content/external/` — anonymized case studies (GitHub Pages)
+- `src/content/internal/` — full case studies with Indeed details (Netlify, Phase 2)
+- `showEvidence: true/false` frontmatter controls whether the Evidence section renders on case study pages
 
-All commands are run from the root of the project, from a terminal:
+Base path is `/career` for GitHub Pages. All nav links and asset paths use `import.meta.env.BASE_URL.replace(/\/$/, '')` to avoid double-slash issues.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+---
 
-## 👀 Want to learn more?
+## Pages
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+| Route | File |
+|-------|------|
+| `/` | `src/pages/index.astro` — hero, webinar callout, career timeline, portfolio preview, skills, endorsements, education |
+| `/portfolio` | `src/pages/portfolio/index.astro` — full case study listing |
+| `/portfolio/[slug]` | `src/pages/portfolio/[slug].astro` — rendered case study |
+| `/contact` | `src/pages/contact.astro` — Formspree contact form (endpoint: mykddaee) |
+
+---
+
+## Deployment
+
+**GitHub Pages (live):** Pushes to `main` trigger `.github/workflows/deploy-gh-pages.yml`, which runs `build:external` and deploys to `https://rebeja.github.io/career`.
+
+**Netlify (Phase 2):** `netlify.toml` stub is in place. Needs internal content files populated and password protection enabled in the Netlify dashboard.
+
+---
+
+## Status
+
+**Phase 1 — complete**
+- All pages built and deployed
+- External content variant (5 case studies)
+- Contact form (Formspree)
+- GitHub Actions deploy workflow
+
+**Phase 2 — not started**
+- Populate `src/content/internal/` with Indeed-named case study files
+- Connect Netlify to repo, set `SITE_VARIANT=internal` in build settings
+- Enable password protection in Netlify dashboard (Site config > Access control > Visitor access)
+- No code changes needed — the codebase already supports this

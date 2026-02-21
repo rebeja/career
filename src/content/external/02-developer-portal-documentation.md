@@ -50,3 +50,12 @@ Establish the developer portal as a well-managed documentation product with cons
 | Knowledge platform question increase | 53% |
 | Knowledge platform answer increase | 51% |
 | Q&As seeded for adoption | 58 |
+
+## Live Work
+
+Documentation I authored and actively maintain:
+
+- [Get Started](https://docs.indeed.com/getstarted/) — developer onboarding and orientation
+- [Simulated GraphQL Environment](https://docs.indeed.com/getstarted/simulated-graphql-environment/) — sandbox tooling guide for API partners
+- [Hiring Lab API](https://docs.indeed.com/hiring-lab-api/) — public API reference documentation
+- [Release Notes](https://docs.indeed.com/release-notes/) — ongoing changelog; also the output of the release notes automation pipeline built in 2025 (see [AI-Enhanced Documentation Innovation](/portfolio/05-ai-documentation-innovation))

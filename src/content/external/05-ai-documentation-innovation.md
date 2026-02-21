@@ -65,3 +65,7 @@ Built and integrated LLM agents via MCP (Model Context Protocol), enabling persi
 > "Delivering the AI tooling trio is a clear example of how we want people from all roles to experiment with AI to solve problems. Not only did she experiment, but she started producing meaningful time savings and quality improvements leveraging AI." — Manager
 
 > "She operates with significant autonomy while maintaining strategic alignment, consistently delivering results that enhance both team velocity and output quality." — Manager
+
+## Live Work
+
+- [Release Notes](https://docs.indeed.com/release-notes/) — the live output of the release notes automation pipeline; what previously took days of manual curation now runs in minutes

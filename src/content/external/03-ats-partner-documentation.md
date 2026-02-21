@@ -53,3 +53,14 @@ Create employer-facing documentation, partner onboarding tools, and developer su
 User research validation: "All participants had high praise for the installation guide despite any other issues they experienced during the install process."
 
 > "Rebecca went above and beyond technical writing scope to start pulling together a content ownership guide. This guide will help all teams set expectations about who owns what content and was an essential 'starting' step to get others working through details that are very needed." — Senior stakeholders, integrations team
+
+## Live Work
+
+Documentation I authored and actively maintain:
+
+- [Job Sync API](https://docs.indeed.com/job-sync-api/) — v1 API reference and integration guide I created from scratch
+- [Workday Installation Guide](https://docs.indeed.com/install-guides/workday/) — procedural documentation for IT administrators co-written with a contracted technical writer
+
+Partner infrastructure I designed and coded:
+
+- [Partner Onboarding](https://partners.indeed.com/) — the public-facing partner intake and support page I built using Salesforce web-to-lead/web-to-case infrastructure; includes the HTML/CSS I wrote for the form and submission landing page

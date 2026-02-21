@@ -43,3 +43,20 @@ Build a scalable speaker enablement program from scratch that provides consisten
 | Would recommend training | 14 of 15 survey respondents |
 
 Selected conferences supported: PyCon, Open Source Summit EU, DevRelCon London, Open Data Science Conference, SeaGL, Litmus Live.
+
+## Live Work
+
+**Talks I actively supported** — end-to-end content development, slide design, compliance review, and rehearsal facilitation:
+
+- [How the Incident Retrospective Helps Indeed Deliver Constant Change Safely](https://engineering.indeedblog.com/talks/how-the-incident-retrospective-helps-indeed-deliver-constant-change-safely/)
+- [How I Broke This: The One Where Ketan Takes Down Indeed.com](https://engineering.indeedblog.com/talks/how-i-broke-this/)
+- [From Daemonizer to Spring Boot: Unlocking Developer Velocity](https://engineering.indeedblog.com/talks/from-daemonizer-to-spring-boot-unlocking-developer-velocity/)
+- [Auditing the Auditor: Eye of the Beholder](https://engineering.indeedblog.com/talks/auditing-the-auditor-eye-of-the-beholder/)
+- [But Why Reinvent the Wheel? The Case for (Yet Another) Distributed Database](https://engineering.indeedblog.com/talks/but-why-reinvent-the-wheel/)
+- [Break Things Faster! (But Not in Prod)](https://engineering.indeedblog.com/talks/break-things-faster/)
+- [30 Startups in 2 Years](https://engineering.indeedblog.com/talks/30-startups-in-2-years/)
+- [Stretching Yourself with Hackathon Projects](https://engineering.indeedblog.com/talks/stretching-yourself-with-hackathon-projects/)
+
+**Blog post authored by me:**
+
+- [The FOSS Contributor Fund: Six Months In](https://engineering.indeedblog.com/blog/2019/07/foss-fund-six-months-in/)

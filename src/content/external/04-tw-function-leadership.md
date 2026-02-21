@@ -63,9 +63,9 @@ Define and execute the vision for the technical writing function across the enti
 | Contract writers hired or onboarded | 4 (2 Tokyo-based; 2 U.S.-based) |
 | Platform documentation areas launched | 4 |
 
-> "She has quickly ramped up and made an immediate impact." — Engineering Manager, self-serve product team (H1 2024)
+> "She has quickly ramped up and made an immediate impact." — Engineering Manager, self-serve product team
 
-> "A great collaborator cross-functionally and a strong leader in the technical writing function. Demonstrated both strategic direction and tactical guidance. Was the steady force in the changes that drastically affected teams and product." — Product Director (H2 2024)
+> "A great collaborator cross-functionally and a strong leader in the technical writing function. Demonstrated both strategic direction and tactical guidance. Was the steady force in the changes that drastically affected teams and product." — Product Director
 
 > "Super collaborative on improvements we think we should make to the docs site, as well as the short term/long term tradeoffs." — Product Manager
 

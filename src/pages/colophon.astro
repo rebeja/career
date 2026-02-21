@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Base title="Colophon — Rebecca Alves" description="Credits and attribution for this site.">
+  <section class="container" style="padding-top: 4rem; padding-bottom: 6rem; max-width: 680px;">
+    <p class="hero__eyebrow">Colophon</p>
+    <h1 style="font-size: 2rem; margin-bottom: 2rem;">How this site was made</h1>
+
+    <div style="display: flex; flex-direction: column; gap: 2.5rem;">
+
+      <div>
+        <h2 style="font-size: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-accent); margin-bottom: 0.75rem;">Pair-programming partner</h2>
+        <p>
+          This site was designed and built with <a href="https://claude.ai/code" target="_blank" rel="noopener noreferrer">Claude Code</a> — Anthropic's AI coding tool — as a pair-programming partner. Claude helped architect the site structure, write and debug Astro components, and iterate on layout and styling throughout. The content, decisions, and direction are mine; Claude was the collaborator that made building it practical.
+        </p>
+      </div>
+
+      <div>
+        <h2 style="font-size: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-accent); margin-bottom: 0.75rem;">Framework</h2>
+        <p>
+          Built with <a href="https://astro.build" target="_blank" rel="noopener noreferrer">Astro</a> — an open-source web framework optimized for content-driven sites. Released under the <a href="https://github.com/withastro/astro/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a>.
+        </p>
+      </div>
+
+      <div>
+        <h2 style="font-size: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-accent); margin-bottom: 0.75rem;">Typography</h2>
+        <p>
+          Body text and UI elements are set in <a href="https://rsms.me/inter/" target="_blank" rel="noopener noreferrer">Inter</a> by Rasmus Andersson, released under the <a href="https://scripts.sil.org/OFL" target="_blank" rel="noopener noreferrer">SIL Open Font License</a>. Headings are set in <a href="https://fonts.google.com/specimen/Playfair+Display" target="_blank" rel="noopener noreferrer">Playfair Display</a> by Claus Eggers Sørensen, also released under the SIL Open Font License. Fonts are served via <a href="https://fonts.bunny.net" target="_blank" rel="noopener noreferrer">Fonts Bunny</a>, a privacy-friendly alternative to Google Fonts.
+        </p>
+      </div>
+
+      <div>
+        <h2 style="font-size: 1rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--color-accent); margin-bottom: 0.75rem;">Hosting</h2>
+        <p>
+          Hosted on <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
+        </p>
+      </div>
+
+    </div>
+  </section>
+</Base>

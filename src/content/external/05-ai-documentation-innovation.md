@@ -2,7 +2,7 @@
 title: "AI-Enhanced Documentation Innovation"
 period: "2025"
 role: "Technical Writing Manager → Senior Technical Writer"
-organization: "Partner Platform"
+organization: "AIX Partner Platform"
 order: 5
 summary: "Built three production AI automation tools — a doc quality analyzer, release notes generator, and translation sync system — achieving 48.4% average quality improvement across 14 pages and reducing release notes curation from days to minutes."
 tags: ["AI/Automation", "Python", "LLM Pipelines", "Quality Engineering", "Localization"]
@@ -60,11 +60,11 @@ Built and integrated LLM agents via MCP (Model Context Protocol), enabling persi
 | H1 2025 "How" rating | Exceptional (4) — both manager and employee |
 | Career development snapshot | Manager: 75%, Employee: Next Level |
 
-> "Rebecca exemplifies the kind of strategic contributor, a continuous learner, while maintaining operational excellence. Her combination of technical curiosity, collaborative leadership, and willingness to expand beyond traditional role boundaries makes her invaluable to the organization." — Manager
+> "Rebecca exemplifies the kind of strategic contributor, a continuous learner, while maintaining operational excellence. Her combination of technical curiosity, collaborative leadership, and willingness to expand beyond traditional role boundaries makes her invaluable to the organization." — Senior Product Director
 
-> "Delivering the AI tooling trio is a clear example of how we want people from all roles to experiment with AI to solve problems. Not only did she experiment, but she started producing meaningful time savings and quality improvements leveraging AI." — Manager
+> "Delivering the AI tooling trio is a clear example of how we want people from all roles to experiment with AI to solve problems. Not only did she experiment, but she started producing meaningful time savings and quality improvements leveraging AI." — Senior Product Director
 
-> "She operates with significant autonomy while maintaining strategic alignment, consistently delivering results that enhance both team velocity and output quality." — Manager
+> "She operates with significant autonomy while maintaining strategic alignment, consistently delivering results that enhance both team velocity and output quality." — Senior Product Director
 
 ## Live Work
 

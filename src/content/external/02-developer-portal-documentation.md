@@ -2,7 +2,7 @@
 title: "Developer Portal and API Documentation"
 period: "2020–2022"
 role: "Outreach Technical Writer → API Technical Writer II"
-organization: "Technical Content Management → Integrations"
+organization: "Technical Content Management → Marketplace Interoperability"
 order: 2
 summary: "Established the developer portal as a managed documentation product — sprint cadence, intake processes, API guides, and a knowledge platform engagement campaign — serving 131K+ page views in six months."
 tags: ["API Documentation", "Developer Experience", "Content Strategy", "Process Design"]

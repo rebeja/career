@@ -147,11 +147,11 @@ const endorsements = [
 
   <hr class="section-divider container" />
 
-  <!-- Portfolio Preview -->
+  <!-- Portfolio -->
   <section class="container" style="padding-bottom: 4rem;">
-    <h2 class="section-heading">Portfolio Highlights</h2>
+    <h2 class="section-heading">Portfolio</h2>
     <div class="card-grid">
-      {sorted.slice(0, 3).map((entry) => (
+      {sorted.map((entry) => (
         <CaseStudyCard
           title={entry.data.title}
           period={entry.data.period}
@@ -164,9 +164,6 @@ const endorsements = [
         />
       ))}
     </div>
-    <p style="margin-top: 2rem;">
-      <a href={`${base}/portfolio`}>View all {sorted.length} case studies →</a>
-    </p>
   </section>
 
   <hr class="section-divider container" />

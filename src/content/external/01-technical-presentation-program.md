@@ -48,7 +48,7 @@ Selected conferences supported: PyCon, Open Source Summit EU, DevRelCon London, 
 
 **Talks I actively supported** — end-to-end content development, slide design, compliance review, and rehearsal facilitation:
 
-- [How the Incident Retrospective Helps Indeed Deliver Constant Change Safely](https://engineering.indeedblog.com/talks/how-the-incident-retrospective-helps-indeed-deliver-constant-change-safely/)
+- [How the Incident Retrospective Helps Indeed Deliver Constant Change Safely](https://engineering.indeedblog.com/talks/how-the-incident-retrospective-helps-indeed-deliver-constant-change-safely/) — Site Reliability Engineer
 - [How I Broke This: The One Where Ketan Takes Down Indeed.com](https://engineering.indeedblog.com/talks/how-i-broke-this/)
 - [From Daemonizer to Spring Boot: Unlocking Developer Velocity](https://engineering.indeedblog.com/talks/from-daemonizer-to-spring-boot-unlocking-developer-velocity/)
 - [Auditing the Auditor: Eye of the Beholder](https://engineering.indeedblog.com/talks/auditing-the-auditor-eye-of-the-beholder/)

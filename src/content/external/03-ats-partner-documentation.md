@@ -1,15 +1,15 @@
 ---
-title: "ATS Partner Documentation and Tooling"
+title: "Partner Documentation and Tooling"
 period: "2022–2023"
 role: "API Technical Writer II"
-organization: "Integrations"
+organization: "Marketplace Interoperability and Product Platform"
 order: 3
-summary: "As the sole technical writer, delivered 9 ATS integration guides, launched the company's first public partner onboarding site, and built a support form that saved ~650 FTE hours per quarter."
+summary: "As the sole technical writer, delivered 9 HR software integration guides, launched the company's first public partner onboarding site, and built a support form that saved ~650 FTE hours per quarter."
 tags: ["API Documentation", "Systems Design", "Tooling", "Enablement", "HTML/CSS"]
 showEvidence: false
 ---
 
-# ATS Partner Documentation and Tooling
+# HR Software Partner Documentation and Tooling
 
 **Period:** 2022–2023
 **Role:** API Technical Writer II
@@ -17,17 +17,17 @@ showEvidence: false
 
 ## Context
 
-The integrations team was scaling its Applicant Tracking System (ATS) partner integrations to enable employer self-service activation. The goal was to reduce reliance on manual onboarding by providing documentation that partners and employers could use independently. There was no standardized documentation for ATS integrations, no public-facing partner intake process, and no structured support request workflow.
+The integrations team was scaling its HR software (applicant tracking system) partner integrations to enable employer self-service activation. The goal was to reduce reliance on manual onboarding by providing documentation that partners and employers could use independently. There was no standardized documentation for HR software integrations, no public-facing partner intake process, and no structured support request workflow.
 
 ## Challenge
 
-Create employer-facing documentation, partner onboarding tools, and developer support infrastructure that could scale ATS integrations beyond the capacity of the existing team — while being the only technical writer in the organization.
+Create employer-facing documentation, partner onboarding tools, and developer support infrastructure that could scale HR software integrations beyond the capacity of the existing team — while being the only technical writer in the organization.
 
 ## Approach
 
-- Delivered employer-facing technical documentation for 9 ATS integrations. Designed and implemented a standard template and scalable workflow for installation guides.
+- Delivered employer-facing technical documentation for 9 HR software integrations. Designed and implemented a standard template and scalable workflow for installation guides.
 - Created Job Sync API documentation (v1) and established a repeatable collaboration process with API owner teams via intake processes and merge request workflows.
-- Designed and launched the company's first publicly available ATS partner onboarding site using Salesforce web-to-lead infrastructure. Built the HTML/CSS for the page and submission landing page. Coordinated weekly syncs with engineers across multiple teams.
+- Designed and launched the company's first publicly available HR software partner onboarding site using Salesforce web-to-lead infrastructure. Built the HTML/CSS for the page and submission landing page. Coordinated weekly syncs with engineers across multiple teams.
 - Designed and launched the team's first external support request form and FAQ page using Salesforce web-to-case infrastructure. Replaced an unstructured email alias workflow where 50% of cases took an extra hour to triage.
 - Created strategic documents to support leadership decision-making:
   - Content Ownership Map — helped all teams define documentation ownership boundaries
@@ -35,14 +35,14 @@ Create employer-facing documentation, partner onboarding tools, and developer su
   - Product roadmap visualization
   - API readiness checklist
 - Evaluated 3rd-party developer portal options and provided procurement recommendations. Initiated alignment conversations across teams on platform strategy.
-- Wrote a business case for contract technical writing support and partnered with a contracted writer on a Workday ATS installation guide through weekly co-writing sessions.
+- Wrote a business case for contract technical writing support and partnered with a contracted writer on a Workday installation guide through weekly co-writing sessions.
 - Mentored a junior technical writer weekly on Git, code editing tools, Markdown, and developer workflows. Created GraphQL documentation standards for external APIs.
 
 ## Outcomes
 
 | Metric | Value |
 |--------|-------|
-| ATS integrations documented | 9 |
+| HR software integrations documented | 9 |
 | Partner onboarding requests received | 87 (previously unmanaged form) |
 | Estimated FTE hours saved per quarter | ~650 (structured support form) |
 | Previous average triage overhead | +1 hour per case (50% of total cases) |

@@ -45,6 +45,13 @@ Define and execute the vision for the technical writing function across the enti
 - Advocated for the team's organizational move to align with the engineering team responsible for the documentation site.
 - Implemented weekly syncs, async standups, and code review rules to maintain coordination across U.S. and Japan time zones.
 - Provided coaching and guidance through 2 reorganizations, maintaining delivery continuity across a geographically distributed team.
+- Owned the full performance management cycle: wrote evaluations for FTEs and contractors using a structured H1/H2 review framework, ran calibration sessions with senior leadership, made bonus distribution decisions, and served as designated compensation manager.
+- Managed vendor payments with a Japanese staffing company for Tokyo-based contract writers.
+
+**Continued strategic leadership (post-IC transition, 2025):**
+- Remained the de facto strategic lead for the technical writing function after transitioning from manager to senior IC.
+- Wrote a team charter and strategy document that secured VP-level buy-in, establishing a shared direction for the function.
+- Defined and measured two key results (KRs) for the team, owning both goal-setting and outcome tracking.
 
 **Knowledge Management expansion:**
 - Organized and facilitated a Knowledge Management onsite in Tokyo — bringing together the Japan-based writing team and Knowledge Management stakeholders to align on a unified strategy.

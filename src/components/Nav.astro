@@ -13,10 +13,13 @@ function isActive(path: string) {
     <a href={`${base}/`} class="site-nav__brand">Rebecca Alves</a>
     <ul class="site-nav__links">
       <li>
-        <a href={`${base}/`} aria-current={isActive('/') ? 'page' : undefined}>About</a>
+        <a href={`${base}/about`} aria-current={isActive('/about') ? 'page' : undefined}>About</a>
       </li>
       <li>
         <a href={`${base}/portfolio`} aria-current={isActive('/portfolio') ? 'page' : undefined}>Portfolio</a>
+      </li>
+      <li>
+        <a href={`${base}/cv`} aria-current={isActive('/cv') ? 'page' : undefined}>CV</a>
       </li>
       <li>
         <a href={`${base}/contact`} aria-current={isActive('/contact') ? 'page' : undefined}>Contact</a>

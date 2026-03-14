@@ -260,6 +260,30 @@ main {
   color: var(--color-accent);
 }
 
+.hero__inner {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.hero__text {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero__photo {
+  flex-shrink: 0;
+}
+
+.hero__photo img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 35%;
+  border: 3px solid var(--color-border);
+}
+
 .hero__featured {
   display: flex;
   align-items: baseline;
@@ -774,6 +798,56 @@ main {
 }
 
 /* ——————————————————————————————————————————————
+   Case study two-column layout (with sidebar)
+—————————————————————————————————————————————— */
+.case-study-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 720px) 200px;
+  gap: 4rem;
+  margin-inline: auto;
+  max-width: calc(720px + 4rem + 200px);
+  align-items: start;
+}
+
+.case-study-sidebar {
+  position: sticky;
+  top: calc(56px + 1.5rem);
+}
+
+.skills-sidebar {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+}
+
+.skills-sidebar__label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.75rem;
+}
+
+.skills-sidebar__list {
+  list-style: none;
+  padding: 0;
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+}
+
+.skills-sidebar__list li {
+  padding: 0.3rem 0;
+  border-bottom: 1px solid var(--color-border);
+  margin: 0;
+}
+
+.skills-sidebar__list li:last-child {
+  border-bottom: none;
+}
+
+/* ——————————————————————————————————————————————
    Mobile
 —————————————————————————————————————————————— */
 @media (max-width: 640px) {
@@ -783,6 +857,16 @@ main {
 
   .hero {
     padding-block: 3rem 2.5rem;
+  }
+
+  .hero__inner {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+
+  .hero__photo img {
+    width: 120px;
+    height: 120px;
   }
 
   .card-grid {
@@ -808,5 +892,15 @@ main {
 
   .case-study-header {
     padding-block: 2rem 1.5rem;
+  }
+
+  .case-study-layout {
+    grid-template-columns: 1fr;
+    max-width: 720px;
+  }
+
+  .case-study-sidebar {
+    position: static;
+    order: -1;
   }
 }

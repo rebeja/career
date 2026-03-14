@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+import { getEntry, render } from 'astro:content';
+
+const about = await getEntry('pages', 'about');
+const { Content } = await render(about);
+---
+
+<Base title="About — Rebecca Alves" description={about.data.description}>
+  <div class="container">
+    <header class="case-study-header">
+      <h1 class="case-study-header__title">{about.data.title}</h1>
+      <p class="case-study-header__role" style="max-width: 680px;">
+        {about.data.description}
+      </p>
+    </header>
+
+    <article class="prose prose-content" style="padding-bottom: 5rem;">
+      <Content />
+    </article>
+  </div>
+</Base>

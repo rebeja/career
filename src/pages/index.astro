@@ -13,7 +13,7 @@ const timeline = [
   { period: 'Mar 2023 – Jun 2025', role: 'Technical Writing Manager', org: 'Indeed – Interoperability → Product Platform Experience' },
   { period: 'Jan 2022 – Feb 2023', role: 'API Technical Writer II', org: 'Indeed – Interoperability' },
   { period: 'Jan 2019 – Dec 2021', role: 'Outreach Technical Writer', org: 'Indeed – Technical Content Management' },
-  { period: '2015 – 2018', role: 'College Instructor', org: "St. Edward's University, Austin TX" },
+  { period: '2015 – 2019', role: 'College Instructor', org: "St. Edward's University, Austin TX" },
   { period: '2011 – 2014', role: 'Graduate Teaching Assistant', org: 'University of Iowa, Iowa City IA' },
 ];
 
@@ -53,11 +53,11 @@ const education = [
     note: 'Graduate Teaching Assistant 2011–2014. Instructed Argumentation, Communication Methods, and Media Studies. Designed course materials and assessments for diverse student audiences.',
   },
   {
-    degree: 'BA, Communication (2010)',
+    degree: 'BA, Communication — Rhetoric and Cultural Studies (2010)',
     credential: null,
     institution: "St. Edward's University",
     location: 'Austin, TX',
-    note: 'College Instructor 2015–2018. Designed and taught courses in Communication, Film, and Presentational Speaking. Built assessment rubrics and evaluation frameworks for measuring learner performance.',
+    note: 'College Instructor 2015–2019. Designed and taught courses in Communication, Film, and Presentational Speaking. Built assessment rubrics and evaluation frameworks for measuring learner performance.',
   },
 ];
 
@@ -84,24 +84,31 @@ const endorsements = [
 <Base title="Rebecca Alves — Technical Writing & Documentation Systems">
   <!-- Hero -->
   <section class="hero container">
-    <p class="hero__eyebrow">Portfolio</p>
-    <h1 class="hero__title">Rebecca Alves</h1>
-    <p class="hero__subtitle">
-      Senior technical writer and documentation systems architect. I build AI-augmented workflows,
-      scalable content infrastructure, and the enablement programs that let small teams operate at the
-      output level of a full organization.
-    </p>
-    <div style="display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap;">
-      <a href={`${base}/portfolio`} class="hero__cta">View portfolio →</a>
-      <a href="https://www.linkedin.com/in/rebeccaalvestechwriter/" target="_blank" rel="noopener noreferrer" class="hero__secondary-link">LinkedIn ↗</a>
-      <a href="https://github.com/rebeja" target="_blank" rel="noopener noreferrer" class="hero__secondary-link">GitHub ↗</a>
-    </div>
-    <div class="hero__featured">
-      <span class="hero__featured-label">Recent talk</span>
-      <a href="https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/" target="_blank" rel="noopener noreferrer" class="hero__featured-link">
-        From Writer to Tool Builder: AI Coding Agents for Technical Documentation ↗
-      </a>
-      <span class="hero__featured-meta">Document360 webinar &middot; 163 registered attendees</span>
+    <div class="hero__inner">
+      <div class="hero__text">
+        <p class="hero__eyebrow">Portfolio</p>
+        <h1 class="hero__title">Rebecca Alves</h1>
+        <p class="hero__subtitle">
+          Senior technical writer and documentation systems architect. I build AI-augmented workflows,
+          scalable content infrastructure, and the enablement programs that let small teams operate at the
+          output level of a full organization.
+        </p>
+        <div style="display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap;">
+          <a href={`${base}/portfolio`} class="hero__cta">View portfolio →</a>
+          <a href="https://www.linkedin.com/in/rebeccaalvestechwriter/" target="_blank" rel="noopener noreferrer" class="hero__secondary-link">LinkedIn ↗</a>
+          <a href="https://github.com/rebeja" target="_blank" rel="noopener noreferrer" class="hero__secondary-link">GitHub ↗</a>
+        </div>
+        <div class="hero__featured">
+          <span class="hero__featured-label">Recent talk</span>
+          <a href="https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/" target="_blank" rel="noopener noreferrer" class="hero__featured-link">
+            From Writer to Tool Builder: AI Coding Agents for Technical Documentation ↗
+          </a>
+          <span class="hero__featured-meta">Document360 webinar &middot; 163 registered attendees</span>
+        </div>
+      </div>
+      <div class="hero__photo">
+        <img src={`${base}/profile-pic.jpg`} alt="Rebecca Alves" />
+      </div>
     </div>
   </section>
 
@@ -141,7 +148,7 @@ const endorsements = [
       ))}
     </div>
     <p style="font-size: 0.85rem; color: var(--color-text-muted); margin-top: 1.5rem;">
-      CV with academic achievements and professional service available on request.
+      Full academic CV — including conference presentations, honors, and professional service — available on the <a href={`${base}/cv`}>CV page</a>.
     </p>
   </section>
 

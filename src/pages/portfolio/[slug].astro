@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import SkillsSidebar from '../../components/SkillsSidebar.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -13,7 +14,7 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const { title, period, role, organization, tags, showEvidence } = entry.data;
+const { title, period, role, organization, tags, showEvidence, skills } = entry.data;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
@@ -33,15 +34,23 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
     </header>
 
-    <article class="prose prose-content" style="padding-bottom: 5rem;">
-      <Content />
+    <div class={skills?.length ? 'case-study-layout' : 'prose'}>
+      <article class="prose-content" style="padding-bottom: 5rem;">
+        <Content />
 
-      {showEvidence && (
-        <section>
-          <h2>Evidence</h2>
-          <p><em>Internal links and artifacts available in the internal version of this portfolio.</em></p>
-        </section>
+        {showEvidence && (
+          <section>
+            <h2>Evidence</h2>
+            <p><em>Internal links and artifacts available in the internal version of this portfolio.</em></p>
+          </section>
+        )}
+      </article>
+
+      {skills?.length && (
+        <aside class="case-study-sidebar">
+          <SkillsSidebar skills={skills} />
+        </aside>
       )}
-    </article>
+    </div>
   </div>
 </Base>

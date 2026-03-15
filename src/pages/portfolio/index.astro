@@ -12,16 +12,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   title="Portfolio — Rebecca Alves"
   description="Five case studies spanning speaker enablement, API documentation, systems tooling, function leadership, and AI-enhanced documentation workflows."
 >
-  <div class="container" style="padding-block: 4rem;">
-    <h1 style="font-family: var(--font-heading); font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 0.75rem;">
-      Portfolio
-    </h1>
-    <p style="color: var(--color-text-muted); font-size: 1.1rem; max-width: 680px; margin-bottom: 3rem;">
-      Five case studies spanning speaker enablement, developer documentation, systems tooling,
-      function leadership, and AI-augmented workflows.
-    </p>
+  <div class="container">
+    <header class="case-study-header">
+      <h1 class="case-study-header__title">Portfolio</h1>
+      <p class="case-study-header__role">Five case studies spanning speaker enablement, developer documentation, systems tooling, function leadership, and AI-augmented workflows.</p>
+    </header>
 
-    <div class="portfolio-list">
+    <div class="portfolio-list" style="padding-bottom: 4rem;">
       {sorted.map((entry) => (
         <a href={`${base}/portfolio/${entry.slug}`} class="portfolio-item">
           <div class="portfolio-item__left">

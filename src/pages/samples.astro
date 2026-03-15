@@ -4,15 +4,11 @@ import Base from '../layouts/Base.astro';
 
 <Base title="Writing & Presentation Samples — Rebecca Alves" description="Live writing samples, API documentation, technical talks, and presentations by Rebecca Alves.">
   <div class="container">
-    <div class="prose">
-      <header class="case-study-header">
-        <h1 class="case-study-header__title">Writing &amp; Presentation Samples</h1>
-        <p class="case-study-header__role">
-          Live artifacts, published documentation, and presentations — organized by type.
-        </p>
-      </header>
-
-    <article class="prose-content" style="padding-bottom: 5rem;">
+    <header class="case-study-header">
+      <h1 class="case-study-header__title">Writing &amp; Presentation Samples</h1>
+      <p class="case-study-header__role">Live artifacts, published documentation, and presentations — organized by type.</p>
+    </header>
+    <article class="prose-content" style="max-width: var(--width-prose); padding-bottom: 5rem;">
 
       <h2>API &amp; Developer Documentation</h2>
       <p>Published reference documentation, integration guides, and onboarding content for the <a href="https://docs.indeed.com" target="_blank" rel="noopener noreferrer">docs.indeed.com</a> developer portal.</p>
@@ -91,6 +87,5 @@ import Base from '../layouts/Base.astro';
       </ul>
 
     </article>
-    </div>
   </div>
 </Base>

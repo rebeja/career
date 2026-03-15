@@ -1,5 +1,5 @@
 ---
-title: "About & Philosophy: Bridging Human Understanding and Machine Logic"
+title: "About"
 description: "Bridging the gap between technical complexity and human understanding through communication pedagogy, strategic leadership, and AI-driven innovation."
 ---
 
@@ -7,7 +7,7 @@ My career began in the classroom, teaching university-level communication. Today
 
 I believe that technical writing is not just content creation—it is a form of **Architectural Empathy**. By treating documentation as a learning design problem, I ensure that even the most intricate systems remain accessible, scalable, and human-centered.
 
-## The Three Strategic Dimensions of My Practice
+## Strategic dimensions of my practice
 
 ### 1. Systems-Led Enablement
 

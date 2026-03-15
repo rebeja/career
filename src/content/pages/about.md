@@ -7,23 +7,23 @@ My career began in the classroom, teaching university-level communication. Today
 
 I believe that technical writing is not just content creation—it is a form of **Architectural Empathy**. By treating documentation as a learning design problem, I ensure that even the most intricate systems remain accessible, scalable, and human-centered.
 
-## Strategic dimensions of my practice
+## Strategic dimensions 
 
-### 1. Systems-Led Enablement
+### 1. Systems-led enablement
 
 I treat communication not as a one-off task, but as a scalable internal product. My work involves engineering the automated pipelines and AI-augmented workflows that transform specialized knowledge into high-impact technical assets.
 
 - **Force Multipliers:** I design enablement programs—leveraging my decade of experience in presentational speaking—to turn technical experts into effective communicators, scaling a team's output across an entire organization.
 - **Scalable Knowledge:** I focus on moving deep, "trapped" expertise into accessible resources, allowing lean teams to operate with the efficiency of a full-scale organization.
 
-### 2. Cognitive Scaffolding & Information Hierarchy
+### 2. Cognitive ccaffolding & information hierarchy
 
 My background in **rhetoric and the theory of argument** allows me to design technical structures that anticipate cognitive load.
 
 - **Mastery Pathways:** Just as a syllabus guides a student from foundational to advanced concepts, I architect documentation to mirror a user's mental model, ensuring high-stakes data reaches the right audience at the right time.
 - **Rhetorical Precision:** I apply rhetorical analysis to API design and content strategy to ensure that "machine logic" is translated into a narrative that humans can master and troubleshoot.
 
-### 3. Algorithmic Rhetoric (AI Integration)
+### 3. Algorithmic rhetoric (AI integration)
 
 As a **Senior Strategic Lead**, I use communication pedagogy to govern how AI systems interact with human users.
 

@@ -19,11 +19,80 @@ function isActive(path: string) {
         <a href={`${base}/portfolio`} aria-current={isActive('/portfolio') ? 'page' : undefined}>Portfolio</a>
       </li>
       <li>
+        <a href={`${base}/samples`} aria-current={isActive('/samples') ? 'page' : undefined}>Samples</a>
+      </li>
+      <li>
         <a href={`${base}/cv`} aria-current={isActive('/cv') ? 'page' : undefined}>CV</a>
       </li>
       <li>
         <a href={`${base}/contact`} aria-current={isActive('/contact') ? 'page' : undefined}>Contact</a>
       </li>
     </ul>
+
+    <div class="theme-controls" aria-label="Theme controls">
+      <button class="theme-swatch" data-theme-pick="warm"   title="Warm"   style="background:#0f766e" aria-label="Warm theme"></button>
+      <button class="theme-swatch" data-theme-pick="indigo" title="Indigo" style="background:#4f46e5" aria-label="Indigo theme"></button>
+      <button class="theme-swatch" data-theme-pick="earth"  title="Earth"  style="background:#c2410c" aria-label="Earth theme"></button>
+      <button class="theme-dark-toggle" id="theme-dark-toggle" aria-label="Toggle dark mode">
+        <svg id="icon-moon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg id="icon-sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+    </div>
   </div>
 </nav>
+
+<script>
+  function getPref(): { light: string; dark: boolean } {
+    try {
+      return JSON.parse(localStorage.getItem('ra-theme') || '{}');
+    } catch {
+      return { light: 'warm', dark: false };
+    }
+  }
+
+  function savePref(pref: { light: string; dark: boolean }) {
+    localStorage.setItem('ra-theme', JSON.stringify(pref));
+  }
+
+  function applyTheme(pref: { light?: string; dark?: boolean }) {
+    const light = pref.light || 'warm';
+    const dark = pref.dark ?? false;
+    const theme = dark ? 'dark' : light;
+
+    if (theme === 'warm') {
+      delete document.documentElement.dataset.theme;
+    } else {
+      document.documentElement.dataset.theme = theme;
+    }
+
+    document.querySelectorAll<HTMLElement>('.theme-swatch').forEach((el) => {
+      el.classList.toggle('active', el.dataset.themePick === light);
+    });
+
+    const moon = document.getElementById('icon-moon');
+    const sun = document.getElementById('icon-sun');
+    if (moon) moon.style.display = dark ? 'none' : '';
+    if (sun) sun.style.display = dark ? '' : 'none';
+  }
+
+  // Init
+  applyTheme(getPref());
+
+  // Swatches
+  document.querySelectorAll<HTMLElement>('.theme-swatch').forEach((el) => {
+    el.addEventListener('click', () => {
+      const pref = getPref();
+      pref.light = el.dataset.themePick || 'warm';
+      savePref(pref);
+      applyTheme(pref);
+    });
+  });
+
+  // Dark toggle
+  document.getElementById('theme-dark-toggle')?.addEventListener('click', () => {
+    const pref = getPref();
+    pref.dark = !pref.dark;
+    savePref(pref);
+    applyTheme(pref);
+  });
+</script>

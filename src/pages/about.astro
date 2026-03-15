@@ -8,15 +8,17 @@ const { Content } = await render(about);
 
 <Base title="About — Rebecca Alves" description={about.data.description}>
   <div class="container">
-    <header class="case-study-header">
-      <h1 class="case-study-header__title">{about.data.title}</h1>
-      <p class="case-study-header__role" style="max-width: 680px;">
-        {about.data.description}
-      </p>
-    </header>
+    <div class="prose">
+      <header class="case-study-header">
+        <h1 class="case-study-header__title">{about.data.title}</h1>
+        <p class="case-study-header__role">
+          {about.data.description}
+        </p>
+      </header>
 
-    <article class="prose prose-content" style="padding-bottom: 5rem;">
-      <Content />
-    </article>
+      <article class="prose-content" style="padding-bottom: 5rem;">
+        <Content />
+      </article>
+    </div>
   </div>
 </Base>

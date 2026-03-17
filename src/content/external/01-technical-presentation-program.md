@@ -36,6 +36,7 @@ I applied these same design principles to internal event production, moving from
 The speaker program was always a learning design problem. I eventually applied this lens to company-wide initiatives:
 
 * **Indeed University (2020–2021):** Led the curriculum architecture for a major learning initiative, conducting a massive audit (**805 updates across 180 pages**) and building a tracker to drive the review process.
+* **Computer Science for Technical Recruiters (2021):** Designed a full curriculum to help technical recruiters build CS literacy — including course notes, interview guides, and quizzes. Structured explicitly for handoff so the program could run without ongoing involvement from the subject matter expert.
 * **AI Enablement (2025):** Delivered "From Writer to Tool Builder," an external webinar for 163 technical writers. Rather than a simple demo, I built a hands-on system including a GitHub repository, prompt templates, and adoption frameworks for independent implementation.
 
 ## Impact & Metrics

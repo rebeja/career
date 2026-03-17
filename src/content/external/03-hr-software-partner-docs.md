@@ -4,7 +4,7 @@ period: "2022–2023"
 role: "API Technical Writer II"
 organization: "Marketplace Interoperability"
 order: 3
-summary: "Built the documentation system that powered Indeed's ATS partner activation at scale — designing the template, workflow, and handoff infrastructure behind 9 initial integrations, a board-level Big 4 commitment, and 260+ employer installations."
+summary: "I designed and built the documentation system for Indeed's integrations activation. Repeatable, scalable, and built for handoff from the start."
 tags: ["Technical Writing", "Systems Design", "Partner Enablement", "Scalability", "Installation Guides"]
 showEvidence: false
 skills:

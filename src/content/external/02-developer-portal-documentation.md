@@ -1,5 +1,5 @@
 ---
-title: "Developer Documentation as a Managed Product"
+title: "Developer Documentation"
 period: "2020–present"
 role: "Outreach Technical Writer → API Technical Writer II"
 organization: "Technical Content Management → Marketplace Interoperability"

@@ -4,7 +4,7 @@ period: "2025"
 role: "Technical Writing Manager → Senior Technical Writer"
 organization: "AIX Partner Platform"
 order: 5
-summary: "Built three production AI automation tools — a doc quality analyzer, release notes generator, and translation sync system — achieving 48.4% average quality improvement across 14 pages, reducing release notes curation from days to minutes, and establishing safe AI usage patterns across the writing team."
+summary: "This is the area I'm growing fastest and find most energizing. I love building AI tooling for documentation workflows, measuring outcomes, and enabling others to do the same."
 tags: ["AI/Automation", "Python", "LLM Pipelines", "Quality Engineering", "Localization"]
 showEvidence: false
 skills:
@@ -61,6 +61,12 @@ Built and integrated LLM agents via MCP (Model Context Protocol), creating reusa
 - Maintained strategic partnerships during role transition from manager to senior IC, ensuring continuity of delivery.
 - Mentored writers on AI-assisted workflows and safety. Led team and 1:1 demos, captured reusable patterns, and added Cursor rules/prompts to the repository for consistent usage.
 
+## External Enablement: From Writer to Tool Builder
+
+The internal tooling work led directly to an external teaching opportunity. In 2025, I designed and delivered a 60-minute live webinar for Document360 — [*From Writer to Tool Builder: AI Coding Agents for Technical Documentation*](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/) — for an audience of 163 registered technical writers.
+
+The session was designed as an enablement system, not a demo: participants left with a hands-on GitHub repository, reusable prompt templates, team adoption frameworks, and a getting-started guide for independent implementation. Participant feedback noted the session gave them "the courage to start learning and experimenting with AI tools on their own."
+
 ## Outcomes
 
 | Metric | Value |
@@ -71,22 +77,20 @@ Built and integrated LLM agents via MCP (Model Context Protocol), creating reusa
 | Average quality improvement | 48.4% |
 | Japanese release notes index reduction | 206 → 82 lines |
 | Release notes curation time | Days → minutes |
-| H1 2025 manager rating | Strong (3) |
-| H1 2025 employee self-rating | Exceptional (4) |
-| H1 2025 "How" rating | Exceptional (4) — both manager and employee |
-| Career development snapshot | Manager: 75%, Employee: Next Level |
 | Japanese API doc coverage | 88% (key result target: 50%) |
 | Translation sync scripts built | 8 |
 | ATS guidelines (machine-readable) | 2,067+ lines |
 | ATS AI-assisted workflows | 7 |
 | ATS standardization stories | 7 |
+| External webinar registrants | 163 technical writers |
 
-> "Rebecca exemplifies the kind of strategic contributor, a continuous learner, while maintaining operational excellence. Her combination of technical curiosity, collaborative leadership, and willingness to expand beyond traditional role boundaries makes her invaluable to the organization." — Senior Product Director, Manager
+> "Rebecca exemplifies the kind of strategic contributor, a continuous learner, while maintaining operational excellence. Her combination of technical curiosity, collaborative leadership, and willingness to expand beyond traditional role boundaries makes her invaluable to the organization." — Senior Product Director
 
-> "Delivering the AI tooling trio is a clear example of how we want people from all roles to experiment with AI to solve problems. Not only did she experiment, but she started producing meaningful time savings and quality improvements leveraging AI." — Senior Product Director, Manager
+> "Delivering the AI tooling trio is a clear example of how we want people from all roles to experiment with AI to solve problems. Not only did she experiment, but she started producing meaningful time savings and quality improvements leveraging AI." — Senior Product Director
 
-> "She operates with significant autonomy while maintaining strategic alignment, consistently delivering results that enhance both team velocity and output quality." — Senior Product Director, Manager
+> "She operates with significant autonomy while maintaining strategic alignment, consistently delivering results that enhance both team velocity and output quality." — Senior Product Director
 
 ## Live Work
 
 - [Release Notes](https://docs.indeed.com/release-notes/) — the live output of the release notes automation pipeline; what previously took days of manual curation now runs in minutes
+- [From Writer to Tool Builder: AI Coding Agents for Technical Documentation](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/) — 60-minute external webinar for 163 technical writers; includes hands-on GitHub repository and reusable prompt templates

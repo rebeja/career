@@ -4,73 +4,63 @@ period: "2019–Present"
 role: "Outreach Technical Writer (Speaker Enablement Lead)"
 organization: "Technical Content Management"
 order: 1
-summary: "I architected a scalable speaker enablement ecosystem from the ground up. I integrate pedagogical frameworks, internal conference design, and AI-driven documentation curriculum. My programs have supported hundreds of technical learners and presenters."
+summary: "I design learning systems that outlast my involvement. From speaker enablement programs to technical curricula to a 163-person AI webinar, the throughline is the same: build it for the learner, then hand it off."
 tags: ["Curriculum Design", "Enablement", "Content Strategy", "Program Management"]
 showEvidence: false
 ---
 
-# Technical Speaker Enablement: Bridging the Gap from Insight to Impact
+# Learning Design and Speaker Enablement
 
-At Indeed, brilliant engineers and VPs were regularly taking the stage at global conferences like PyCon and Open Source Summit. However, support was fragmented; presenters lacked a formal framework for proposal writing, narrative structure, or delivery coaching.
+My background is in Communication Studies — I spent years designing courses, building curricula, and teaching before moving into technical writing. That training didn't go away. It shaped how I approach every enablement challenge: start with the learner, design for handoff, and build systems that outlast your involvement.
 
-Leveraging my background in **college-level Communication pedagogy**, I transformed informal help into a scalable, high-impact enablement program. This same philosophy—designing learning systems that outlast my direct involvement—now shapes my work across internal conferences, company-wide curriculum architecture, and AI-enablement for the global technical writing community.
+At Indeed, I've applied that lens across three areas: curriculum design, speaker enablement, and AI-assisted learning — for audiences ranging from technical recruiters to global engineering teams to the broader technical writing community.
 
-## Core Strategy: The Enablement Ecosystem
+## Learning Design & Curriculum
 
-I designed a full-cycle support system that treated technical speaking as a professional craft:
+**Computer Science for Technical Recruiters (2021):** Designed a full curriculum to help technical recruiters build CS literacy — course notes, interview guides, and quizzes. Structured explicitly for handoff so the program could run without ongoing involvement from the subject matter expert.
 
-* **The "Science of Speaking" Curriculum:** Designed and led a multi-city training series (Austin, Seattle, San Francisco). I translated academic rhetoric into a 4-session technical workshop that doubled its enrollment goals.
-* **End-to-End Speaker Pipeline:** Built a "Conference Quick Start Hub" formalizing the journey from the initial Call for Proposals (CFP) to compliance review and final rehearsal.
-* **Executive & High-Stakes Coaching:** Provided bespoke coaching for VPs and Senior Architects, focusing on narrative flow, data visualization, and managing public speaking anxiety.
-* **Scalable Infrastructure:** Created self-directed course notes and assessment rubrics, ensuring the program remained self-sustaining for future cohorts.
+**Indeed University (2020–2021):** Led curriculum architecture for Indeed's company-wide learning initiative — conducting a full audit (805 updates across 180 pages) and building a tracker to coordinate the review process across teams.
 
-## Internal Event Design & Production
+**From Writer to Tool Builder (2025):** Designed and delivered a 60-minute external webinar for 163 technical writers on building AI documentation tooling. Structured as an enablement system: participants left with a GitHub repository, reusable prompt templates, and adoption frameworks for independent implementation.
 
-I applied these same design principles to internal event production, moving from individual coaching to large-scale platformization:
+## Speaker Enablement
 
-* **Platformization Unconference (2022):** Co-designed and MC'd a three-day virtual Tech Leads Unconference using Open Space Technology. I built the entire event infrastructure—from registration to scheduling systems—and MC'd the keynote AMA with the CTO.
-* **Internal Security & Tech Talks:** Scaled the coaching model to support recurring internal conferences and quarterly public tech talk series, managing everything from slide design to compliance.
+I built a formal speaker support program at Indeed — turning informal coaching into a scalable system for engineers and executives preparing for global conferences.
 
-## Learning Design & Curriculum Architecture
+- **Science of Speaking:** Designed and led a multi-city training series (Austin, Seattle, San Francisco) — 4 sessions translating academic rhetoric into practical workshop content. Enrolled 70 participants, doubling the target.
+- **Conference Quick Start Hub:** Built the end-to-end framework formalizing the journey from Call for Proposals through compliance review and final rehearsal.
+- **Executive coaching:** Provided coaching for VPs and Senior Architects on narrative structure, data visualization, and delivery.
+- **Tech Talk production:** End-to-end support for recurring internal and external talk series — slide design, content development, compliance review, rehearsal facilitation, YouTube upload, and WordPress publishing.
 
-The speaker program was always a learning design problem. I eventually applied this lens to company-wide initiatives:
+## Internal Event Design
 
-* **Indeed University (2020–2021):** Led the curriculum architecture for a major learning initiative, conducting a massive audit (**805 updates across 180 pages**) and building a tracker to drive the review process.
-* **Computer Science for Technical Recruiters (2021):** Designed a full curriculum to help technical recruiters build CS literacy — including course notes, interview guides, and quizzes. Structured explicitly for handoff so the program could run without ongoing involvement from the subject matter expert.
-* **AI Enablement (2025):** Delivered "From Writer to Tool Builder," an external webinar for 163 technical writers. Rather than a simple demo, I built a hands-on system including a GitHub repository, prompt templates, and adoption frameworks for independent implementation.
+- **Platformization Unconference (2022):** Co-designed and MC'd a three-day virtual Tech Leads Unconference using Open Space Technology — built registration and scheduling infrastructure and MC'd the keynote AMA with the CTO.
+- **Internal conferences:** Scaled the enablement model to support recurring internal security conferences and quarterly tech talk series.
 
-## Impact & Metrics
+---
+
+## Impact
 
 | Focus Area | Outcome |
 | :--- | :--- |
-| **Speaker Throughput** | Supported **13–14 external talks per quarter** on global stages. |
-| **Training Reach** | **70 participants** enrolled in Science of Speaking (200% of goal). |
-| **Acceptance Rate** | **100% success rate** on assisted conference proposals (H2 2019). |
-| **Event Engagement** | **82 authenticated attendees** for the Unconference; 72% rated as high-value. |
-| **Curriculum Audit** | **805 updates across 180 pages** for Indeed University. |
-| **Community Impact** | **163 registered technical writers** for the 2025 AI-enablement webinar. |
+| **Speaker throughput** | Supported 13–14 external talks per quarter on global stages |
+| **Training reach** | 70 participants in Science of Speaking (200% of goal) |
+| **Proposal success** | 100% acceptance rate on assisted conference proposals (H2 2019) |
+| **Event engagement** | 82 authenticated attendees at the Unconference; 72% rated high-value |
+| **Community reach** | 163 registered technical writers for the 2025 AI webinar |
 
 > *"She was instrumental in getting my talk to a polished state... her advice improved everything from high-level talk structure to the clarity and simplicity of diagrams."*
 > — **Software Engineer, Indeed**
 
-> *"Rebecca has put together an amazing collection of course notes, interview notes, and even quizzes... she has made the material mostly self-directed."*
+> *"The most amazing part is that she's been working effectively to make me unnecessary to the training process. Rebecca has put together an amazing collection of course notes, interview notes, and even quizzes to help the next generation of recruiter students come up to speed on this topic."*
 > — **Senior Technical Architect, Indeed**
 
-## Featured Work & Live Artifacts
+## Featured Work
 
-I provided end-to-end content development, slide design, and rehearsal facilitation for these high-impact technical sessions:
+### Speaker Enablement — Talks I Supported
+* **[How the Incident Retrospective Helps Indeed Deliver Change Safely](https://engineering.indeedblog.com/talks/how-the-incident-retrospective-helps-indeed-deliver-constant-change-safely/)**
+* **[From Daemonizer to Spring Boot: Unlocking Developer Velocity](https://engineering.indeedblog.com/talks/from-daemonizer-to-spring-boot-unlocking-developer-velocity/)**
+* **[But Why Reinvent the Wheel? The Case for a Distributed Database](https://engineering.indeedblog.com/talks/but-why-reinvent-the-wheel/)**
 
-### Technical Talks
-* **[How the Incident Retrospective Helps Indeed Deliver Change Safely](https://engineering.indeedblog.com/talks/how-the-incident-retrospective-helps-indeed-deliver-constant-change-safely/)** (SRE focus)
-* **[From Daemonizer to Spring Boot: Unlocking Developer Velocity](https://engineering.indeedblog.com/talks/from-daemonizer-to-spring-boot-unlocking-developer-velocity/)** (Developer Experience focus)
-* **[But Why Reinvent the Wheel? The Case for a Distributed Database](https://engineering.indeedblog.com/talks/but-why-reinvent-the-wheel/)** (Architecture focus)
-
-### Strategy & Enablement
-* **[From Writer to Tool Builder: AI Coding Agents for Technical Documentation](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/)** (2025 Webinar & Enablement System)
-* **[The FOSS Contributor Fund: Six Months In](https://engineering.indeedblog.com/blog/2019/07/foss-fund-six-months-in/)** (Authored Strategy Post)
-
-### Live Documentation Samples
-* **[Get Started with the Hiring Lab API](https://developer.indeed.com/docs/hiring-lab/get-started)**
-* **[Simulated GraphQL Environment](https://developer.indeed.com/docs/hiring-lab/simulated-graphql-environment)**
-* **[Hiring Lab API Reference](https://developer.indeed.com/docs/hiring-lab/api-reference)**
-* **[Release Notes Portfolio](https://developer.indeed.com/docs/hiring-lab/release-notes)**
+### Learning Design
+* **[From Writer to Tool Builder: AI Coding Agents for Technical Documentation](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/)** — 2025 external webinar and enablement system

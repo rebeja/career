@@ -4,7 +4,7 @@ period: "2019–Present"
 role: "Outreach Technical Writer (Speaker Enablement Lead)"
 organization: "Technical Content Management"
 order: 1
-summary: "Architected a scalable speaker enablement ecosystem from the ground up—integrating pedagogical frameworks, internal conference design, and AI-driven documentation curriculum—supporting global stages and hundreds of technical learners."
+summary: "I architected a scalable speaker enablement ecosystem from the ground up. I integrate pedagogical frameworks, internal conference design, and AI-driven documentation curriculum. My programs have supported hundreds of technical learners and presenters."
 tags: ["Curriculum Design", "Enablement", "Content Strategy", "Program Management"]
 showEvidence: false
 ---
@@ -13,7 +13,7 @@ showEvidence: false
 
 At Indeed, brilliant engineers and VPs were regularly taking the stage at global conferences like PyCon and Open Source Summit. However, support was fragmented; presenters lacked a formal framework for proposal writing, narrative structure, or delivery coaching.
 
-Leveraging my background in **college-level Communication pedagogy**, I transformed "informal help" into a scalable, high-impact enablement program. This same philosophy—designing learning systems that outlast my direct involvement—now shapes my work across internal conferences, company-wide curriculum architecture, and AI-enablement for the global technical writing community.
+Leveraging my background in **college-level Communication pedagogy**, I transformed informal help into a scalable, high-impact enablement program. This same philosophy—designing learning systems that outlast my direct involvement—now shapes my work across internal conferences, company-wide curriculum architecture, and AI-enablement for the global technical writing community.
 
 ## Core Strategy: The Enablement Ecosystem
 

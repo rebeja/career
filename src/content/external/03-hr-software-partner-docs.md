@@ -1,75 +1,66 @@
 ---
-title: "Partner Documentation and Tooling"
-period: "2022–Present"
+title: "ATS Installation Guides"
+period: "2022–2023"
 role: "API Technical Writer II"
-organization: "Marketplace Interoperability and Product Platform"
+organization: "Marketplace Interoperability"
 order: 3
-summary: "Architected a self-service partner ecosystem—launching Indeed's first public partner intake site and building a support infrastructure that saved ~650 FTE hours per quarter. Continuously evolving API documentation standards through AI-assisted refresh frameworks and complex taxonomy governance."
-tags: ["Systems Design", "API Documentation", "Tooling", "Enablement", "Salesforce"]
+summary: "Built the documentation system that powered Indeed's ATS partner activation at scale — designing the template, workflow, and handoff infrastructure behind 9 initial integrations, a board-level Big 4 commitment, and 260+ employer installations."
+tags: ["Technical Writing", "Systems Design", "Partner Enablement", "Scalability", "Installation Guides"]
 showEvidence: false
 skills:
-  - REST APIs
-  - GraphQL
-  - OpenAPI / Swagger
+  - Installation guide authoring
+  - Information architecture
   - Git / GitLab
-  - HTML / CSS
+  - HTML / JavaScript
   - Markdown
   - Salesforce web-to-lead/case
   - Jira
-  - Information architecture
-  - Installation guide authoring
+  - Contractor management
 ---
 
-# Partner Documentation and Tooling: Scaling Self-Service Enablement
+# ATS Installation Guides: Documentation as Activation Infrastructure
 
-In 2022, the Interoperability organization was scaling its HR software (ATS) integrations to enable employer self-service. As the sole technical writer for the org, I was tasked with creating a documentation and support infrastructure that could scale beyond the manual capacity of our existing team.
+In 2022, the Interoperability org was scaling HR software (ATS) integrations to enable employer self-service. The goal was ambitious: 2,500 employer activations driven by partner-facing documentation that IT administrators could execute without hand-holding. There were no installation guides, no template, no workflow, and no plan for who would maintain them once written. As the sole technical writer for the org, I built the system that made it possible.
 
-## The Opportunity
-The integrations team lacked a standardized intake process, a public-facing onboarding home, and a structured support workflow. Partner queries were lost in unstructured email aliases, adding an average of one hour of triage overhead per case. I saw an opportunity to use **systems design** to turn documentation into a high-efficiency support tool.
+## The Problem
 
-## The Strategy: From Manual to Managed
+Each ATS integration was technically distinct — different authentication flows, different field mappings, different admin configurations. The documentation needed to be precise enough for IT administrators to execute without support intervention, consistent enough that partners knew what to expect, and structured enough that another writer could take it over.
 
-I designed and launched a self-service ecosystem that shifted the burden from human triage to automated, well-documented workflows:
+## Building the System
 
-* **Salesforce Support Infrastructure:** Designed and coded the company’s first external support request form and FAQ using Salesforce web-to-case. This replaced an unstructured email workflow and saved an estimated **650 FTE hours per quarter**.
-* **Partner Onboarding Site:** Built the HTML/CSS for a new publicly available partner intake site. This centralized the "Partner Journey," managing **87 initial requests** that were previously untracked.
-* **Standardized Installation Guides:** Authored technical documentation for **9 major HR software integrations**. I designed a repeatable template that ensured consistency across complex ATS installations, directly improving partner activation times.
-* **Content Governance:** Created a "Content Ownership Map" and "API Readiness Checklist" to help cross-functional leadership define boundaries and de-risk product launches.
+I didn't start by writing. I started by designing.
 
-## Continued Evolution: AI & Taxonomy (2025)
+- **Template and workflow:** Created a repeatable guide structure covering prerequisites, configuration steps, field mapping, and troubleshooting. Consistent enough to set partner expectations across integrations; flexible enough to accommodate each ATS's technical differences. Designed from the start for handoff — so the workflow could be executed by any writer on the team.
+- **9 initial integrations:** Authored installation guides for 9 major HR software platforms, directly tied to ATS Sync KRs targeting 2,500 employer self-serve activations.
+- **Workday:** The highest-traffic guide required dedicated resourcing. I wrote the business case for contract technical writing support, then led weekly co-writing sessions with a contracted Deloitte technical writer to deliver the Workday guide — later extended to include a Canadian French version.
+- **Scaling production:** Launched SuccessFactors and SmartRecruiters guides in 2023. Trained another technical writer to own, update, and create guides independently, contributing to **260+ installations completed**.
 
-The work continues to evolve as I lead the transition toward automated, high-precision API documentation:
+## When It Mattered Most
 
-* **AI-Assisted Refresh Framework:** Established a scalable refresh model for ATS installation guides. This includes **2,000+ lines of machine-readable guidelines** and custom Cursor-based workflows to allow for self-service documentation maintenance by non-writers.
-* **Complex Taxonomy Governance:** Authored the **SUID (Taxonomy ID) Reference** and "Understanding SUIDs" guide. By providing a single source of truth for taxonomy change management in both English and Japanese, I resolved a major friction point for partner developers.
-* **High-Stakes API Delivery:** Shipped the **Candidate Sync APIs (ICS/OCS)** to production, managing complex merge request consolidations and a phase 1 information architecture redesign for improved discoverability.
+When a set of high-priority ATS integrations became an executive-level commitment on a compressed timeline, I was ready. Because the template, workflow, and handoff infrastructure were already in place, I could deliver.
 
----
+## Designed for Handoff
 
-## Operational Impact
+The most important thing about the system was that it didn't depend on me.
+
+> *"Rebecca has created a repeatable process for publishing the implementation guides used by Indeed Built ATS Sync integrations. The implementation guides are critical to a successful ATS Sync launch, and Rebecca also reduced the publication time by putting the guides in a system that allows us to make updates without involving engineering."*
+> — **Michael Gregory, Indeed Built**
+
+The guides were validated by user research:
+
+> *"All participants had high praise for the installation guide despite any other issues they experienced during the install process."*
+> — **Indeed Candidate Sync Diary Study, 2022**
+
+## Impact
 
 | Metric | Result |
 | :--- | :--- |
-| **Operational Efficiency** | **~650 FTE hours saved** per quarter via structured support forms. |
-| **Triage Optimization** | Reduced first-response SLA from **48 to 24 hours**. |
-| **Scale** | Documented **9 major HR software integrations** and supported **250+ active integrations**. |
-| **Partner Success** | Resolved **50% of triage overhead** (saving 1 hour per case). |
-| **Maintenance** | Audited and fixed site-wide experiences across **52 internationalized files**. |
+| **ATS integrations documented** | 9 initial + Workday, SuccessFactors, SmartRecruiters, Big 4 |
+| **Employer installations supported** | 260+ |
+| **Partner intake handled** | 87 tracked requests (previously untracked) |
+| **Support efficiency** | ~650 FTE hours saved per quarter |
+| **Triage SLA** | 48 hours → 24 hours |
 
-> *"Rebecca is the most technical Technical Writer I've ever worked with. She has been reviewing merge requests and deploying to both QA and Production—skills I wouldn't expect a Technical Writer to have."*
-> — **Principal Software Engineer, Indeed**
+## Live Work
 
-> *"All participants had high praise for the installation guide despite any other issues they experienced during the process."*
-> — **User Research Validation**
-
-## Featured Work & Infrastructure
-
-### Documentation Ownership
-* **[Job Sync API](https://docs.indeed.com/job-sync-api/)** – The v1 API reference and integration guide created from scratch.
-* **[Hiring Lab API](https://docs.indeed.com/hiring-lab-api/)** – Public API documentation including pay transparency data.
-* **[Understanding SUIDs](https://docs.indeed.com/getstarted/understanding-suids/)** – The definitive taxonomy guide for partner developers (EN/JA).
-* **[Workday Installation Guide](https://docs.indeed.com/install-guides/workday/)** – High-traffic procedural documentation for IT administrators.
-
-### Tooling & Infrastructure
-* **[Partner Onboarding Portal](https://partners.indeed.com/)** – The public-facing intake and support page I designed and built using Salesforce infrastructure.
-* **AI-Refresh Framework** – A machine-readable content guideline system enabling automated documentation updates.
+- **[Workday Installation Guide](https://docs.indeed.com/install-guides/workday/)** — High-traffic procedural guide for IT administrators; the public-facing flagship of the installation guide suite.

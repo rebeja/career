@@ -1,5 +1,5 @@
 ---
-title: "ATS Installation Guides"
+title: "Installation Guides"
 period: "2022–2023"
 role: "API Technical Writer II"
 organization: "Marketplace Interoperability"

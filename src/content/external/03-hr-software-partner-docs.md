@@ -20,7 +20,7 @@ skills:
 
 # ATS Installation Guides: Documentation as Activation Infrastructure
 
-In 2022, the Interoperability org was scaling HR software (ATS) integrations to enable employer self-service. The goal was ambitious: 2,500 employer activations driven by partner-facing documentation that IT administrators could execute without hand-holding. There were no installation guides, no template, no workflow, and no plan for who would maintain them once written. As the sole technical writer for the org, I built the system that made it possible.
+In 2022, the Interoperability org was scaling applicant tracking system (ATS) integrations to enable employer self-service. The goal was ambitious: 2,500 employer activations driven by partner-facing documentation that IT administrators could execute without hand-holding. There were no installation guides, no template, no workflow, and no plan for who would maintain them once written. As the sole technical writer for the org, I built the system that made it possible.
 
 ## The Problem
 

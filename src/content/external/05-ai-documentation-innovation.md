@@ -1,6 +1,6 @@
 ---
 title: "AI-Enhanced Documentation Innovation"
-period: "2025"
+period: "2025–Present"
 role: "Technical Writing Manager → Senior Technical Writer"
 organization: "AIX Partner Platform"
 order: 5

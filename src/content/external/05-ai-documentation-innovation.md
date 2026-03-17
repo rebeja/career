@@ -61,11 +61,18 @@ Built and integrated LLM agents via MCP (Model Context Protocol), creating reusa
 - Maintained strategic partnerships during role transition from manager to senior IC, ensuring continuity of delivery.
 - Mentored writers on AI-assisted workflows and safety. Led team and 1:1 demos, captured reusable patterns, and added Cursor rules/prompts to the repository for consistent usage.
 
+## External Tooling: Docs Automation Examples
+
+The internal tooling work I built at work translated directly into public artifacts. I built a [public tutorial site](https://rebeja.github.io/docs-automation-examples/#iterate-based-on-results) and [starter repo](https://github.com/rebeja/docs-automation-examples?tab=readme-ov-file) with two complete, production-ready projects:
+
+- **Release notes automation** — A Python tool that pulls commits from the GitHub API, filters out internal noise, and uses an LLM to categorize and draft release notes. Reduces a 4–8 hour manual process to under 15 minutes, with documented prompt iteration achieving 91% categorization accuracy.
+- **Portfolio doc site builder** — An MkDocs + GitHub Pages setup with tutorials for generating AI-assisted documentation samples across six content types, from API references to troubleshooting guides.
+
+Both projects are built for immediate use, not demonstration. The tutorials cover environment setup, prompt engineering, iterative refinement, measurement, and deployment — end to end.
+
 ## External Enablement: From Writer to Tool Builder
 
-The internal tooling work led directly to an external teaching opportunity. In 2025, I designed and delivered a 60-minute live webinar for Document360 — [*From Writer to Tool Builder: AI Coding Agents for Technical Documentation*](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/) — for an audience of 163 registered technical writers.
-
-The session was designed as an enablement system, not a demo: participants left with a hands-on GitHub repository, reusable prompt templates, team adoption frameworks, and a getting-started guide for independent implementation. Participant feedback noted the session gave them "the courage to start learning and experimenting with AI tools on their own."
+The same work led to an external teaching opportunity. In 2025, I designed and delivered a 60-minute live webinar for Document360 — [*From Writer to Tool Builder: AI Coding Agents for Technical Documentation*](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/) — for an audience of 163 registered technical writers. The session was structured as an enablement system: participants left with a hands-on GitHub repository, reusable prompt templates, and adoption frameworks for independent implementation. Participant feedback noted the session gave them "the courage to start learning and experimenting with AI tools on their own."
 
 ## Outcomes
 
@@ -93,4 +100,6 @@ The session was designed as an enablement system, not a demo: participants left 
 ## Live Work
 
 - [Release Notes](https://docs.indeed.com/release-notes/) — the live output of the release notes automation pipeline; what previously took days of manual curation now runs in minutes
+- [Docs Automation Examples](https://rebeja.github.io/docs-automation-examples/#iterate-based-on-results) — public tutorial site with two complete starter projects: release notes automation and portfolio doc site builder
+- [GitHub: docs-automation-examples](https://github.com/rebeja/docs-automation-examples?tab=readme-ov-file) — working Python tools, MkDocs setup, and end-to-end tutorials
 - [From Writer to Tool Builder: AI Coding Agents for Technical Documentation](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/) — 60-minute external webinar for 163 technical writers; includes hands-on GitHub repository and reusable prompt templates

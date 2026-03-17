@@ -1,5 +1,5 @@
 ---
-title: "Technical Presentation and Speaker Enablement Program"
+title: "Learning Design and Speaker Enablement"
 period: "2019–Present"
 role: "Outreach Technical Writer (Speaker Enablement Lead)"
 organization: "Technical Content Management"

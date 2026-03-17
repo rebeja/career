@@ -1,5 +1,5 @@
 ---
-title: "Building the Technical Writing Function"
+title: "Leadership"
 period: "2023–Present"
 role: "Technical Writing Manager"
 organization: "Interoperability → Product Platform"

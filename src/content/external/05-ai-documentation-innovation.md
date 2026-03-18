@@ -63,7 +63,7 @@ Built and integrated LLM agents via MCP (Model Context Protocol), creating reusa
 
 ## External Tooling: Docs Automation Examples
 
-The internal tooling work I built at work translated directly into public artifacts. I built a [public tutorial site](https://rebeja.github.io/docs-automation-examples/#iterate-based-on-results) and [starter repo](https://github.com/rebeja/docs-automation-examples?tab=readme-ov-file) with two complete, production-ready projects:
+I built a [public tutorial site](https://rebeja.github.io/docs-automation-examples/#iterate-based-on-results) and [starter repo](https://github.com/rebeja/docs-automation-examples?tab=readme-ov-file) with two complete, production-ready projects:
 
 - **Release notes automation** — A Python tool that pulls commits from the GitHub API, filters out internal noise, and uses an LLM to categorize and draft release notes. Reduces a 4–8 hour manual process to under 15 minutes, with documented prompt iteration achieving 91% categorization accuracy.
 - **Portfolio doc site builder** — An MkDocs + GitHub Pages setup with tutorials for generating AI-assisted documentation samples across six content types, from API references to troubleshooting guides.

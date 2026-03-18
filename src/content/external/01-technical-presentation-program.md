@@ -21,7 +21,7 @@ At Indeed, I've applied that lens across three areas: curriculum design, speaker
 
 **Indeed University (2020–2021):** Led curriculum architecture for Indeed's company-wide learning initiative — conducting a full audit (805 updates across 180 pages) and building a tracker to coordinate the review process across teams.
 
-**From Writer to Tool Builder (2025):** Designed and delivered a 60-minute external webinar for 163 technical writers on building AI documentation tooling. Structured as an enablement system: participants left with a GitHub repository, reusable prompt templates, and adoption frameworks for independent implementation. I extended the work into a [public tutorial site](https://rebeja.github.io/docs-automation-examples/#iterate-based-on-results) and [starter repo](https://github.com/rebeja/docs-automation-examples?tab=readme-ov-file) with two complete projects: a release notes automation tool — reducing a manual 4–8 hour review process to under 15 minutes — and a portfolio doc site builder using MkDocs and GitHub Pages.
+**From Writer to Tool Builder (February 2026):** Designed and delivered a 60-minute external webinar for 163 technical writers on building AI documentation tooling. Structured as an enablement system: participants left with a GitHub repository, reusable prompt templates, and adoption frameworks for independent implementation. I extended the work into a [public tutorial site](https://rebeja.github.io/docs-automation-examples/#iterate-based-on-results) and [starter repo](https://github.com/rebeja/docs-automation-examples?tab=readme-ov-file) with two complete projects: a release notes automation tool — reducing a manual 4–8 hour review process to under 15 minutes — and a portfolio doc site builder using MkDocs and GitHub Pages.
 
 ## Speaker Enablement
 
@@ -47,7 +47,7 @@ I built a formal speaker support program at Indeed — turning informal coaching
 | **Training reach** | 70 participants in Science of Speaking (200% of goal) |
 | **Proposal success** | 100% acceptance rate on assisted conference proposals (H2 2019) |
 | **Event engagement** | 82 authenticated attendees at the Unconference; 72% rated high-value |
-| **Community reach** | 163 registered technical writers for the 2025 AI webinar |
+| **Community reach** | 163 registered technical writers for the 2026 AI webinar |
 
 > *"She was instrumental in getting my talk to a polished state... her advice improved everything from high-level talk structure to the clarity and simplicity of diagrams."*
 > — **Software Engineer, Indeed**
@@ -63,5 +63,5 @@ I built a formal speaker support program at Indeed — turning informal coaching
 * **[But Why Reinvent the Wheel? The Case for a Distributed Database](https://engineering.indeedblog.com/talks/but-why-reinvent-the-wheel/)**
 
 ### Learning Design
-* **[From Writer to Tool Builder: AI Coding Agents for Technical Documentation](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/)** — 2025 external webinar and enablement system
+* **[From Writer to Tool Builder: AI Coding Agents for Technical Documentation](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/)** — February 2026 external webinar and enablement system
 * **[Docs Automation Examples](https://rebeja.github.io/docs-automation-examples/#iterate-based-on-results)** — tutorial site with two complete starter projects: release notes automation and portfolio doc site builder ([GitHub repo](https://github.com/rebeja/docs-automation-examples?tab=readme-ov-file))

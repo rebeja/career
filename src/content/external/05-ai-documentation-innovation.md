@@ -72,7 +72,7 @@ Both projects are built for immediate use, not demonstration. The tutorials cove
 
 ## External Enablement: From Writer to Tool Builder
 
-The same work led to an external teaching opportunity. In 2025, I designed and delivered a 60-minute live webinar for Document360 — [*From Writer to Tool Builder: AI Coding Agents for Technical Documentation*](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/) — for an audience of 163 registered technical writers. The session was structured as an enablement system: participants left with a hands-on GitHub repository, reusable prompt templates, and adoption frameworks for independent implementation. Participant feedback noted the session gave them "the courage to start learning and experimenting with AI tools on their own."
+The same work led to an external teaching opportunity. In February 2026, I designed and delivered a 60-minute live webinar for Document360 — [*From Writer to Tool Builder: AI Coding Agents for Technical Documentation*](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/) — for an audience of 163 registered technical writers. The session was structured as an enablement system: participants left with a hands-on GitHub repository, reusable prompt templates, and adoption frameworks for independent implementation. Participant feedback noted the session gave them "the courage to start learning and experimenting with AI tools on their own."
 
 ## Outcomes
 

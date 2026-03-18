@@ -898,13 +898,77 @@ main {
 }
 
 /* ——————————————————————————————————————————————
+   Nav toggle button (hidden on desktop)
+—————————————————————————————————————————————— */
+.site-nav__toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius);
+  padding: 0;
+  transition: color var(--transition), background var(--transition);
+  flex-shrink: 0;
+}
+
+.site-nav__toggle:hover {
+  color: var(--color-accent);
+  background: var(--color-accent-light);
+}
+
+/* ——————————————————————————————————————————————
    Mobile
 —————————————————————————————————————————————— */
 @media (max-width: 640px) {
-  .site-nav__links {
-    gap: 1rem;
+  /* Nav: hamburger menu */
+  .site-nav__toggle {
+    display: flex;
   }
 
+  .site-nav__links {
+    display: none;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background: var(--color-nav-bg);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--color-border);
+    padding: 0.5rem 1.5rem 1rem;
+    margin: 0;
+    gap: 0;
+    z-index: 99;
+  }
+
+  .site-nav__links.is-open {
+    display: flex;
+  }
+
+  .site-nav__links li {
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .site-nav__links li:last-child {
+    border-bottom: none;
+  }
+
+  .site-nav__links a {
+    display: block;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+  }
+
+  .theme-controls {
+    margin-left: auto;
+  }
+
+  /* Hero */
   .hero {
     padding-block: 3rem 2.5rem;
   }
@@ -919,6 +983,16 @@ main {
     height: 120px;
   }
 
+  .hero__subtitle {
+    font-size: 1.05rem;
+  }
+
+  /* Spacing */
+  .section-divider {
+    margin-block: 2.5rem;
+  }
+
+  /* Cards and grids */
   .card-grid {
     grid-template-columns: 1fr;
   }
@@ -940,6 +1014,7 @@ main {
     grid-template-columns: 1fr;
   }
 
+  /* Case study */
   .case-study-header {
     padding-block: 2rem 1.5rem;
   }
@@ -952,5 +1027,12 @@ main {
   .case-study-sidebar {
     position: static;
     order: -1;
+  }
+
+  /* Tables: make scrollable rather than clipping */
+  .prose-content table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 }

@@ -3,7 +3,7 @@ title: "Learning Design and Speaker Enablement"
 period: "2019–Present"
 role: "Outreach Technical Writer (Speaker Enablement Lead)"
 organization: "Technical Content Management"
-order: 1
+order: 4
 summary: "I design learning systems that outlast my involvement. From speaker enablement programs to technical curricula to a 163-person AI webinar, the throughline is the same: build it for the learner, then hand it off."
 tags: ["Curriculum Design", "Enablement", "Content Strategy", "Program Management"]
 showEvidence: false
@@ -43,9 +43,9 @@ I built a formal speaker support program at Indeed — turning informal coaching
 
 | Focus Area | Outcome |
 | :--- | :--- |
-| **Speaker throughput** | Supported 13–14 external talks per quarter on global stages |
+| **Speaker throughput** | Supported 13 external talks in a single quarter (Q4 2019) on global stages |
 | **Training reach** | 70 participants in Science of Speaking (200% of goal) |
-| **Proposal success** | 100% acceptance rate on assisted conference proposals (H2 2019) |
+| **Proposal success** | 2 of 2 assisted conference proposals accepted (2019) |
 | **Event engagement** | 82 authenticated attendees at the Unconference; 72% rated high-value |
 | **Community reach** | 163 registered technical writers for the 2026 AI webinar |
 

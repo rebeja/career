@@ -1,10 +1,10 @@
 ---
 title: "Leadership"
 period: "2023–Present"
-role: "Technical Writing Manager"
+role: "Technical Writing Manager → Senior Technical Writer"
 organization: "Interoperability → Product Platform"
-order: 4
-summary: " I stepped into a leadership role to help build Indeed's partner-facing technical writing function.  I continue to own the strategic direction, standards, and operating model that the function runs on today."
+order: 3
+summary: "I stepped into a leadership role to build Indeed's partner-facing technical writing function. I continue to own the strategic direction, standards, and operating model that the function runs on today."
 tags: ["People Management", "Organizational Design", "Change Leadership", "Content Strategy", "Global Operations"]
 showEvidence: false
 ---
@@ -25,7 +25,7 @@ I built and led a globally distributed team of 7 contributors (full-time and con
 
 ## Delivery Under Pressure
 
-The team navigated two major reorganizations during this period without disruption to delivery. High-stakes milestones, like including board-level product launches requiring full compliance with integration standards, shipped on schedule.
+The team navigated two major reorganizations during this period without disruption to delivery. High-stakes milestones, including board-level product launches that required full compliance with integration standards, shipped on schedule.
 
 ## Continued Strategic Leadership (2025–Present)
 

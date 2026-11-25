@@ -18,13 +18,6 @@ const timeline = [
   { period: '2011 – 2014', role: 'Graduate Teaching Assistant', org: 'University of Iowa, Iowa City IA' },
 ];
 
-const impact = [
-  { value: '48.4%', label: 'average quality lift on pages rewritten against my AI quality rubrics' },
-  { value: 'Days → min', label: 'release notes curation time with an automated LLM pipeline' },
-  { value: '~650', label: 'FTE hours saved per quarter by a partner support form I built' },
-  { value: '163', label: 'technical writers registered for my AI tooling webinar' },
-];
-
 const skills = [
   {
     label: 'AI & Automation',
@@ -114,18 +107,6 @@ const endorsements = [
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- Impact -->
-  <section class="container" style="padding-bottom: 3rem;">
-    <ul class="impact-strip">
-      {impact.map((item) => (
-        <li class="impact-strip__item">
-          <span class="impact-strip__value">{item.value}</span>
-          <span class="impact-strip__label">{item.label}</span>
-        </li>
-      ))}
-    </ul>
   </section>
 
   <hr class="section-divider container" />

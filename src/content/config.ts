@@ -13,13 +13,7 @@ const caseStudySchema = z.object({
   skills: z.array(z.string()).optional(),
 });
 
-const pageSchema = z.object({
-  title: z.string(),
-  description: z.string(),
-});
-
 export const collections = {
   external: defineCollection({ type: 'content', schema: caseStudySchema }),
   internal: defineCollection({ type: 'content', schema: caseStudySchema }),
-  pages: defineCollection({ type: 'content', schema: pageSchema }),
 };

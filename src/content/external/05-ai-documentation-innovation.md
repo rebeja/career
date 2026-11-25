@@ -1,101 +1,74 @@
 ---
-title: "AI-Enhanced Documentation Innovation"
+title: "AI Tooling for Documentation"
 period: "2025–Present"
-role: "Technical Writing Manager → Senior Technical Writer"
-organization: "Partner Platform Product"
-order: 1
-summary: "I built three production AI tools for documentation (quality scoring, release notes, and translation sync) that cut release notes curation from days to minutes and lifted rewritten pages' quality scores by 48.4% on average."
-tags: ["AI/Automation", "Python", "LLM Pipelines", "Quality Engineering", "Localization"]
+role: "Senior Technical Writer → Technical Writing Manager"
+organization: "Indeed"
+order: 5
+summary: "I built AI tools that score documentation quality, sync Japanese translations, and draft release notes, then turned them into a team program with governance, review rules, and a library of 17 AI skills."
+tags: ["AI/Automation", "Python", "LLM Pipelines", "Quality Engineering", "AI Governance"]
 showEvidence: false
 skills:
+  - Claude Code / Cursor
   - Python
   - LLM pipelines
   - MCP (Model Context Protocol)
-  - Claude Code / Cursor
   - Prompt engineering
   - AI governance
-  - Docusaurus
-  - Git / GitLab
-  - Jira integration
-  - Quality scoring automation
+  - Agent skills and llms.txt
+  - Quality scoring rubrics
 ---
 
-# AI-Enhanced Documentation Innovation
+# AI Tooling for Documentation
 
-## Context
+I use AI the way I use Git: as part of how the work gets done every day, not as an experiment. In 2025, as a senior IC, I built tools that solved specific bottlenecks. In 2026, back in the manager role, I turned that work into a program the whole team runs on.
 
-The documentation team faced recurring bottlenecks in three areas: release notes curation required days of manual work each cycle, Japanese translation workflows depended on slow handoffs and inconsistent terminology, and documentation quality had no standardized measurement. At the same time, the company encouraged all roles to experiment with AI to solve operational problems.
+## Tools that solved real bottlenecks (2025)
 
-## Challenge
+Three problems kept slowing the team down: no consistent way to measure documentation quality, slow and inconsistent Japanese translation, and release notes that took days to assemble. I built a tool for each, working with Claude Code and LLM agents through Indeed's internal MCP (Model Context Protocol) server.
 
-Apply AI and automation to documentation workflows in a way that produces measurable efficiency gains and quality improvements — not just experiments — while establishing safe usage patterns and driving adoption across the writing team.
+- **Doc Analyzer:** I approached quality the way a professor designs a grading rubric, then trained the LLM to apply it as my teaching assistant. The Python pipeline scores pages against page-type rubrics, with dashboards and Jira tracking. It scored 103 pages and flagged 38 below threshold. Rubric-driven rewrites of 14 data tools pages, reviewed by subject-matter experts, improved their scores by 48.4% on average.
+- **Translation Sync:** An agent and policy set for Japanese localization, with codified prompts, terminology, guardrails, and 8 scripts for sync, audit, and manifests. I set the acceptance gates with product, localization, and legal partners, and simplified the Japanese release notes index from 206 lines to 82.
+- **Release Notes Generator:** Automated extraction, summarization, and QA, cutting curation from days to minutes. The later restructure of the release notes has its own case study, *Release Notes Refresh*.
 
-## Approach
+> *"Delivering the 'AI tooling trio', as Rebecca has called it, is a clear example of how we want people from all roles to experiment with AI to solve problems. Not only did she experiment, but she started producing meaningful time savings and quality improvements leveraging AI."*
+> — **Senior Product Director, Indeed**
 
-**AI tooling trio:**
-- **Doc Analyzer**: Built a Python pipeline with page-type rubrics, dashboards, and Jira integration for standardized quality scoring. Ran the analyzer across 103 documentation pages, flagged 38 below-threshold pages with automated tracking, and established recurring runs and triage cadence to monitor trends.
-- **Release Notes Generator**: Scaled from pilot to repeatable workflow. Automated extraction, summarization, and QA gates for accurate, ship-ready notes. Validated standards with PM and TW partners and iterated on output quality.
-- **Translation Sync**: Developed an agent and policies to streamline Japanese localization workflows and reduce reviewer load. Built 8 scripts for sync, audit, and manifest generation. Codified system prompts, terminology, and guardrails for consistency. Aligned with PM, localization, and legal teams on acceptance gates. Drove Japanese API documentation coverage to **88%**, exceeding the 50% key result target.
+## From tools to a team program (2026)
 
-Built and integrated LLM agents via MCP (Model Context Protocol), creating reusable agent infrastructure with persistent prompts, safe execution guardrails, and reproducible workflows. Published demos and playbooks to drive team adoption, and documented safe usage guidelines specifically for non-engineer writers.
+Tools that only their author can run don't scale. When I resumed managing the team, I set up an AI tooling program with a governance model, an ownership structure, review requirements, and machine-readability standards. I wrote the team's guidance for creating AI context and a paired wiki-and-skill model, so every skill has human-readable documentation behind it.
 
-**ATS installation guide AI framework:**
-- Established a scalable AI-assisted refresh framework for ATS installation guides. Led a proof-of-concept transformation with Canadian French parity and 44 redirects.
-- Created 2,067+ lines of machine-readable content guidelines with validation algorithms and 7 AI-assisted Cursor workflows. Published a self-service guide for independent execution by team members.
-- Structured a standardization epic with 7 stories delegated across the team. Coordinated cross-functional feedback from UX, product, and implementation consultants, incorporating partner pain points into troubleshooting guidance.
+- **A shared skill library:** The team now has 17 AI skills, many of which I wrote, including a proofreader, a merge-request splitter, and glossary, FAQ, and translation workflows.
+- **A proofreader built on the style guide:** I turned the docs.indeed.com style guide I'd written as manager into the proofreader's rules, so every draft can be checked against house style.
+- **Brand-safe translation:** After a sitewide audit, I added Indeed's product-name glossary to the AI translation rules so automated Japanese follows brand guidelines.
+- **Writers building their own:** I wrote a how-to guide for creating AI tools. One writer went on to build a skill that automated most of the weekly GraphQL schema log.
 
-**Quality-driven content uplift:**
-- Applied rubric-driven rewrites to 14 data tools documentation pages, then re-ran the analyzer for objective before/after measurement. Coordinated SME reviews for accuracy prior to publish.
-- Documented the methodology via blog posts and step-by-step guides to enable reuse across teams. Highlighted governance and safe usage patterns for non-engineers.
+> *"Rebecca stood out this cycle for her enthusiastic embrace of AI."*
+> — **Manager, 2026 review**
 
-**Translation and localization leadership:**
-- Set pragmatic Japanese translation policy and reviewer guardrails to preserve both velocity and quality.
-- Simplified Japanese release notes: reduced index from 206 to 82 lines, added schema documentation with detailed changelogs, migrated to date-based navigation, and ensured translation parity across locales.
+## Agents as editors and readers
 
-**Cross-functional collaboration and mentoring:**
-- Coordinated documentation publishing across complex deployment, access, and API changes with engineering, product, and leadership partners.
-- Maintained strategic partnerships during role transition from manager to senior IC, ensuring continuity of delivery.
-- Mentored writers on AI-assisted workflows and safety. Led team and 1:1 demos, captured reusable patterns, and added Cursor rules/prompts to the repository for consistent usage.
+- **Agents that edit:** I recognized that agents had become good enough to review and write how-to and explainer documentation, then ran a pilot that used them to review, edit, and repair another team's docs with only minor help from that team.
+- **Docs that agents can read:** At an agent-ready docs hackathon I drafted three starter skills for partners' AI coding agents (authentication, Job Sync, and Indeed Apply) with security guardrails, wrote the site's llms.txt agent notes, and pointed it and 642 regenerated Markdown pages at the demo site.
 
-## External Tooling: Docs Automation Examples
+> *"Rebecca identified the opportunity to improve the docs, recognized that agents had improved enough to test and write how-to and explainer technical documentation, and delivered it with only minor support needed from my team."*
+> — **Product Manager, Indeed**
 
-I built a [public tutorial site](https://rebeja.github.io/docs-automation-examples/#iterate-based-on-results) and [starter repo](https://github.com/rebeja/docs-automation-examples?tab=readme-ov-file) with two complete, production-ready projects:
+## Knowing when to retire a tool
 
-- **Release notes automation** — A Python tool that pulls commits from the GitHub API, filters out internal noise, and uses an LLM to categorize and draft release notes. Reduces a 4–8 hour manual process to under 15 minutes, with documented prompt iteration achieving 91% categorization accuracy.
-- **Portfolio doc site builder** — An MkDocs + GitHub Pages setup with tutorials for generating AI-assisted documentation samples across six content types, from API references to troubleshooting guides.
+Part of running an AI program is noticing when a skill is the wrong answer. While reviewing a teammate's rollout of my external-links skill across 538 links, I saw that the skill's hand-written markup was the real problem. I replaced it with build-time formatting that gives every external link a new-window icon and translated screen-reader text: about 494 English and 289 Japanese Markdown links, plus about 215 HTML links. Then I retired the skill and added a 10-step checklist for retiring a tool to the team's AI guidance.
 
-Both projects are built for immediate use, not demonstration. The tutorials cover environment setup, prompt engineering, iterative refinement, measurement, and deployment — end to end.
-
-## External Enablement: From Writer to Tool Builder
-
-The same work led to an external teaching opportunity. In February 2026, I designed and delivered a 60-minute live webinar for Document360 — [*From Writer to Tool Builder: AI Coding Agents for Technical Documentation*](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/) — for an audience of 163 registered technical writers. The session was structured as an enablement system: participants left with a hands-on GitHub repository, reusable prompt templates, and adoption frameworks for independent implementation. Participant feedback noted the session gave them "the courage to start learning and experimenting with AI tools on their own."
+---
 
 ## Outcomes
 
 | Metric | Value |
 |--------|-------|
-| Documentation pages quality-scored | 103 |
-| Below-threshold pages flagged | 38 |
-| Pages improved via rubric-driven rewrites | 14 |
-| Average quality improvement | 48.4% |
-| Japanese release notes index reduction | 206 → 82 lines |
+| Pages quality-scored | 103 (38 flagged below threshold) |
+| Average quality improvement on rewritten pages | 48.4% |
 | Release notes curation time | Days → minutes |
-| Japanese API doc coverage | 88% (key result target: 50%) |
-| Translation sync scripts built | 8 |
-| ATS guidelines (machine-readable) | 2,067+ lines |
-| ATS AI-assisted workflows | 7 |
-| ATS standardization stories | 7 |
-| External webinar registrants | 163 technical writers |
+| Japanese release notes index | 206 → 82 lines |
+| Team AI skills | 17 |
+| External links made accessible at build time | ~494 English + ~289 Japanese Markdown links, ~215 HTML links |
+| Agent-ready Markdown pages | 642 |
 
-> "Rebecca exemplifies the kind of strategic contributor, a continuous learner, while maintaining operational excellence. Her combination of technical curiosity, collaborative leadership, and willingness to expand beyond traditional role boundaries makes her invaluable to the organization." — Senior Product Director
-
-> "Delivering the AI tooling trio is a clear example of how we want people from all roles to experiment with AI to solve problems. Not only did she experiment, but she started producing meaningful time savings and quality improvements leveraging AI." — Senior Product Director
-
-> "She operates with significant autonomy while maintaining strategic alignment, consistently delivering results that enhance both team velocity and output quality." — Senior Product Director
-
-## Live Work
-
-- [Release Notes](https://docs.indeed.com/release-notes/) — the live output of the release notes automation pipeline; what previously took days of manual curation now runs in minutes
-- [Docs Automation Examples](https://rebeja.github.io/docs-automation-examples/#iterate-based-on-results) — public tutorial site with two complete starter projects: release notes automation and portfolio doc site builder
-- [GitHub: docs-automation-examples](https://github.com/rebeja/docs-automation-examples?tab=readme-ov-file) — working Python tools, MkDocs setup, and end-to-end tutorials
-- [From Writer to Tool Builder: AI Coding Agents for Technical Documentation](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/) — 60-minute external webinar for 163 technical writers; includes hands-on GitHub repository and reusable prompt templates
+I also teach other writers to build tools like these. The Document360 webinar and public tutorials are covered in *Learning Design and Speaker Enablement*.

@@ -1,10 +1,10 @@
 ---
-title: "Installation Guides"
-period: "2022–2023"
-role: "API Technical Writer II"
-organization: "Marketplace Interoperability"
-order: 6
-summary: "I designed and built the documentation system for Indeed's integrations activation. Repeatable, scalable, and built for handoff from the start."
+title: "ATS Installation Guides"
+period: "2022–2025"
+role: "API Technical Writer II → Technical Writing Manager"
+organization: "Indeed"
+order: 4
+summary: "I designed the documentation system behind employer self-serve ATS activation: a template, workflow, and partner intake built so other writers could run it, later refreshed with AI-assisted guidelines."
 tags: ["Technical Writing", "Systems Design", "Partner Enablement", "Scalability", "Installation Guides"]
 showEvidence: false
 skills:
@@ -35,27 +35,39 @@ I didn't start by writing. I started by designing.
 - **Workday:** The highest-traffic guide required dedicated resourcing. I wrote the business case for contract technical writing support, then led weekly co-writing sessions with a contracted Deloitte technical writer to deliver the Workday guide — later extended to include a Canadian French version.
 - **Scaling production:** Launched SuccessFactors and SmartRecruiters guides in 2023. Trained another technical writer to own, update, and create guides independently, contributing to **260+ installations completed**.
 
-## When It Mattered Most
+## Partner intake and support
 
-When a set of high-priority ATS integrations became an executive-level commitment on a compressed timeline, I was ready. Because the template, workflow, and handoff infrastructure were already in place, I could deliver.
+Partners needed a front door, too. I built the intake and support infrastructure that routed them into the integration program:
+
+- **Partner onboarding site** ([partners.indeed.com](https://partners.indeed.com/)): Wrote the content and built the HTML and CSS for Indeed's first public ATS partner intake page, which handled 87 integration requests that had previously come in through an untracked form.
+- **Support form:** Designed and built a Salesforce web-to-case form to replace an unstructured email alias, saving an estimated ~650 FTE hours per quarter and supporting a first-response target cut from 48 to 24 hours.
 
 ## Designed for Handoff
 
 The most important thing about the system was that it didn't depend on me.
 
 > *"Rebecca has created a repeatable process for publishing the implementation guides used by Indeed Built ATS Sync integrations. The implementation guides are critical to a successful ATS Sync launch, and Rebecca also reduced the publication time by putting the guides in a system that allows us to make updates without involving engineering."*
-> — **Michael Gregory, Indeed Built**
+> — **Senior Technical Product Manager, Indeed**
 
 The guides were validated by user research:
 
 > *"All participants had high praise for the installation guide despite any other issues they experienced during the install process."*
 > — **Indeed Candidate Sync Diary Study, 2022**
 
+## Refreshing the guides with AI (2025)
+
+Three years later, the guides needed a refresh, and the team needed a way to do it without me writing each one. I set up an AI-assisted refresh framework:
+
+- **Machine-readable guidelines:** 2,067+ lines of content guidelines with validation rules, plus 7 AI-assisted Cursor workflows and a self-service guide so writers could run a refresh on their own.
+- **Proof of concept:** Led the first transformation end to end, with Canadian French parity and 44 redirects.
+- **Delegated at scale:** Structured a standardization epic of 7 stories across the team, and folded feedback from UX, product, and implementation consultants into the troubleshooting guidance.
+
 ## Impact
 
 | Metric | Result |
 | :--- | :--- |
 | **ATS integrations documented** | 9 initial, plus Workday, SuccessFactors, and SmartRecruiters |
+| **AI refresh guidelines** | 2,067+ lines, 7 AI-assisted workflows |
 | **Employer installations supported** | 260+ |
 | **Partner intake handled** | 87 tracked requests (previously untracked) |
 | **Support efficiency** | ~650 FTE hours saved per quarter |

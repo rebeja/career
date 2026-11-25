@@ -1,10 +1,10 @@
 ---
 title: "Learning Design and Speaker Enablement"
-period: "2019–Present"
-role: "Outreach Technical Writer (Speaker Enablement Lead)"
-organization: "Technical Content Management"
-order: 5
-summary: "I design learning systems that outlast my involvement. From speaker enablement programs to technical curricula to a 163-person AI webinar, the throughline is the same: build it for the learner, then hand it off."
+period: "2019–2026"
+role: "Outreach Technical Writer → Technical Writing Manager"
+organization: "Indeed"
+order: 6
+summary: "I design learning systems that outlast my involvement, from speaker coaching and technical curricula to an external webinar on AI tooling for writers. The through line: build it for the learner, then hand it off."
 tags: ["Curriculum Design", "Enablement", "Content Strategy", "Program Management"]
 showEvidence: false
 ---

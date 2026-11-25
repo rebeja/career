@@ -2,8 +2,8 @@
 title: "Release Notes Refresh"
 period: "2025–2026"
 role: "Technical Writing Manager"
-organization: "Interop Technical Writing"
-order: 2
+organization: "Indeed"
+order: 3
 summary: "I rebuilt docs.indeed.com's release notes so partners can find changes by product and change type, and automated staging so a 59-merge-request release now ships with the writer's work reduced to review."
 tags: ["Release Notes", "Automation", "Information Architecture", "Localization", "Docs-as-Code"]
 showEvidence: false

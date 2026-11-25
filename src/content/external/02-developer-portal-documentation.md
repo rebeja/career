@@ -71,7 +71,7 @@ The idea behind the portal, that docs should live with the code and be versioned
 
 ## Featured Documentation
 
-* **[Job Sync API](https://docs.indeed.com/job-sync-api/)**: v1 GraphQL API reference and integration guide, written from scratch.
+* **[Job Sync API](https://docs.indeed.com/job-sync-api/job-sync-api-guide)**: v1 GraphQL API reference and integration guide, written from scratch.
 * **[Simulated GraphQL Environment](https://docs.indeed.com/getstarted/simulated-graphql-environment/)**: sandbox guide for partners testing GraphQL integrations.
 * **[Understanding SUIDs](https://docs.indeed.com/getstarted/understanding-suids/)**: reference guide published in English and Japanese.
 * **[Get Started](https://docs.indeed.com/getstarted/)**: developer onboarding and orientation.

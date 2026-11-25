@@ -1,10 +1,10 @@
 ---
 title: "Leadership"
-period: "2023–Present"
-role: "Technical Writing Manager"
+period: "2023–2025, 2026–Present"
+role: "Technical Writing Manager → Senior Technical Writer"
 organization: "Interoperability → Product Platform"
 order: 4
-summary: " I stepped into a leadership role to help build Indeed's partner-facing technical writing function.  I continue to own the strategic direction, standards, and operating model that the function runs on today."
+summary: "I stepped into a leadership role to build Indeed's partner-facing technical writing function. I continue to own the strategic direction, standards, and operating model that the function runs on today."
 tags: ["People Management", "Organizational Design", "Change Leadership", "Content Strategy", "Global Operations"]
 showEvidence: false
 ---
@@ -25,7 +25,7 @@ I built and led a globally distributed team of 7 contributors (full-time and con
 
 ## Delivery Under Pressure
 
-The team navigated two major reorganizations during this period without disruption to delivery. High-stakes milestones, like including board-level product launches requiring full compliance with integration standards, shipped on schedule.
+The team navigated two major reorganizations during this period without disruption to delivery. High-stakes milestones, including board-level product launches that required full compliance with integration standards, shipped on schedule.
 
 ## Continued Strategic Leadership (2025–Present)
 
@@ -37,6 +37,18 @@ In July 2025, I moved into a senior individual contributor role. My relationship
 > *"Although I manage the tech writers, I rely on Rebecca to lead most of the team's work."*
 > — **Senior Product Director, former manager**
 
+## Back in the Manager Role (2026)
+
+In a 2026 reorganization, I was asked to resume managing the team of three technical writers who own docs.indeed.com.
+
+- **Faster reviews:** Took the share of documentation merge requests resolved within three days from a 77% baseline to 93%, beating the 90% key result target.
+- **More output, same headcount:** 585 merge requests (+5%), 27,175 commits (+37%), and 1.2M+ lines changed (+27%) in one half-year cycle, with lines removed more than doubling as we retired duplicated and broken content.
+- **Operating model:** Wrote a "How to work with us" page with five request paths and published turnaround targets, redesigned the team's Jira project, and authored a content governance strategy covering eight domains.
+- **Growing the team:** Coached writers on AI-assisted workflows. One writer built an AI skill that automated most of the weekly GraphQL schema log. I presented each writer's work to the VP of Product.
+
+> *"Rebecca consistently looks beyond individual documentation tasks to improve the systems through which the entire team operates."*
+> — **Manager, 2026 review**
+
 ---
 
 ## Impact
@@ -47,6 +59,7 @@ In July 2025, I moved into a senior individual contributor role. My relationship
 | **Japanese API coverage** | 88% (target: 50%) |
 | **Global team** | 7 contributors across 2 countries |
 | **Reorgs navigated** | 2, without disruption to delivery |
+| **MRs resolved within 3 days** | 77% → 93% (target: 90%) |
 
 > *"A strong leader in the technical writing function... the steady force in the changes that drastically affected teams and product."*
 > — **Product Director**

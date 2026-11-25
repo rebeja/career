@@ -3,7 +3,7 @@ title: "Developer Documentation"
 period: "2020–present"
 role: "Outreach Technical Writer → API Technical Writer II"
 organization: "Technical Content Management → Marketplace Interoperability"
-order: 2
+order: 3
 summary: "I'm an API doc writer and platform builder. I've been part of docs.indeed.com since its first iteration and continue to own its architecture, standards, and partner experience."
 tags: ["API Documentation", "Developer Experience", "Content Strategy", "Process Design"]
 showEvidence: false
@@ -51,7 +51,7 @@ Alongside the platform work, I've been the primary author of much of the API doc
 
 **Governance:** Implemented sprint-based governance across the portal — bi-weekly sprint cadences, quarterly epics in Jira, and a standardized intake and triage process with a visibility dashboard for stakeholders.
 
-**Knowledge platform:** Drove adoption of our internal developer knowledge platform by seeding 50+ cloud migration Q&As and integrating Slack workflows, resulting in a ~50% increase in platform search and participation.
+**Knowledge platform:** Drove adoption of our internal developer knowledge platform by seeding 58 cloud migration Q&As and integrating Slack workflows. Searches grew from 622 to 1,502, and both questions and answers more than doubled.
 
 ## Partner-Facing Infrastructure
 
@@ -81,8 +81,8 @@ I originated and led a team of 3 Technical Writers and 4 Software Engineers to s
 | Metric | Outcome |
 | :--- | :--- |
 | **Reach** | **131,881 unique page views** in a six-month period. |
-| **Platform Growth** | **59% increase in search volume** on the internal knowledge platform. |
-| **Knowledge Sharing** | **~50% increase** in both questions and answers on the internal knowledge platform. |
+| **Platform Growth** | Searches on the internal knowledge platform grew from **622 to 1,502**. |
+| **Knowledge Sharing** | Questions grew from **127 to 271** and answers from **148 to 303**. |
 | **Partner Throughput** | Successfully processed **500+ partner accounts** through the refined onboarding flow. |
 
 > *"Rebecca is exceptional... She takes ownership and always tries to improve what she's working on. She has been key to the success of migrating developer docs to the new portal."*

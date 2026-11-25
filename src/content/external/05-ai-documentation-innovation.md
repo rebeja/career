@@ -2,9 +2,9 @@
 title: "AI-Enhanced Documentation Innovation"
 period: "2025–Present"
 role: "Technical Writing Manager → Senior Technical Writer"
-organization: "AIX Partner Platform"
-order: 5
-summary: "This is the area I'm growing fastest and find most energizing. I love building AI tooling for documentation workflows, measuring outcomes, and enabling others to do the same."
+organization: "Partner Platform Product"
+order: 1
+summary: "I built three production AI tools for documentation (quality scoring, release notes, and translation sync) that cut release notes curation from days to minutes and lifted rewritten pages' quality scores by 48.4% on average."
 tags: ["AI/Automation", "Python", "LLM Pipelines", "Quality Engineering", "Localization"]
 showEvidence: false
 skills:
@@ -21,10 +21,6 @@ skills:
 ---
 
 # AI-Enhanced Documentation Innovation
-
-**Period:** 2025
-**Role:** Technical Writing Manager → Senior Technical Writer (July 2025)
-**Organization:** Partner Platform
 
 ## Context
 

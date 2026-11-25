@@ -3,7 +3,7 @@ title: "Installation Guides"
 period: "2022–2023"
 role: "API Technical Writer II"
 organization: "Marketplace Interoperability"
-order: 3
+order: 6
 summary: "I designed and built the documentation system for Indeed's integrations activation. Repeatable, scalable, and built for handoff from the start."
 tags: ["Technical Writing", "Systems Design", "Partner Enablement", "Scalability", "Installation Guides"]
 showEvidence: false
@@ -55,7 +55,7 @@ The guides were validated by user research:
 
 | Metric | Result |
 | :--- | :--- |
-| **ATS integrations documented** | 9 initial + Workday, SuccessFactors, SmartRecruiters, Big 4 |
+| **ATS integrations documented** | 9 initial, plus Workday, SuccessFactors, and SmartRecruiters |
 | **Employer installations supported** | 260+ |
 | **Partner intake handled** | 87 tracked requests (previously untracked) |
 | **Support efficiency** | ~650 FTE hours saved per quarter |

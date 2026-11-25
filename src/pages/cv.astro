@@ -1,142 +1,400 @@
 ---
 import Base from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
-<Base title="CV — Rebecca Alves" description="Curriculum vitae for Rebecca Alves, Senior Technical Writer and Documentation Systems Architect.">
-  <div class="container">
-    <header class="case-study-header">
-      <h1 class="case-study-header__title">Rebecca Alves</h1>
-      <p class="case-study-header__role">Senior Technical Writer &amp; Documentation Systems Architect</p>
-      <p style="font-size: 0.9rem; color: var(--color-text-muted); margin-top: 0.25rem;">
-        Austin, Texas &middot;
-        <a href="https://www.linkedin.com/in/rebeccaalvestechwriter" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      </p>
+<Base title="CV — Rebecca Alves" description="Curriculum vitae for Rebecca Alves, Technical Writing Manager and documentation systems architect: AI documentation tooling, developer documentation, and technical writing leadership.">
+  <div class="container cv">
+    <header class="case-study-header cv-header">
+      <div>
+        <h1 class="case-study-header__title">Rebecca Alves</h1>
+        <p class="case-study-header__role">Technical Writing Manager &middot; Documentation Systems &amp; AI Tooling</p>
+        <p class="cv-contact">
+          Austin, Texas &middot;
+          <a href="https://www.linkedin.com/in/rebeccaalvestechwriter/" target="_blank" rel="noopener noreferrer">linkedin.com/in/rebeccaalvestechwriter</a> &middot;
+          <a href="https://github.com/rebeja" target="_blank" rel="noopener noreferrer">github.com/rebeja</a> &middot;
+          <a href="https://rebeja.github.io/career/" target="_blank" rel="noopener noreferrer">rebeja.github.io/career</a>
+        </p>
+      </div>
+      <button type="button" class="cv-print" id="cv-print">Save as PDF</button>
     </header>
-    <article class="prose-content" style="max-width: var(--width-prose); padding-bottom: 5rem;">
 
-      <h2>Executive Summary</h2>
-      <p>Strategic technical leader with over 15 years of experience spanning technical content management, AI innovation, and university-level instruction. I specialize in architecting AI-powered documentation automation, quality frameworks, and partner enablement programs. Proven track record of leading globally distributed teams through complex reorganizations while maintaining exceptional delivery standards.</p>
+    <article class="prose-content cv-body">
 
-      <h2>Core Expertise</h2>
-      <ul>
-        <li><strong>AI &amp; Automation:</strong> Python LLM pipelines (Anthropic Claude), Model Context Protocol (MCP), and prompt engineering.</li>
-        <li><strong>Leadership:</strong> Global team management (U.S./Japan), organizational design, and stakeholder strategy.</li>
-        <li><strong>Developer Experience:</strong> API documentation (REST/GraphQL), portal migrations, and partner onboarding.</li>
-        <li><strong>Communication Pedagogy:</strong> Instructional design, rhetoric, and executive public speaking coaching.</li>
+      <h2>Summary</h2>
+      <p>I build the systems that documentation runs on: the information architecture, quality standards, contribution workflows, and AI tooling that let a small writing team operate at the scale of a full organization. At Indeed I own <a href="https://docs.indeed.com" target="_blank" rel="noopener noreferrer">docs.indeed.com</a>, the production documentation site for partner developers, and I lead the team that writes it, a function I built in 2023 and steered through two reorgs. I bring a rare combination of instructional design, technical writing, and production AI tooling. A doctoral background in Communication Studies and a decade of university teaching shape how I design for learners, and the tools I build with Claude Code, Python, and MCP make that design repeatable.</p>
+
+      <ul class="cv-highlights">
+        <li><strong>77% → 93%</strong> of documentation merge requests resolved within three days, beating a 90% target</li>
+        <li><strong>Days → minutes</strong> release notes curation time with an automated LLM pipeline</li>
+        <li><strong>~650 FTE hours</strong> saved per quarter by a partner support form I designed and built</li>
+        <li><strong>163</strong> technical writers registered for my Document360 webinar on AI coding agents</li>
       </ul>
 
       <h2>Professional Experience</h2>
 
-      <h3>Indeed</h3>
+      <div class="cv-org">
+        <h3>Indeed</h3>
+        <p class="cv-org__meta">Austin, Texas &middot; Jan 2019 – Present</p>
+      </div>
 
-      <p><strong>Senior Technical Writer, Partner Platform Product</strong> &middot; <em>Jul 2025 – Present</em></p>
+      <div class="cv-role">
+        <p class="cv-role__title"><strong>Manager and Senior Technical Writer</strong> <span>Mar 2023 – Present</span></p>
+        <p class="cv-role__note">Technical Writing Manager (Mar 2023 – Jun 2025; resumed 2026), Interop Technical Writing; Senior Technical Writer, Partner Platform Product (Jul 2025 – 2026)</p>
+        <ul>
+          <li><strong>Team leadership:</strong> Lead the team that writes all technical documentation on <a href="https://docs.indeed.com" target="_blank" rel="noopener noreferrer">docs.indeed.com</a>. Built the function in 2023, led a globally distributed team across the U.S. and Japan through two reorganizations, and was asked to resume managing it in a 2026 reorganization.</li>
+          <li><strong>Faster reviews:</strong> Raised the share of documentation merge requests resolved within three days from 77% to 93%, beating a 90% key result, by streamlining intake, drafting, and review. Team output grew without added headcount: 585 merge requests (+5%) and 27,175 commits (+37%) in one half-year cycle.</li>
+          <li><strong>AI tooling program:</strong> Established the team's AI program, including governance, review requirements, and machine-readability standards. Personally authored many of the team's 17 AI skills, among them a proofreader built from the style guide I established for the site, and wrote a how-to guide for writers building their own.</li>
+          <li><strong>AI tooling trio:</strong> Built Doc Analyzer, Release Notes Generator, and Translation Sync with Claude Code and LLM agents via Indeed Assistant MCP. Scored 103 pages against rubrics, rewrote 14 for a 48.4% average quality improvement, and cut release notes curation from days to minutes.</li>
+          <li><strong>Fix Broken Experiences:</strong> Defined and led a site audit and repair, owning the docs.indeed.com redesign end to end: new homepage, sidebar, information architecture, and redirects, plus a Help Center with 114 glossary terms, 156 FAQ items, 59 error references, and 7 troubleshooting guides.</li>
+          <li><strong>Release notes and schema logs:</strong> Rebuilt release notes into 17 English and 17 Japanese product pages and automated staging so a 59-merge-request release shipped with the writer's part reduced to review. Built tooling that regrouped 95 of 101 GraphQL schema change logs by product and change type.</li>
+          <li><strong>Agent-ready docs:</strong> Drafted starter partner agent skills with security guardrails, wrote llms.txt agent notes, and ran a pilot using AI agents to review, edit, and repair another team's documentation.</li>
+          <li><strong>Governance and people:</strong> Wrote a content governance strategy covering eight domains and a "How to work with us" intake page with published turnaround targets. Wrote performance reviews, ran calibration, served as compensation manager, and presented each writer's work to the VP of Product.</li>
+        </ul>
+      </div>
+
+      <div class="cv-role">
+        <p class="cv-role__title"><strong>API Technical Writer II</strong> <span>Jan 2022 – Feb 2023</span></p>
+        <ul>
+          <li><strong>Installation guide system:</strong> Designed the template and workflow for employer installation guides and documented 9 ATS integrations tied to key results targeting 2,500 employer self-serve activations. In user research, all participants praised the guides.</li>
+          <li><strong>Partner intake and support:</strong> Designed and built the HTML/CSS for Indeed's first public ATS partner onboarding site (87 integration requests) and a web-to-case support form that saved ~650 FTE hours per quarter.</li>
+          <li><strong>API documentation:</strong> Managed, edited, and published external API documentation on the Indeed Developer Portal. Wrote the Job Sync API (v1) documentation, created GraphQL documentation standards for external APIs, and led sprint planning with cross-functional teams.</li>
+          <li><strong>Migration:</strong> Migrated all public API documentation to a custom-built Node.js web application.</li>
+          <li><strong>Knowledge sharing:</strong> Ran the Indeed Overflow engagement campaign: seeded 58 cloud migration Q&amp;As and grew searches from 622 to 1,502 and questions from 127 to 271. Led the "More than a README" hackathon project, a docs-as-code starter template that 4 repositories adopted.</li>
+        </ul>
+      </div>
+
+      <div class="cv-role">
+        <p class="cv-role__title"><strong>Outreach Technical Writer</strong> <span>Jan 2019 – Dec 2021</span></p>
+        <ul>
+          <li><strong>Speaker enablement:</strong> Established a speaker enablement program with 1:1 coaching and on-site support for engineers, data scientists, and SREs. Supported 13 external talks in one quarter at venues including PyCon, Open Source Summit EU, and DevRelCon London; both assisted conference proposals were accepted.</li>
+          <li><strong>Reusable resources:</strong> Built the Conference Quick Start Hub and created customized templates and consultation services for internal events and tech talks.</li>
+          <li><strong>Developer Portal:</strong> Led bi-weekly sprint planning, wrote OAuth (2- and 3-legged, Node.js) and Sponsored Jobs integration guides, and processed 500+ partner account IDs. The portal drew 131,881 unique page views in six months.</li>
+          <li><strong>Learning design:</strong> Built curriculum architecture for Indeed University so the program ran without me the following year, and delivered public speaking training that 14 of 15 respondents would recommend.</li>
+          <li><strong>Governance and compliance:</strong> Represented the team in the CIS20 security controls working group and led the Product Platforms wiki revamp, which turned wiki space creation into a scripted, unified process.</li>
+        </ul>
+      </div>
+
+      <div class="cv-org">
+        <h3>St. Edward's University</h3>
+        <p class="cv-org__meta">Austin, Texas</p>
+      </div>
+      <div class="cv-role">
+        <p class="cv-role__title"><strong>Adjunct Instructor</strong> <span>Aug 2015 – Dec 2018</span></p>
+        <ul>
+          <li>Designed and taught Introduction to Communication, Communication Theory, Native American and Chicano Film, and Presentational Speaking.</li>
+          <li>Built competency-based assessment rubrics and delivered online course material in Canvas and Panopto.</li>
+          <li>Wrote the instructor user guide for classroom recording technology so faculty could record and grade student presentations on their own.</li>
+        </ul>
+      </div>
+
+      <div class="cv-org">
+        <h3>University of Iowa</h3>
+        <p class="cv-org__meta">Iowa City, Iowa</p>
+      </div>
+      <div class="cv-role">
+        <p class="cv-role__title"><strong>Graduate Teaching Assistant</strong> <span>Aug 2011 – May 2014</span></p>
+        <ul>
+          <li>Taught academic research methods and writing in Theory and Practice of Argument, Studying Communication Methods, Media, Music, and Culture, and Media and Mass Communication.</li>
+          <li>Adapted instruction for international and ESL students in collaboration with supervisors.</li>
+        </ul>
+      </div>
+
+      <h2>Talks, Tutorials &amp; Publications</h2>
       <ul>
-        <li>Strategic lead for AI-powered documentation automation, quality frameworks, and developer experience optimization for <a href="https://docs.indeed.com" target="_blank" rel="noopener noreferrer">docs.indeed.com</a>.</li>
+        <li><a href="https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/" target="_blank" rel="noopener noreferrer"><strong>From Writer to Tool Builder: AI Coding Agents for Technical Documentation</strong></a>, a 60-minute Document360 webinar (February 2026) with 163 registered technical writers, a hands-on GitHub repository, prompt templates, and team adoption frameworks.</li>
+        <li><a href="https://rebeja.github.io/docs-automation-examples/" target="_blank" rel="noopener noreferrer"><strong>Docs Automation Examples</strong></a>, a public tutorial site and <a href="https://github.com/rebeja/docs-automation-examples" target="_blank" rel="noopener noreferrer">starter repository</a> with a release notes automation tool and a portfolio doc site builder.</li>
+        <li><strong>Platformization Unconference</strong> (2022), core organizer and MC of a three-day virtual tech leads event with 82 attendees, including the keynote AMA with Indeed's CTO.</li>
+        <li><a href="https://engineering.indeedblog.com/blog/2019/07/foss-fund-six-months-in/" target="_blank" rel="noopener noreferrer"><strong>The FOSS Contributor Fund: Six Months In</strong></a>, Indeed Engineering Blog (2019).</li>
+        <li>Published in <em>Women's Studies in Communication</em> (2017).</li>
       </ul>
+      <p class="cv-more">More work samples are on the <a href={`${base}/samples`}>Samples page</a>.</p>
 
-      <p><strong>Technical Writing Manager</strong> &middot; <em>Mar 2023 – Jun 2025</em></p>
-      <ul>
-        <li>Established the inaugural technical writing management function, defining the vision and strategy for a globally distributed team across the U.S. and Japan.</li>
-        <li>Managed intake, triage, and strategic direction for site-wide documentation projects.</li>
-        <li>Navigated two major organizational changes while maintaining delivery for critical product launches.</li>
-      </ul>
-
-      <p><strong>API Technical Writer II</strong> &middot; <em>Jan 2022 – Feb 2023</em></p>
-      <ul>
-        <li>Managed, edited, and published external API documentation on the Indeed Developer Portal.</li>
-        <li>Migrated all public API documentation to a custom-built Node.js web application.</li>
-        <li>Led API documentation sprint planning with cross-functional teams.</li>
-      </ul>
-
-      <p><strong>Outreach Technical Writer</strong> &middot; <em>Jan 2019 – Dec 2021</em></p>
-      <ul>
-        <li>Established a speaker enablement program, providing 1:1 coaching and on-site support for technical experts presenting at conferences and internal tech talks.</li>
-        <li>Created and maintained customized templates and consultation services for internal events.</li>
-      </ul>
-
-      <h3>St. Edward's University</h3>
-
-      <p><strong>Adjunct Instructor</strong> &middot; <em>Aug 2015 – Dec 2018</em></p>
-      <ul>
-        <li>Designed and taught Introduction to Communication, Communication Theory, Native American and Chicano Film, and Presentational Speaking.</li>
-        <li>Created and implemented course agendas, lesson plans, and activities to meet course objectives. Designed, administered, and graded examinations.</li>
-        <li>Developed and administered online course material using Canvas and Panopto.</li>
-        <li>Advised and mentored undergraduate students from diverse backgrounds, tailoring course materials and discussions to better meet their needs.</li>
-      </ul>
-
-      <h3>University of Iowa</h3>
-
-      <p><strong>Graduate Teaching Assistant</strong> &middot; <em>Aug 2011 – May 2014</em></p>
-      <ul>
-        <li>Instructed students on academic research methods and standards of academic writing.</li>
-        <li>Courses: Theory and Practice of Argument, Studying Communication Methods, Media, Music, and Culture, and Media and Mass Communication.</li>
-        <li>Collaborated with supervisors to discuss student progress and the needs of international and ESL students; modified instruction methods accordingly.</li>
-      </ul>
-
-      <h2>Technical Skills</h2>
-      <ul>
-        <li><strong>Languages &amp; Frameworks:</strong> Python, Node.js, HTML/CSS, Markdown, Git/GitLab.</li>
-        <li><strong>AI &amp; Tooling:</strong> Anthropic Claude, MCP, Prompt Engineering, Docusaurus, Jira, Salesforce.</li>
-        <li><strong>Instructional Platforms:</strong> Canvas, Panopto, Blackboard, Indeed Learn (LMS).</li>
-        <li><strong>Other:</strong> Adobe Creative Cloud, Microsoft Office Suite.</li>
+      <h2>Skills</h2>
+      <ul class="cv-skills">
+        <li><strong>AI &amp; automation:</strong> Claude Code, Cursor, prompt engineering, LLM content pipelines, MCP agent integration, AI quality rubrics, AI governance, Python</li>
+        <li><strong>Developer documentation:</strong> REST, GraphQL, OpenAPI/Swagger, OAuth (2- and 3-legged), integration and installation guides, release notes, SpectaQL, Postman, Stoplight</li>
+        <li><strong>Content systems:</strong> Information architecture, taxonomy, modular content and component libraries, content strategy and migration, docs-as-code, localization (Japanese, Canadian French)</li>
+        <li><strong>Publishing &amp; tooling:</strong> Git (GitLab, GitHub), GitLab CI/CD, Markdown, Docusaurus, Backstage TechDocs, HTML/CSS, Node.js (reading), Jira, Confluence, Salesforce web-to-lead/case</li>
+        <li><strong>Instructional design:</strong> Curriculum architecture, competency-based assessment, facilitator guides, train-the-trainer programs, workshop facilitation, Canvas, Blackboard, Panopto</li>
+        <li><strong>Leadership:</strong> People management across time zones, performance and compensation, sprint planning, stakeholder management, business cases, vendor and contractor management</li>
       </ul>
 
       <h2>Education</h2>
       <ul>
         <li><strong>Ph.D. (ABD), Communication Studies</strong> &middot; University of Iowa (2010–2016). Doctoral candidacy achieved September 2014.</li>
-        <li><strong>M.A., Communication Studies</strong>, focus in Rhetoric and Public Advocacy &middot; University of Iowa (2010–2013)</li>
-        <li><strong>B.A., Communication</strong>, focus in Rhetoric and Cultural Studies &middot; St. Edward's University (2007–2010)</li>
+        <li><strong>M.A., Communication Studies</strong>, focus in Rhetoric and Public Advocacy &middot; University of Iowa (2013)</li>
+        <li><strong>B.A., Communication</strong>, focus in Rhetoric and Cultural Studies &middot; St. Edward's University (2010)</li>
       </ul>
 
-      <h2>Honors &amp; Awards</h2>
-      <ul>
-        <li><strong>Donald C. Bryant Paper Award</strong> — Outstanding Graduate Scholarship in Rhetorical Studies, University of Iowa (Fall 2012)</li>
-        <li><strong>Dean's Fellowship</strong> — University of Iowa (March 2010)</li>
-        <li><strong>Kappa Gamma Pi</strong> — Catholic College Graduate Honor Society (March 2010)</li>
-        <li><strong>Outstanding Communication Student Award</strong> — St. Edward's University (May 2010)</li>
-        <li><strong>Alpha Chi</strong> — Top ten percent of Junior and Senior class (October 2009)</li>
-        <li><strong>Lambda Pi Eta</strong> — National Communication Association Honor Society (April 2009)</li>
-        <li><strong>Dean's List</strong> — St. Edward's University (Fall 2007–2009)</li>
-        <li><strong>Dean's Scholarship</strong> — St. Edward's University (2008, 2009)</li>
-        <li><strong>Timmins Scholarship</strong> — St. Edward's University (2008, 2009)</li>
+      <h2>Academic Record</h2>
+
+      <h3>Honors &amp; Awards</h3>
+      <ul class="cv-compact">
+        <li><strong>Donald C. Bryant Paper Award</strong>, Outstanding Graduate Scholarship in Rhetorical Studies, University of Iowa (2012)</li>
+        <li><strong>Dean's Fellowship</strong>, University of Iowa (2010)</li>
+        <li><strong>Outstanding Communication Student Award</strong>, St. Edward's University (2010)</li>
+        <li>Kappa Gamma Pi (2010) &middot; Alpha Chi (2009) &middot; Lambda Pi Eta (2009)</li>
+        <li>Dean's List (2007–2009) &middot; Dean's Scholarship (2008, 2009) &middot; Timmins Scholarship (2008, 2009), St. Edward's University</li>
       </ul>
 
-      <h2>Publications &amp; Professional Service</h2>
-      <ul>
-        <li><strong>Publication:</strong> Published in the <em>Women's Studies in Communication Journal</em> (2017).</li>
-        <li><strong>Panelist</strong>, Center for Teaching Excellence — St. Edward's University (Fall 2018)</li>
-        <li><strong>Volunteer Speech and Debate Judge</strong> (2016–2018)</li>
-        <li><strong>Graduate Student Mentor</strong> — University of Iowa (Fall 2012 – Spring 2014)</li>
-        <li><strong>Graduate Student Affairs Committee</strong> — University of Iowa (Summer 2012 – Summer 2013)</li>
-        <li><strong>Student Broadcasters Incorporated</strong> — University of Iowa (Fall 2012 – Spring 2014)</li>
+      <h3>Conference Presentations</h3>
+      <ul class="cv-compact">
+        <li>Western States Communication Association Annual Convention, Santa Clara, CA (2018)</li>
+        <li>Gender &amp; Citizenship Conference, Texas Tech University, Lubbock, TX (2016)</li>
+        <li>National Communication Association Annual Convention: Chicago (2014), Orlando (2012), San Francisco (2010), Chicago (2009)</li>
+        <li>Rhetoric Society of America Biennial Conference: San Antonio (2014), Philadelphia (2012)</li>
+        <li>Flow Conference, University of Texas at Austin (2012)</li>
+        <li>En Obra: Performative Approaches to World Languages, Literatures and Cultures, Iowa City, IA (2012)</li>
+        <li>Source Undergraduate Research Symposium, St. Edward's University (2010)</li>
+        <li>National Association for Chicana and Chicano Studies, UT Austin (2010)</li>
       </ul>
 
-      <h2>Conference Presentations</h2>
-      <ul>
-        <li>Western States Communication Association Annual Convention — Santa Clara CA (February 2018)</li>
-        <li>Gender &amp; Citizenship Conference, Texas Tech University — Lubbock TX (February 2016)</li>
-        <li>National Communication Association 100th Annual Convention — Chicago IL (November 2014)</li>
-        <li>Rhetoric Society of America Biennial Conference — San Antonio TX (May 2014)</li>
-        <li>National Communication Association 98th Annual Convention — Orlando FL (November 2012)</li>
-        <li>Flow Conference, University of Texas at Austin — Austin TX (November 2012)</li>
-        <li>Rhetoric Society of America Biennial Conference — Philadelphia PA (May 2012)</li>
-        <li>En Obra: Performative Approaches to World Languages, Literatures and Cultures — Iowa City IA (2012)</li>
-        <li>National Communication Association 96th Annual Convention — San Francisco CA (November 2010)</li>
-        <li>Source Undergraduate Research Symposium, St. Edward's University — Austin TX (May 2010)</li>
-        <li>National Association for Chicana and Chicano Studies, UT Austin — Austin TX (February 2010)</li>
-        <li>National Communication Association 95th Annual Convention — Chicago IL (November 2009)</li>
-      </ul>
-
-      <h2>Writing Workshops &amp; Professional Development</h2>
-      <ul>
-        <li>Faculty Reading and Discussion Group — St. Edward's University (Fall 2015–Fall 2018)</li>
-        <li>Innovation Institute Summer Seminar Workshops — St. Edward's University (May 2016)</li>
-        <li>Rhetoric Society of America Summer Institute — University of Wisconsin, Madison WI (June 2015)</li>
-        <li>Rhetoric Society of America Summer Institute — University of Kansas, Lawrence KS (June 2013)</li>
-        <li>Midwest Winter Workshop — University of Wisconsin, Madison WI (January 2012)</li>
-        <li>Midwest Winter Workshop — University of Iowa, Iowa City IA (January 2011)</li>
+      <h3>Service &amp; Professional Development</h3>
+      <ul class="cv-compact">
+        <li>Panelist, Center for Teaching Excellence, St. Edward's University (2018)</li>
+        <li>Volunteer Speech and Debate Judge (2016–2018)</li>
+        <li>Faculty Reading and Discussion Group (2015–2018) and Innovation Institute Summer Seminar (2016), St. Edward's University</li>
+        <li>Graduate Student Mentor (2012–2014), Graduate Student Affairs Committee (2012–2013), and Student Broadcasters Incorporated (2012–2014), University of Iowa</li>
+        <li>Rhetoric Society of America Summer Institute: University of Wisconsin (2015), University of Kansas (2013)</li>
+        <li>Midwest Winter Workshop: University of Wisconsin (2012), University of Iowa (2011)</li>
       </ul>
 
     </article>
   </div>
 </Base>
+
+<script>
+  document.getElementById('cv-print')?.addEventListener('click', () => window.print());
+</script>
+
+<style>
+  .cv-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .cv-contact {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    margin-top: 0.25rem;
+    margin-bottom: 0;
+  }
+
+  .cv-print {
+    font: inherit;
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: 0.55rem 1rem;
+    border: 1px solid var(--color-accent);
+    border-radius: var(--radius);
+    background: transparent;
+    color: var(--color-accent);
+    cursor: pointer;
+    transition: background var(--transition), color var(--transition);
+  }
+
+  .cv-print:hover {
+    background: var(--color-accent);
+    color: var(--color-surface);
+  }
+
+  .cv-body {
+    max-width: var(--width-prose);
+    padding-bottom: 5rem;
+  }
+
+  .cv-highlights {
+    list-style: none;
+    padding-left: 0 !important;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .cv-highlights li {
+    margin: 0;
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    background: var(--color-surface);
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    line-height: 1.4;
+  }
+
+  .cv-highlights strong {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    color: var(--color-accent);
+    margin-bottom: 0.2rem;
+  }
+
+  .cv-org {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+  .cv-org h3 {
+    margin: 0;
+  }
+
+  .cv-org__meta {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin: 0;
+  }
+
+  .cv-role {
+    margin-top: 1.25rem;
+  }
+
+  .cv-role__title {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.25rem;
+  }
+
+  .cv-role__title span {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+
+  .cv-role__note {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    margin-bottom: 0.5rem;
+  }
+
+  .cv-more {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+  }
+
+  .cv-skills li,
+  .cv-compact li {
+    margin-bottom: 0.35rem;
+  }
+
+  .cv-compact {
+    font-size: 0.925rem;
+  }
+
+  /* Print / Save as PDF */
+  @media print {
+    @page {
+      margin: 0.6in;
+    }
+
+    :global(.site-nav),
+    :global(.site-footer),
+    .cv-print,
+    .cv-more {
+      display: none !important;
+    }
+
+    :global(html),
+    :global(body) {
+      background: #fff !important;
+      color: #000 !important;
+      font-size: 10.5pt;
+    }
+
+    :global(main) {
+      padding: 0 !important;
+    }
+
+    .cv {
+      max-width: none;
+      padding: 0;
+    }
+
+    .cv-header {
+      padding-block: 0 0.75rem;
+      margin-bottom: 1rem;
+      border-color: #999;
+    }
+
+    .cv-body {
+      max-width: none;
+      padding-bottom: 0;
+    }
+
+    .cv-body :global(h2) {
+      font-size: 13pt;
+      margin-top: 1.1rem;
+      padding-top: 0.6rem;
+      border-color: #bbb;
+      break-after: avoid;
+    }
+
+    .cv-body :global(h3) {
+      font-size: 11.5pt;
+      break-after: avoid;
+    }
+
+    .cv-body :global(a) {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .cv-highlights li {
+      background: #fff;
+      border-color: #bbb;
+      color: #333;
+      padding: 0.5rem 0.65rem;
+    }
+
+    .cv-highlights strong {
+      color: #000;
+      font-size: 12pt;
+    }
+
+    .cv-body :global(li) {
+      break-inside: avoid;
+      margin-bottom: 0.2rem;
+      line-height: 1.4;
+    }
+
+    .cv-body :global(p) {
+      line-height: 1.45;
+      margin-bottom: 0.5rem;
+    }
+
+    .cv-role__title {
+      break-after: avoid;
+    }
+
+    .cv-role {
+      margin-top: 0.75rem;
+    }
+
+    .cv-org {
+      margin-top: 1rem;
+    }
+
+    .cv-body :global(h3) {
+      margin-top: 0.9rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .cv-role__title span,
+    .cv-role__note,
+    .cv-org__meta,
+    .cv-contact {
+      color: #333;
+    }
+  }
+</style>

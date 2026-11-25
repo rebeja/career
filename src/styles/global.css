@@ -7,16 +7,16 @@
    Design tokens — Theme: Warm (default)
 —————————————————————————————————————————————— */
 :root {
-  --color-bg:           #fafaf9;
-  --color-surface:      #ffffff;
-  --color-border:       #e7e5e4;
-  --color-text:         #1c1917;
-  --color-text-muted:   #57534e;
-  --color-accent:       #0f766e;
-  --color-accent-dark:  #0d5c56;
-  --color-accent-light: #ccfbf1;
-  --color-nav-bg:       rgba(250, 250, 249, 0.95);
-  --color-card-shadow:  rgba(15, 118, 110, 0.1);
+  --color-bg:           #faf7f0;
+  --color-surface:      #fffdf8;
+  --color-border:       #e4ded2;
+  --color-text:         #1b1a17;
+  --color-text-muted:   #54504a;
+  --color-accent:       #1f3a5f;
+  --color-accent-dark:  #152a46;
+  --color-accent-light: #e6ebf2;
+  --color-nav-bg:       rgba(250, 247, 240, 0.95);
+  --color-card-shadow:  rgba(31, 58, 95, 0.1);
 
   --font-heading: 'Source Serif 4', Georgia, 'Times New Roman', serif;
   --font-body:    'Inter', system-ui, sans-serif;
@@ -32,16 +32,24 @@
    Theme: Dark
 —————————————————————————————————————————————— */
 [data-theme="dark"] {
-  --color-bg:           #0f172a;
-  --color-surface:      #1e293b;
-  --color-border:       #334155;
-  --color-text:         #f1f5f9;
-  --color-text-muted:   #94a3b8;
-  --color-accent:       #2dd4bf;
-  --color-accent-dark:  #14b8a6;
-  --color-accent-light: #134e4a;
-  --color-nav-bg:       rgba(15, 23, 42, 0.95);
-  --color-card-shadow:  rgba(0, 0, 0, 0.3);
+  --color-bg:           #14161a;
+  --color-surface:      #1c1f25;
+  --color-border:       #2e323a;
+  --color-text:         #eeeae2;
+  --color-text-muted:   #aaa59c;
+  --color-accent:       #9fb8db;
+  --color-accent-dark:  #c0d1e9;
+  --color-accent-light: #222b38;
+  --color-nav-bg:       rgba(20, 22, 26, 0.95);
+  --color-card-shadow:  rgba(0, 0, 0, 0.35);
+}
+
+/* Dark theme: buttons use dark text on the light accent */
+[data-theme="dark"] .hero__cta,
+[data-theme="dark"] .hero__cta:hover,
+[data-theme="dark"] .form-submit,
+[data-theme="dark"] .form-submit:hover {
+  color: var(--color-bg);
 }
 
 /* ——————————————————————————————————————————————
@@ -689,7 +697,7 @@ main {
 .form-input:focus {
   outline: none;
   border-color: var(--color-accent);
-  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.12);
+  box-shadow: 0 0 0 3px rgba(31, 58, 95, 0.15);
 }
 
 .form-input::placeholder {

@@ -29,7 +29,7 @@ The portal has run on three platforms, and I've worked on all of them.
 
 **The original portal (2021):** I was on the team that built Indeed's first developer portal. I wrote its foundational integration guides, managed access for private users, and ran it like a product: bi-weekly sprint planning, quarterly epics by API, and a Jira dashboard so stakeholders could see the work.
 
-**Developer Home (2023):** I led the content migration and passed the 80% migration target before the end of July. I also coordinated publication of legal terms, developer agreements, and data privacy documentation in English and Japanese. Along the way I evaluated third-party portal platforms, including ReadMe and Docusaurus, and published the technical writing requirements that guided the platform decisions.
+**Developer Home (2023):** I led the content migration and coordinated publication of legal terms, developer agreements, and data privacy documentation in English and Japanese. Along the way I evaluated third-party portal platforms, including ReadMe and Docusaurus, and published the technical writing requirements that guided the platform decisions.
 
 **The public docs site (2024):** I moved all integration documentation to the public site, so engineers no longer maintained multiple versions, which also cleared the way for an AI assistant on the site. I wrote new Get Started documentation, including GraphQL and testing environment guidance, and launched a section of the site for Indeed's Recruit Tech Platform: I won buy-in from its stakeholders, defined the contribution process, templates, and information architecture, and hired 2 contract technical writers to staff it.
 

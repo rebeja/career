@@ -342,14 +342,6 @@ main {
   border: 3px solid var(--color-border);
 }
 
-.hero__featured {
-  margin-top: 1.5rem;
-  margin-bottom: 0;
-  max-width: 640px;
-  font-size: 0.9rem;
-  color: var(--color-text-muted);
-}
-
 /* ——————————————————————————————————————————————
    Section headings
 —————————————————————————————————————————————— */

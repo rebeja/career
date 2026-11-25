@@ -8,6 +8,33 @@ const entries = await getCollection(variant);
 const sorted = entries.sort((a, b) => a.data.order - b.data.order);
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
+const featuredSamples = [
+  {
+    type: 'API reference',
+    title: 'Job Sync API',
+    summary: 'A v1 GraphQL API reference and integration guide I wrote from scratch for docs.indeed.com.',
+    href: 'https://docs.indeed.com/job-sync-api/',
+  },
+  {
+    type: 'Release notes',
+    title: 'docs.indeed.com Release Notes',
+    summary: 'The changelog I restructured by product, now staged by an automated pipeline.',
+    href: 'https://docs.indeed.com/release-notes/',
+  },
+  {
+    type: 'Procedural guide',
+    title: 'Workday Installation Guide',
+    summary: 'A high-traffic setup guide for IT administrators, built on the installation guide system I designed.',
+    href: 'https://docs.indeed.com/install-guides/workday/',
+  },
+  {
+    type: 'Webinar',
+    title: 'From Writer to Tool Builder',
+    summary: 'My Document360 webinar on AI coding agents for technical writers, with a starter repo and tutorials.',
+    href: 'https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/',
+  },
+];
+
 ---
 
 <Base title="Rebecca Alves — Technical Writing Manager" description="Portfolio of Rebecca Alves, technical writing manager at Indeed: developer documentation, editorial standards, and AI tooling for docs.indeed.com.">
@@ -23,6 +50,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <div style="display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap;">
           <a href={`${base}/contact`} class="hero__cta">Get in touch →</a>
           <a href={`${base}/portfolio`} class="hero__secondary-link">Portfolio</a>
+          <a href={`${base}/samples`} class="hero__secondary-link">Samples</a>
           <a href={`${base}/cv`} class="hero__secondary-link">CV</a>
           <a href="https://www.linkedin.com/in/rebeccaalvestechwriter/" target="_blank" rel="noopener noreferrer" class="hero__secondary-link">LinkedIn ↗</a>
           <a href="https://github.com/rebeja" target="_blank" rel="noopener noreferrer" class="hero__secondary-link">GitHub ↗</a>
@@ -42,6 +70,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <!-- Portfolio -->
   <section class="container" style="padding-bottom: 4rem;">
     <h2 class="section-heading">Portfolio</h2>
+    <p class="section-intro">Case studies of the systems I've built and led, from docs.indeed.com to the team that runs it.</p>
     <div class="card-grid">
       {sorted.map((entry) => (
         <CaseStudyCard
@@ -56,6 +85,25 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         />
       ))}
     </div>
+    <p class="section-more"><a href={`${base}/portfolio`}>All case studies, with roles and dates →</a></p>
+  </section>
+
+  <hr class="section-divider container" />
+
+  <!-- Samples -->
+  <section class="container" style="padding-bottom: 4rem;">
+    <h2 class="section-heading">Writing samples</h2>
+    <p class="section-intro">Live documentation, release notes, and talks you can read today.</p>
+    <div class="card-grid card-grid--compact">
+      {featuredSamples.map((sample) => (
+        <a href={sample.href} class="case-study-card" target="_blank" rel="noopener noreferrer">
+          <div class="case-study-card__meta">{sample.type}</div>
+          <div class="case-study-card__title">{sample.title} ↗</div>
+          <div class="case-study-card__summary">{sample.summary}</div>
+        </a>
+      ))}
+    </div>
+    <p class="section-more"><a href={`${base}/samples`}>All samples, including talks I coached and tutorials →</a></p>
   </section>
 
   <hr class="section-divider container" />
@@ -64,7 +112,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <section class="container" style="padding-bottom: 5rem;">
     <h2 class="section-heading">Get in touch</h2>
     <p style="max-width: 640px; color: var(--color-text-muted);">
-      Want to talk about documentation, editorial standards, or AI tooling for writers? <a href={`${base}/contact`}>Send me a message</a>, or see my full background on the <a href={`${base}/cv`}>CV page</a>.
+      Want to talk about documentation, editorial standards, or AI tooling for writers? <a href={`${base}/contact`}>Send me a message</a>. For my full background, see the <a href={`${base}/cv`}>CV</a>, or find me on <a href="https://www.linkedin.com/in/rebeccaalvestechwriter/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
     </p>
   </section>
 </Base>

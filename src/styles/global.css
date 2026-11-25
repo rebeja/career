@@ -365,6 +365,28 @@ main {
   color: var(--color-text-muted);
 }
 
+.section-intro {
+  color: var(--color-text-muted);
+  max-width: 640px;
+  margin-top: -1.25rem;
+  margin-bottom: 0;
+}
+
+.section-more {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.section-more a {
+  text-decoration: none;
+}
+
+.section-more a:hover {
+  text-decoration: underline;
+}
+
 .section-divider {
   border: none;
   border-top: 1px solid var(--color-border);
@@ -435,6 +457,10 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
+}
+
+.card-grid--compact {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
 }
 
 .case-study-card {

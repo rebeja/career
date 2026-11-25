@@ -3,12 +3,12 @@ import Base from '../layouts/Base.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 
-<Base title="CV — Rebecca Alves" description="Curriculum vitae for Rebecca Alves, Senior Technical Writer and documentation systems architect: AI documentation tooling, developer documentation, and technical writing leadership.">
+<Base title="CV — Rebecca Alves" description="Curriculum vitae for Rebecca Alves, Technical Writing Manager and documentation systems architect: AI documentation tooling, developer documentation, and technical writing leadership.">
   <div class="container cv">
     <header class="case-study-header cv-header">
       <div>
         <h1 class="case-study-header__title">Rebecca Alves</h1>
-        <p class="case-study-header__role">Senior Technical Writer &middot; Documentation Systems &amp; AI Tooling</p>
+        <p class="case-study-header__role">Technical Writing Manager &middot; Documentation Systems &amp; AI Tooling</p>
         <p class="cv-contact">
           Austin, Texas &middot;
           <a href="https://www.linkedin.com/in/rebeccaalvestechwriter/" target="_blank" rel="noopener noreferrer">linkedin.com/in/rebeccaalvestechwriter</a> &middot;
@@ -22,10 +22,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <article class="prose-content cv-body">
 
       <h2>Summary</h2>
-      <p>I build the systems that documentation runs on: the information architecture, quality standards, contribution workflows, and AI tooling that let a small writing team operate at the scale of a full organization. At Indeed I own <a href="https://docs.indeed.com" target="_blank" rel="noopener noreferrer">docs.indeed.com</a>, the production documentation site for partner developers, and I led the company's partner-facing technical writing function through two reorgs. I bring a rare combination of instructional design, technical writing, and production AI tooling. A doctoral background in Communication Studies and a decade of university teaching shape how I design for learners, and the tools I build with Claude Code, Python, and MCP make that design repeatable.</p>
+      <p>I build the systems that documentation runs on: the information architecture, quality standards, contribution workflows, and AI tooling that let a small writing team operate at the scale of a full organization. At Indeed I own <a href="https://docs.indeed.com" target="_blank" rel="noopener noreferrer">docs.indeed.com</a>, the production documentation site for partner developers, and I lead the team that writes it, a function I built in 2023 and steered through two reorgs. I bring a rare combination of instructional design, technical writing, and production AI tooling. A doctoral background in Communication Studies and a decade of university teaching shape how I design for learners, and the tools I build with Claude Code, Python, and MCP make that design repeatable.</p>
 
       <ul class="cv-highlights">
-        <li><strong>48.4%</strong> average quality improvement on pages rewritten against my Doc Analyzer rubrics</li>
+        <li><strong>77% → 93%</strong> of documentation merge requests resolved within three days, beating a 90% target</li>
         <li><strong>Days → minutes</strong> release notes curation time with an automated LLM pipeline</li>
         <li><strong>~650 FTE hours</strong> saved per quarter by a partner support form I designed and built</li>
         <li><strong>163</strong> technical writers registered for my Document360 webinar on AI coding agents</li>
@@ -40,16 +40,16 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
       <div class="cv-role">
         <p class="cv-role__title"><strong>Manager and Senior Technical Writer</strong> <span>Mar 2023 – Present</span></p>
-        <p class="cv-role__note">Technical Writing Manager, Interoperability → Product Platform Experience (Mar 2023 – Jun 2025); Senior Technical Writer, Partner Platform Product (Jul 2025 – Present)</p>
+        <p class="cv-role__note">Technical Writing Manager (Mar 2023 – Jun 2025; resumed 2026), Interop Technical Writing; Senior Technical Writer, Partner Platform Product (Jul 2025 – 2026)</p>
         <ul>
-          <li><strong>AI tooling trio:</strong> Built three production AI tools for the documentation workflow with Claude Code and LLM agents integrated through Indeed Assistant MCP (Model Context Protocol): Doc Analyzer, Release Notes Generator, and Translation Sync. Published demos, playbooks, and Cursor rules so the team could adopt them.</li>
-          <li><strong>Quality at scale:</strong> Built Doc Analyzer, a Python pipeline with page-type rubrics, dashboards, and Jira integration. Scored 103 pages, flagged 38 below threshold for tracked follow-up, and rewrote 14 Data Tools pages against the rubrics for a 48.4% average quality improvement.</li>
-          <li><strong>Release notes and localization:</strong> Cut release notes curation from days to minutes with automated extraction, summarization, and QA gates. Codified prompts, terminology, and guardrails for Japanese localization, set acceptance gates with PM, localization, and Japan Legal, and reduced the Japanese release notes index from 206 to 82 lines.</li>
-          <li><strong>Documentation platform:</strong> Own content architecture, quality standards, and release communications for docs.indeed.com. Led the site-wide information architecture revamp and moved all integration documentation to the public site, which removed duplicate versions engineers had to maintain and unblocked the docked AI assistant.</li>
-          <li><strong>Function leadership:</strong> Established the technical writing management function for partner documentation and defined its vision and strategy for a globally distributed team across the U.S. and Japan. Managed full-time and contract writers, wrote performance reviews, ran calibration with senior leadership, and served as designated compensation manager.</li>
-          <li><strong>Change and delivery:</strong> Kept delivery steady through two reorganizations with weekly syncs, async standups, and merge request approval rules across time zones. Managed intake, triage, and strategic direction for site-wide projects: 132 tickets at an 88% closure rate, 672 GitLab commits, and 100+ merge requests.</li>
-          <li><strong>Strategy as a senior IC:</strong> Remain the strategic lead for the function after moving to an individual contributor role. Wrote the team charter and strategy that secured VP-level buy-in, and define and track two of the team's OKR key results.</li>
-          <li><strong>Platform launches:</strong> Launched docs.indeed.com for Recruit Tech Platform with a contribution process, templates, and information architecture, and hired 2 contract technical writers. Built the Partner Design System, an npm-distributed component library, and set up self-serve API key provisioning through Keeper.</li>
+          <li><strong>Team leadership:</strong> Lead the team that writes all technical documentation on <a href="https://docs.indeed.com" target="_blank" rel="noopener noreferrer">docs.indeed.com</a>. Built the function in 2023, led a globally distributed team across the U.S. and Japan through two reorganizations, and was asked to resume managing it in a 2026 reorganization.</li>
+          <li><strong>Faster reviews:</strong> Raised the share of documentation merge requests resolved within three days from 77% to 93%, beating a 90% key result, by streamlining intake, drafting, and review. Team output grew without added headcount: 585 merge requests (+5%) and 27,175 commits (+37%) in one half-year cycle.</li>
+          <li><strong>AI tooling program:</strong> Established the team's AI program, including governance, review requirements, and machine-readability standards. Personally authored many of the team's 17 AI skills, among them a proofreader built from the style guide I established for the site, and wrote a how-to guide for writers building their own.</li>
+          <li><strong>AI tooling trio:</strong> Built Doc Analyzer, Release Notes Generator, and Translation Sync with Claude Code and LLM agents via Indeed Assistant MCP. Scored 103 pages against rubrics, rewrote 14 for a 48.4% average quality improvement, and cut release notes curation from days to minutes.</li>
+          <li><strong>Fix Broken Experiences:</strong> Defined and led a site audit and repair, owning the docs.indeed.com redesign end to end: new homepage, sidebar, information architecture, and redirects, plus a Help Center with 114 glossary terms, 156 FAQ items, 59 error references, and 7 troubleshooting guides.</li>
+          <li><strong>Release notes and schema logs:</strong> Rebuilt release notes into 17 English and 17 Japanese product pages and automated staging so a 59-merge-request release shipped with the writer's part reduced to review. Built tooling that regrouped 95 of 101 GraphQL schema change logs by product and change type.</li>
+          <li><strong>Agent-ready docs:</strong> Drafted starter partner agent skills with security guardrails, wrote llms.txt agent notes, and ran a pilot using AI agents to review, edit, and repair another team's documentation.</li>
+          <li><strong>Governance and people:</strong> Wrote a content governance strategy covering eight domains and a "How to work with us" intake page with published turnaround targets. Wrote performance reviews, ran calibration, served as compensation manager, and presented each writer's work to the VP of Product.</li>
         </ul>
       </div>
 

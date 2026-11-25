@@ -3,7 +3,7 @@ title: "Developer Documentation"
 period: "2020–present"
 role: "Outreach Technical Writer → API Technical Writer II"
 organization: "Technical Content Management → Marketplace Interoperability"
-order: 2
+order: 3
 summary: "I'm an API doc writer and platform builder. I've been part of docs.indeed.com since its first iteration and continue to own its architecture, standards, and partner experience."
 tags: ["API Documentation", "Developer Experience", "Content Strategy", "Process Design"]
 showEvidence: false

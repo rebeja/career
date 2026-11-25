@@ -3,7 +3,7 @@ title: "Leadership"
 period: "2023–2025, 2026–Present"
 role: "Technical Writing Manager → Senior Technical Writer"
 organization: "Interoperability → Product Platform"
-order: 3
+order: 4
 summary: "I stepped into a leadership role to build Indeed's partner-facing technical writing function. I continue to own the strategic direction, standards, and operating model that the function runs on today."
 tags: ["People Management", "Organizational Design", "Change Leadership", "Content Strategy", "Global Operations"]
 showEvidence: false

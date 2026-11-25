@@ -3,7 +3,7 @@ title: "Installation Guides"
 period: "2022–2023"
 role: "API Technical Writer II"
 organization: "Marketplace Interoperability"
-order: 5
+order: 6
 summary: "I designed and built the documentation system for Indeed's integrations activation. Repeatable, scalable, and built for handoff from the start."
 tags: ["Technical Writing", "Systems Design", "Partner Enablement", "Scalability", "Installation Guides"]
 showEvidence: false

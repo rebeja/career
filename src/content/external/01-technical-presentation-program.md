@@ -1,67 +1,74 @@
 ---
 title: "Learning Design and Speaker Enablement"
-period: "2019–Present"
-role: "Outreach Technical Writer (Speaker Enablement Lead)"
-organization: "Technical Content Management"
-order: 5
-summary: "I design learning systems that outlast my involvement. From speaker enablement programs to technical curricula to a 163-person AI webinar, the throughline is the same: build it for the learner, then hand it off."
-tags: ["Curriculum Design", "Enablement", "Content Strategy", "Program Management"]
+period: "2019–2026"
+role: "Outreach Technical Writer → Technical Writing Manager"
+organization: "Indeed"
+order: 6
+summary: "From speaker coaching to curricula to a webinar on AI tooling, I design learning that keeps working after I hand it off."
+tags: ["Curriculum Design", "Enablement", "Speaker Coaching", "Program Management"]
 showEvidence: false
+skills:
+  - Curriculum design
+  - Workshop facilitation
+  - Assessment rubrics
+  - Learning objectives
+  - Speaker and narrative coaching
+  - Event design (Open Space Technology)
+  - Webinar delivery
 ---
 
 # Learning Design and Speaker Enablement
 
-My background is in Communication Studies — I spent years designing courses, building curricula, and teaching before moving into technical writing. That training didn't go away. It shaped how I approach every enablement challenge: start with the learner, design for handoff, and build systems that outlast your involvement.
+Before Indeed, I taught university courses from 2011 to 2018, in communication, argument, presentational speaking, and research methods. I still design every program the way I designed a course: start with the learner, set clear objectives, and build it so it runs without me.
 
-At Indeed, I've applied that lens across three areas: curriculum design, speaker enablement, and AI-assisted learning — for audiences ranging from technical recruiters to global engineering teams to the broader technical writing community.
+## Learning design and curriculum
 
-## Learning Design & Curriculum
+**Indeed University (2020–2021):** Led curriculum architecture for Indeed's company-wide learning program, including a full audit of 805 updates across 180 pages and a tracker to coordinate review across teams. The system ran without me the following year, and I mentored a new manager to support it on their own.
 
-**Computer Science for Technical Recruiters (2021):** Designed a full curriculum to help technical recruiters build CS literacy — course notes, interview guides, and quizzes. Structured explicitly for handoff so the program could run without ongoing involvement from the subject matter expert.
+**Computer Science for Technical Recruiters (2021):** Designed a curriculum to help technical recruiters build computer science literacy, with course notes, interview guides, and quizzes, so the program could run without the subject matter expert.
 
-**Indeed University (2020–2021):** Led curriculum architecture for Indeed's company-wide learning initiative — conducting a full audit (805 updates across 180 pages) and building a tracker to coordinate the review process across teams.
+**Data University:** Designed a full curriculum and certification framework, and completed the design even after the initiative was discontinued.
 
-**From Writer to Tool Builder (February 2026):** Designed and delivered a 60-minute external webinar for 163 technical writers on building AI documentation tooling. Structured as an enablement system: participants left with a GitHub repository, reusable prompt templates, and adoption frameworks for independent implementation. I extended the work into a [public tutorial site](https://rebeja.github.io/docs-automation-examples/#iterate-based-on-results) and [starter repo](https://github.com/rebeja/docs-automation-examples?tab=readme-ov-file) with two complete projects: a release notes automation tool — reducing a manual 4–8 hour review process to under 15 minutes — and a portfolio doc site builder using MkDocs and GitHub Pages.
+**Writing learning objectives (2020):** Led a workshop for my team on writing measurable learning objectives.
 
-## Speaker Enablement
+**From Writer to Tool Builder (February 2026):** Designed and delivered a 60-minute Document360 webinar on AI coding agents for technical writers, with 163 registered. Participants left with a GitHub repository, prompt templates, and adoption frameworks, and participants said it gave them the confidence to start experimenting with AI tools on their own. I extended it into a [public tutorial site](https://rebeja.github.io/docs-automation-examples/) and [starter repo](https://github.com/rebeja/docs-automation-examples) with two complete projects: a release notes tool that cuts a 4–8 hour manual process to under 15 minutes, and a portfolio site builder using MkDocs and GitHub Pages.
 
-I built a formal speaker support program at Indeed — turning informal coaching into a scalable system for engineers and executives preparing for global conferences.
+## Speaker enablement
 
-- **Science of Speaking:** Designed and led a multi-city training series (Austin, Seattle, San Francisco) — 4 sessions translating academic rhetoric into practical workshop content. Enrolled 70 participants, doubling the target.
-- **Conference Quick Start Hub:** Built the end-to-end framework formalizing the journey from Call for Proposals through compliance review and final rehearsal.
-- **Executive coaching:** Provided coaching for VPs and Senior Architects on narrative structure, data visualization, and delivery.
-- **Tech Talk production:** End-to-end support for recurring internal and external talk series — slide design, content development, compliance review, rehearsal facilitation, YouTube upload, and WordPress publishing.
+I turned informal coaching into a speaker support program for engineers and leaders presenting at conferences and internal events.
 
-## Internal Event Design
+- **External talks:** Coached engineers, data scientists, and SREs through 13 external talks in one quarter, at venues including PyCon, Open Source Summit EU, and DevRelCon London. Both conference proposals I helped write were accepted.
+- **Conference Quick Start Hub:** Built the guide to the whole process, from call for proposals through compliance review and final rehearsal, so presenters could use it without me.
+- **Science of Speaking:** Designed and led a training series in Austin, Seattle, and San Francisco that turned academic rhetoric into practical workshops. It enrolled 70 participants, double the target.
+- **Mindfulness for Public Speaking:** Delivered a 75-minute training open to all employees. 14 of 15 respondents would recommend it, and 10 of 15 reported more confidence.
+- **Executive coaching:** Coached VPs and senior architects on narrative structure, data visualization, and delivery.
+- **Talk production:** Supported recurring internal and external talk series end to end, from slides and content to compliance review, rehearsals, and publishing.
 
-- **Platformization Unconference (2022):** Co-designed and MC'd a three-day virtual Tech Leads Unconference using Open Space Technology — built registration and scheduling infrastructure and MC'd the keynote AMA with the CTO.
-- **Internal conferences:** Scaled the enablement model to support recurring internal security conferences and quarterly tech talk series.
+## Event design
+
+- **Platformization Unconference (2022):** As a core organizer, co-designed a three-day virtual tech leads unconference using Open Space Technology, built its registration and scheduling, and MC'd the keynote AMA with the CTO.
+- **Internal conferences:** Supported speakers at Indeed's internal security conferences and quarterly tech talk series.
 
 ---
 
 ## Impact
 
-| Focus Area | Outcome |
+| Focus area | Outcome |
 | :--- | :--- |
-| **Speaker throughput** | Supported 13 external talks in a single quarter (Q4 2019) on global stages |
+| **Speaker throughput** | 13 external talks supported in one quarter (Q4 2019) |
 | **Training reach** | 70 participants in Science of Speaking (200% of goal) |
-| **Proposal success** | 2 of 2 assisted conference proposals accepted (2019) |
-| **Event engagement** | 82 authenticated attendees at the Unconference; 72% rated high-value |
-| **Community reach** | 163 registered technical writers for the 2026 AI webinar |
-
-> *"She was instrumental in getting my talk to a polished state... her advice improved everything from high-level talk structure to the clarity and simplicity of diagrams."*
-> — **Software Engineer, Indeed**
-
-> *"The most amazing part is that she's been working effectively to make me unnecessary to the training process. Rebecca has put together an amazing collection of course notes, interview notes, and even quizzes to help the next generation of recruiter students come up to speed on this topic."*
-> — **Senior Technical Architect, Indeed**
+| **Training quality** | 14 of 15 would recommend Mindfulness for Public Speaking |
+| **Proposal success** | 2 of 2 assisted conference proposals accepted |
+| **Event engagement** | 82 attendees at the Unconference; 72% rated it valuable |
+| **Community reach** | 163 registered for the 2026 AI webinar |
 
 ## Featured Work
 
-### Speaker Enablement — Talks I Supported
-* **[How the Incident Retrospective Helps Indeed Deliver Change Safely](https://engineering.indeedblog.com/talks/how-the-incident-retrospective-helps-indeed-deliver-constant-change-safely/)**
+### Talks I supported
+* **[How the Incident Retrospective Helps Indeed Deliver Constant Change Safely](https://engineering.indeedblog.com/talks/how-the-incident-retrospective-helps-indeed-deliver-constant-change-safely/)**
 * **[From Daemonizer to Spring Boot: Unlocking Developer Velocity](https://engineering.indeedblog.com/talks/from-daemonizer-to-spring-boot-unlocking-developer-velocity/)**
-* **[But Why Reinvent the Wheel? The Case for a Distributed Database](https://engineering.indeedblog.com/talks/but-why-reinvent-the-wheel/)**
+* **[But Why Reinvent the Wheel? The Case for (Yet Another) Distributed Database](https://engineering.indeedblog.com/talks/but-why-reinvent-the-wheel/)**
 
-### Learning Design
-* **[From Writer to Tool Builder: AI Coding Agents for Technical Documentation](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/)** — February 2026 external webinar and enablement system
-* **[Docs Automation Examples](https://rebeja.github.io/docs-automation-examples/#iterate-based-on-results)** — tutorial site with two complete starter projects: release notes automation and portfolio doc site builder ([GitHub repo](https://github.com/rebeja/docs-automation-examples?tab=readme-ov-file))
+### Learning design
+* **[From Writer to Tool Builder: AI Coding Agents for Technical Documentation](https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/)**: February 2026 webinar
+* **[Docs Automation Examples](https://rebeja.github.io/docs-automation-examples/)**: tutorial site with two complete starter projects ([GitHub repo](https://github.com/rebeja/docs-automation-examples))

@@ -15,7 +15,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   <div class="container">
     <header class="case-study-header">
       <h1 class="case-study-header__title">Portfolio</h1>
-      <p class="case-study-header__role">Five case studies spanning speaker enablement, developer documentation, systems tooling, function leadership, and AI-augmented workflows.</p>
+      <p class="case-study-header__role">Six case studies covering developer documentation, team leadership, release notes, installation guides, AI tooling, and learning design.</p>
     </header>
 
     <div class="portfolio-list" style="padding-bottom: 4rem;">
@@ -23,18 +23,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         <a href={`${base}/portfolio/${entry.slug}`} class="portfolio-item">
           <div class="portfolio-item__left">
             <p class="portfolio-item__number">
-              {String(entry.data.order).padStart(2, '0')} &mdash; {entry.data.period}
+              {entry.data.period}
             </p>
             <h2 class="portfolio-item__title">{entry.data.title}</h2>
             <p class="portfolio-item__meta">
               {entry.data.role} &middot; {entry.data.organization}
             </p>
             <p class="portfolio-item__summary">{entry.data.summary}</p>
-            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem;">
-              {entry.data.tags.map((tag: string) => (
-                <span class="tag">{tag}</span>
-              ))}
-            </div>
           </div>
           <div class="portfolio-item__arrow" aria-hidden="true">→</div>
         </a>

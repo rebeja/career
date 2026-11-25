@@ -8,103 +8,56 @@ const entries = await getCollection(variant);
 const sorted = entries.sort((a, b) => a.data.order - b.data.order);
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-const timeline = [
-  { period: '2026 – Present', role: 'Technical Writing Manager', org: 'Indeed – Interop Technical Writing (docs.indeed.com)' },
-  { period: 'Jul 2025 – 2026', role: 'Senior Technical Writer', org: 'Indeed – Partner Platform Product' },
-  { period: 'Mar 2023 – Jun 2025', role: 'Technical Writing Manager', org: 'Indeed – Interoperability → Product Platform Experience' },
-  { period: 'Jan 2022 – Feb 2023', role: 'API Technical Writer II', org: 'Indeed – Interoperability' },
-  { period: 'Jan 2019 – Dec 2021', role: 'Outreach Technical Writer', org: 'Indeed – Technical Content Management' },
-  { period: '2015 – 2018', role: 'Adjunct Instructor', org: "St. Edward's University, Austin TX" },
-  { period: '2011 – 2014', role: 'Graduate Teaching Assistant', org: 'University of Iowa, Iowa City IA' },
-];
-
-const skills = [
+const featuredSamples = [
   {
-    label: 'AI & Automation',
-    items: ['Claude Code / LLM pipelines', 'Prompt engineering', 'MCP (Model Context Protocol)', 'AI quality assessment', 'Python automation', 'AI governance'],
+    type: 'API reference',
+    title: 'Job Sync API',
+    summary: 'A GraphQL integration guide I wrote from scratch.',
+    href: 'https://docs.indeed.com/job-sync-api/job-sync-api-guide',
   },
   {
-    label: 'Content Systems',
-    items: ['Information architecture', 'Modular content design', 'Content strategy', 'Taxonomy', 'Component libraries', 'Docs-as-code'],
+    type: 'Release notes',
+    title: 'docs.indeed.com Release Notes',
+    summary: 'Partner release notes, organized by product and staged automatically.',
+    href: 'https://docs.indeed.com/release-notes/',
   },
   {
-    label: 'Technical Content',
-    items: ['REST APIs', 'GraphQL', 'OpenAPI / Swagger', 'SDK documentation', 'Developer portals', 'Release notes'],
+    type: 'Procedural guide',
+    title: 'Workday Installation Guide',
+    summary: 'A high-traffic setup guide for IT administrators.',
+    href: 'https://docs.indeed.com/install-guides/workday/',
   },
   {
-    label: 'Tooling & Platforms',
-    items: ['Git / GitLab / GitHub', 'Docusaurus', 'Jira / Confluence', 'Postman / Stoplight', 'Cursor', 'Markdown'],
-  },
-  {
-    label: 'Leadership',
-    items: ['People management', 'Sprint planning', 'Cross-functional strategy', 'Change management', 'Mentoring', 'Hiring'],
-  },
-  {
-    label: 'Training & Curriculum',
-    items: ['Instructional design', 'LMS architecture', 'Facilitator guides', 'Assessment design', 'Train-the-trainer', 'Webinar delivery'],
+    type: 'Webinar',
+    title: 'From Writer to Tool Builder',
+    summary: 'A Document360 webinar on AI coding agents for technical writers.',
+    href: 'https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/',
   },
 ];
 
-const education = [
-  {
-    degree: 'Doctoral Candidate, Communication Studies (ABD)',
-    credential: 'MA, Rhetoric and Public Advocacy (2013)',
-    institution: 'University of Iowa',
-    location: 'Iowa City, IA',
-    note: 'Graduate Teaching Assistant 2011–2014. Instructed Argumentation, Communication Methods, and Media Studies. Designed course materials and assessments for diverse student audiences.',
-  },
-  {
-    degree: 'BA, Communication — Rhetoric and Cultural Studies (2010)',
-    credential: null,
-    institution: "St. Edward's University",
-    location: 'Austin, TX',
-    note: 'Adjunct Instructor 2015–2018. Designed and taught courses in Communication, Film, and Presentational Speaking. Built assessment rubrics and evaluation frameworks for measuring learner performance.',
-  },
-];
-
-const endorsements = [
-  {
-    quote: 'Rebecca exemplifies the kind of strategic contributor, a continuous learner, while maintaining operational excellence. Her combination of technical curiosity, collaborative leadership, and willingness to expand beyond traditional role boundaries makes her invaluable.',
-    source: 'Senior Product Director, Manager',
-  },
-  {
-    quote: 'A great collaborator cross-functionally and a strong leader in the technical writing function. Demonstrated both strategic direction and tactical guidance. Was the steady force in the changes that drastically affected teams and product.',
-    source: 'Product Director, Manager',
-  },
-  {
-    quote: 'Strong technical expertise in the documentation site architecture. Openness to alternative approaches to solve problems, demonstrating a collaborative and open approach.',
-    source: 'Engineering Manager',
-  },
-  {
-    quote: "An excellent manager. Forward thinking and always keeps customers' needs in the forefront.",
-    source: 'Technical Writer, Direct Report',
-  },
-];
 ---
 
-<Base title="Rebecca Alves — Technical Writing & Documentation Systems">
+<Base title="Rebecca Alves — Technical Writing Manager" description="Portfolio of Rebecca Alves, technical writing manager at Indeed: developer documentation, editorial standards, and AI tooling for docs.indeed.com.">
   <!-- Hero -->
   <section class="hero container">
     <div class="hero__inner">
       <div class="hero__text">
-        <p class="hero__eyebrow">Portfolio</p>
+        <p class="hero__eyebrow">Austin, Texas</p>
         <h1 class="hero__title">Rebecca Alves</h1>
         <p class="hero__subtitle">
-          Senior technical writer and documentation systems architect. I bring a doctoral background in Communication Studies to the work of building AI tooling, content infrastructure, and the enablement programs that let small teams operate at full-org scale.
+          Technical writing manager at Indeed. I build the documentation, standards, and AI tooling behind docs.indeed.com, and I bring a background in rhetoric and university teaching to how I lead and coach writers.
         </p>
         <div style="display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap;">
-          <a href={`${base}/portfolio`} class="hero__cta">View portfolio →</a>
+          <a href={`${base}/contact`} class="hero__cta">Get in touch →</a>
+          <a href={`${base}/portfolio`} class="hero__secondary-link">Portfolio</a>
+          <a href={`${base}/samples`} class="hero__secondary-link">Samples</a>
           <a href={`${base}/cv`} class="hero__secondary-link">CV</a>
           <a href="https://www.linkedin.com/in/rebeccaalvestechwriter/" target="_blank" rel="noopener noreferrer" class="hero__secondary-link">LinkedIn ↗</a>
           <a href="https://github.com/rebeja" target="_blank" rel="noopener noreferrer" class="hero__secondary-link">GitHub ↗</a>
         </div>
-        <div class="hero__featured">
-          <span class="hero__featured-label">Featured talk</span>
-          <a href="https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/" target="_blank" rel="noopener noreferrer" class="hero__featured-link">
-            From Writer to Tool Builder: AI Coding Agents for Technical Documentation ↗
-          </a>
-          <span class="hero__featured-meta">Document360 webinar &middot; February 2026 &middot; 163 registered technical writers</span>
-        </div>
+      </div>
+      <div class="hero__photo">
+        <img src={`${base}/profile-pic.jpg`} alt="Rebecca Alves" width="200" height="200" />
       </div>
     </div>
   </section>
@@ -114,6 +67,7 @@ const endorsements = [
   <!-- Portfolio -->
   <section class="container" style="padding-bottom: 4rem;">
     <h2 class="section-heading">Portfolio</h2>
+    <p class="section-intro">Case studies of the systems I've built and led, from docs.indeed.com to the team that runs it.</p>
     <div class="card-grid">
       {sorted.map((entry) => (
         <CaseStudyCard
@@ -128,79 +82,34 @@ const endorsements = [
         />
       ))}
     </div>
+    <p class="section-more"><a href={`${base}/portfolio`}>All case studies, with roles and dates →</a></p>
   </section>
 
   <hr class="section-divider container" />
 
-  <!-- Career Timeline -->
+  <!-- Samples -->
   <section class="container" style="padding-bottom: 4rem;">
-    <h2 class="section-heading">Career Timeline</h2>
-    <ul class="timeline" style="max-width: 640px;">
-      {timeline.map((item) => (
-        <li class="timeline__item">
-          <p class="timeline__period">{item.period}</p>
-          <p class="timeline__role">{item.role}</p>
-          <p class="timeline__org">{item.org}</p>
-        </li>
-      ))}
-    </ul>
-  </section>
-
-  <hr class="section-divider container" />
-
-  <!-- Skills -->
-  <section class="container" style="padding-bottom: 4rem;">
-    <h2 class="section-heading">Skills</h2>
-    <div class="skills-grid">
-      {skills.map((group) => (
-        <div class="skill-group">
-          <p class="skill-group__label">{group.label}</p>
-          <ul class="skill-group__items">
-            {group.items.map((item) => (
-              <li>{item}</li>
-            ))}
-          </ul>
-        </div>
+    <h2 class="section-heading">Writing samples</h2>
+    <p class="section-intro">Live documentation, release notes, and talks you can read today.</p>
+    <div class="card-grid card-grid--compact">
+      {featuredSamples.map((sample) => (
+        <a href={sample.href} class="case-study-card" target="_blank" rel="noopener noreferrer">
+          <div class="case-study-card__meta">{sample.type}</div>
+          <div class="case-study-card__title">{sample.title}</div>
+          <div class="case-study-card__summary">{sample.summary}</div>
+        </a>
       ))}
     </div>
+    <p class="section-more"><a href={`${base}/samples`}>All samples, including talks I coached and tutorials →</a></p>
   </section>
 
   <hr class="section-divider container" />
 
-  <!-- Endorsements -->
-  <section class="container" style="padding-bottom: 4rem;">
-    <h2 class="section-heading">What colleagues say</h2>
-    <div class="endorsements">
-      {endorsements.map((e) => (
-        <div class="endorsement">
-          <blockquote>"{e.quote}"</blockquote>
-          <cite>— {e.source}</cite>
-        </div>
-      ))}
-    </div>
-  </section>
-
-  <hr class="section-divider container" />
-
-  <!-- Education -->
-  <section class="container" style="padding-bottom: 4rem;">
-    <h2 class="section-heading">Education</h2>
-    <div style="display: flex; flex-direction: column; gap: 1.75rem; max-width: 640px;">
-      {education.map((item) => (
-        <div>
-          <p style="font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 0.3rem;">
-            {item.institution} &middot; {item.location}
-          </p>
-          <p style="font-weight: 600; margin-bottom: 0;">{item.degree}</p>
-          {item.credential && (
-            <p style="color: var(--color-text-muted); font-size: 0.95rem; margin-bottom: 0.1rem;">{item.credential}</p>
-          )}
-          <p style="color: var(--color-text-muted); font-size: 0.875rem; margin-top: 0.4rem;">{item.note}</p>
-        </div>
-      ))}
-    </div>
-    <p style="font-size: 0.85rem; color: var(--color-text-muted); margin-top: 1.5rem;">
-      Full academic CV — including conference presentations, honors, and professional service — available on the <a href={`${base}/cv`}>CV page</a>.
+  <!-- Contact -->
+  <section class="container" style="padding-bottom: 5rem;">
+    <h2 class="section-heading">Get in touch</h2>
+    <p style="max-width: 640px; color: var(--color-text-muted);">
+      Want to talk about documentation, editorial standards, or AI tooling for writers? <a href={`${base}/contact`}>Send me a message</a>. For my full background, see the <a href={`${base}/cv`}>CV</a>, or find me on <a href="https://www.linkedin.com/in/rebeccaalvestechwriter/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
     </p>
   </section>
 </Base>

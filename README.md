@@ -34,7 +34,7 @@ Base path is `/career` for GitHub Pages. All nav links and asset paths use `impo
 
 | Route | File |
 |-------|------|
-| `/` | `src/pages/index.astro` — hero, webinar callout, career timeline, portfolio preview, skills, endorsements, education |
+| `/` | `src/pages/index.astro` — hero, featured talk, portfolio, contact |
 | `/portfolio` | `src/pages/portfolio/index.astro` — full case study listing |
 | `/portfolio/[slug]` | `src/pages/portfolio/[slug].astro` — rendered case study |
 | `/contact` | `src/pages/contact.astro` — Formspree contact form (endpoint: mykddaee) |

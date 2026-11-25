@@ -64,10 +64,6 @@ function isActive(path: string) {
       document.documentElement.dataset.theme = theme;
     }
 
-    document.querySelectorAll<HTMLElement>('.theme-swatch').forEach((el) => {
-      el.classList.toggle('active', el.dataset.themePick === light);
-    });
-
     const moon = document.getElementById('icon-moon');
     const sun = document.getElementById('icon-sun');
     if (moon) moon.style.display = dark ? 'none' : '';
@@ -76,16 +72,6 @@ function isActive(path: string) {
 
   // Init
   applyTheme(getPref());
-
-  // Swatches
-  document.querySelectorAll<HTMLElement>('.theme-swatch').forEach((el) => {
-    el.addEventListener('click', () => {
-      const pref = getPref();
-      pref.light = el.dataset.themePick || 'warm';
-      savePref(pref);
-      applyTheme(pref);
-    });
-  });
 
   // Dark toggle
   document.getElementById('theme-dark-toggle')?.addEventListener('click', () => {

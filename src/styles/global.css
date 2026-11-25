@@ -1,7 +1,7 @@
 /* ——————————————————————————————————————————————
    Fonts
 —————————————————————————————————————————————— */
-@import url('https://fonts.bunny.net/css?family=source-serif-4:600,700|inter:400,500,600&display=swap');
+@import url('https://fonts.bunny.net/css?family=newsreader:500,600,700|inter:400,500,600&display=swap');
 
 /* ——————————————————————————————————————————————
    Design tokens — Theme: Warm (default)
@@ -18,7 +18,7 @@
   --color-nav-bg:       rgba(250, 247, 240, 0.95);
   --color-card-shadow:  rgba(31, 58, 95, 0.1);
 
-  --font-heading: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-heading: 'Newsreader', Georgia, 'Times New Roman', serif;
   --font-body:    'Inter', system-ui, sans-serif;
 
   --width-content: 1100px;

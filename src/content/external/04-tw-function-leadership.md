@@ -28,7 +28,7 @@ I built and led a globally distributed team of 7 full-time and contract writers 
 
 - **Governance:** Set up central project management, resolved 230+ accumulated issues, and cut average resolution time by 23.55%.
 - **Austin and Tokyo on one process:** Introduced async standups and review protocols so work kept moving across time zones.
-- **Japanese coverage:** Partnered with operations to hire and onboard Tokyo-based writers, driving Japanese API documentation coverage to 88% against a 50% target.
+- **Japanese coverage:** Partnered with operations to hire and onboard Tokyo-based writers. Together with the Translation Sync agent I built, that drove Japanese API documentation coverage to 88% against a 50% target.
 - **People:** Wrote performance evaluations, ran calibration with senior leadership, made bonus decisions as the designated compensation manager, and hired contract writers.
 - **Direction:** Wrote the org's first Technical Writing Vision, which secured VP-level alignment on a roadmap built around AI-enhanced documentation.
 

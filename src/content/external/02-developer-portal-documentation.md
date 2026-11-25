@@ -4,7 +4,7 @@ period: "2020–Present"
 role: "Outreach Technical Writer → Technical Writing Manager"
 organization: "Indeed"
 order: 1
-summary: "I've been part of docs.indeed.com since its first version: writing its API guides, leading its migrations, and owning its architecture, standards, and partner experience today."
+summary: "I've worked on docs.indeed.com since its first version, and I now own its architecture, standards, and partner experience."
 tags: ["API Documentation", "Developer Experience", "Information Architecture", "Content Strategy"]
 showEvidence: false
 skills:

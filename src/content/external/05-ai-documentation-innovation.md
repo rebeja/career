@@ -4,7 +4,7 @@ period: "2025–Present"
 role: "Senior Technical Writer → Technical Writing Manager"
 organization: "Indeed"
 order: 5
-summary: "I built AI tools that score documentation quality, sync Japanese translations, and draft release notes, then turned them into a team program with governance, review rules, and a library of 17 AI skills."
+summary: "I built AI tools for quality scoring, translation, and release notes, then turned them into a team program with 17 shared skills."
 tags: ["AI/Automation", "Python", "LLM Pipelines", "Quality Engineering", "AI Governance"]
 showEvidence: false
 skills:

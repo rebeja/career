@@ -4,7 +4,7 @@ period: "2023–Present"
 role: "Technical Writing Manager"
 organization: "Indeed"
 order: 2
-summary: "I made the case for a technical writing manager, became the first one, and built the operating model the function still runs on, through two reorganizations, a year as a senior IC, and a return to managing the team in 2026."
+summary: "I made the case for a technical writing manager, became the first one, and built the operating model the team still runs on."
 tags: ["People Management", "Operations", "Change Leadership", "Content Governance", "Global Teams"]
 showEvidence: false
 skills:

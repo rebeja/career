@@ -4,7 +4,7 @@ period: "2022–2025"
 role: "API Technical Writer II → Technical Writing Manager"
 organization: "Indeed"
 order: 4
-summary: "I designed the documentation system behind employer self-serve ATS activation: a template, workflow, and partner intake built so other writers could run it, later refreshed with AI-assisted guidelines."
+summary: "I designed the template, workflow, and partner intake behind employer self-serve ATS setup, built for other writers to run."
 tags: ["Technical Writing", "Systems Design", "Partner Enablement", "Scalability", "Installation Guides"]
 showEvidence: false
 skills:

@@ -4,7 +4,7 @@ period: "2019–2026"
 role: "Outreach Technical Writer → Technical Writing Manager"
 organization: "Indeed"
 order: 6
-summary: "I design learning systems that outlast my involvement, from speaker coaching and technical curricula to an external webinar on AI tooling for writers. The through line: build it for the learner, then hand it off."
+summary: "From speaker coaching to curricula to a webinar on AI tooling, I design learning that keeps working after I hand it off."
 tags: ["Curriculum Design", "Enablement", "Content Strategy", "Program Management"]
 showEvidence: false
 ---

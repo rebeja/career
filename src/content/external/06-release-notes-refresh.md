@@ -4,7 +4,7 @@ period: "2025–2026"
 role: "Technical Writing Manager"
 organization: "Indeed"
 order: 3
-summary: "I rebuilt docs.indeed.com's release notes so partners can find changes by product and change type, and automated staging so a 59-merge-request release now ships with the writer's work reduced to review."
+summary: "I reorganized docs.indeed.com's release notes by product and automated release staging, so writers now only review."
 tags: ["Release Notes", "Automation", "Information Architecture", "Localization", "Docs-as-Code"]
 showEvidence: false
 skills:

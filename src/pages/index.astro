@@ -21,18 +21,15 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           Technical writing manager at Indeed. I build the documentation, standards, and AI tooling behind docs.indeed.com, and I bring a background in rhetoric and university teaching to how I lead and coach writers.
         </p>
         <div style="display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap;">
-          <a href={`${base}/portfolio`} class="hero__cta">View portfolio →</a>
+          <a href={`${base}/contact`} class="hero__cta">Get in touch →</a>
+          <a href={`${base}/portfolio`} class="hero__secondary-link">Portfolio</a>
           <a href={`${base}/cv`} class="hero__secondary-link">CV</a>
           <a href="https://www.linkedin.com/in/rebeccaalvestechwriter/" target="_blank" rel="noopener noreferrer" class="hero__secondary-link">LinkedIn ↗</a>
           <a href="https://github.com/rebeja" target="_blank" rel="noopener noreferrer" class="hero__secondary-link">GitHub ↗</a>
         </div>
-        <div class="hero__featured">
-          <span class="hero__featured-label">Featured talk</span>
-          <a href="https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/" target="_blank" rel="noopener noreferrer" class="hero__featured-link">
-            From Writer to Tool Builder: AI Coding Agents for Technical Documentation ↗
-          </a>
-          <span class="hero__featured-meta">Document360 webinar &middot; February 2026</span>
-        </div>
+        <p class="hero__featured">
+          Recent talk: <a href="https://document360.com/webinar/from-writer-to-tool-builder-ai-coding-agents-for-technical-documentation/" target="_blank" rel="noopener noreferrer">From Writer to Tool Builder: AI Coding Agents for Technical Documentation</a> (Document360 webinar, February 2026)
+        </p>
       </div>
       <div class="hero__photo">
         <img src={`${base}/profile-pic.jpg`} alt="Rebecca Alves" width="200" height="200" />

@@ -11,32 +11,33 @@ skills:
   - People management
   - Performance and calibration
   - Hiring
-  - Content governance
+  - Style guides and content governance
   - Jira workflow design
   - Cross-timezone collaboration
-  - Stakeholder management
+  - Localization process
   - OKRs
 ---
 
 # Building the Technical Writing Function
 
-Indeed's partner-facing technical writing function didn't have a dedicated manager. In 2023 I made the case for one, was promoted into the role, and became the org's first Technical Writing Manager.
+In 2023 I made the case for a technical writing manager and became Indeed's first, responsible for the company's technical writing function.
 
 ## Building the team (2023–2025)
 
-I built and led a globally distributed team of 7 full-time and contract writers in the U.S. and Japan, and turned it into a function with clear standards and measurable outcomes.
+I led a globally distributed team of 7 full-time and contract writers in the U.S. and Japan, and built it into a function with clear standards and measurable outcomes.
 
-- **Governance:** Set up central project management, resolved 230+ accumulated issues, and cut average resolution time by 23.55%.
-- **Austin and Tokyo on one process:** Introduced async standups and review protocols so work kept moving across time zones.
-- **Japanese coverage:** Partnered with operations to hire and onboard Tokyo-based writers. Together with the Translation Sync agent I built, that drove Japanese API documentation coverage to 88% against a 50% target.
+- **Standards:** Wrote the style guide for docs.indeed.com, and drafted the function's first vision and a cross-org backlog of technical writing needs.
+- **Austin and Tokyo on one process:** Introduced weekly syncs, Slack standups, and merge request approval rules so work kept moving across time zones.
+- **Localization:** Documented the translation and legal review process with our Tokyo writers, published the Canadian French Workday guide, and partnered with operations to hire and onboard Tokyo-based writers. Together with the Translation Sync agent I built, that drove Japanese API documentation coverage to 88% against a 50% target.
+- **One function:** Took on the contract writers from the Indeed Plus team and made the case for moving the team into Product Platform Experience.
+- **Knowledge management:** As Knowledge Management Lead, ran an onsite in Tokyo that aligned technical writing and knowledge management on one strategy.
 - **People:** Wrote performance evaluations, ran calibration with senior leadership, made bonus decisions as the designated compensation manager, and hired contract writers.
-- **Direction:** Wrote the org's first Technical Writing Vision, which secured VP-level alignment on a roadmap built around AI-enhanced documentation.
 
-The team went through two major reorganizations in this period without disruption to delivery, including board-level product launches that had to meet integration standards on schedule.
+The team went through two reorganizations in this period without disruption to delivery, and closed 132 tickets at an 88% rate, with 672 GitLab commits and 100+ merge requests.
 
 ## Leading without the title (2025–2026)
 
-In July 2025 I moved into a senior individual contributor role. The function still looked to me for direction. I wrote the team charter and strategy that secured VP-level buy-in, and I set and tracked two of the team's OKR key results.
+In July 2025 I moved into a senior individual contributor role, and my manager still relied on me to lead most of the team's work. I wrote the team charter and strategy that secured VP-level buy-in, and I set and tracked two of the team's OKR key results.
 
 ## Back in the manager role (2026)
 
@@ -55,8 +56,7 @@ In a 2026 reorganization I was asked to resume managing the team of three techni
 | Focus area | Result |
 | :--- | :--- |
 | **Review speed** | 77% → 93% of merge requests resolved within three days (target: 90%) |
-| **Team output** | 585 merge requests (+5%), 27,175 commits (+37%) in one half-year |
-| **Issue resolution** | 23.55% faster on average; 230+ accumulated issues resolved |
+| **Team output (2026)** | 585 merge requests (+5%), 27,175 commits (+37%) in one half-year |
+| **Team output (2023–2025)** | 132 tickets (88% closure rate), 672 commits, 100+ merge requests |
 | **Japanese API coverage** | 88% (target: 50%) |
 | **Reorganizations** | 2, without disruption to delivery |
-

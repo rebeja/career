@@ -49,12 +49,6 @@ I built a formal speaker support program at Indeed — turning informal coaching
 | **Event engagement** | 82 authenticated attendees at the Unconference; 72% rated high-value |
 | **Community reach** | 163 registered technical writers for the 2026 AI webinar |
 
-> *"She was instrumental in getting my talk to a polished state... her advice improved everything from high-level talk structure to the clarity and simplicity of diagrams."*
-> — **Software Engineer, Indeed**
-
-> *"The most amazing part is that she's been working effectively to make me unnecessary to the training process. Rebecca has put together an amazing collection of course notes, interview notes, and even quizzes to help the next generation of recruiter students come up to speed on this topic."*
-> — **Senior Technical Architect, Indeed**
-
 ## Featured Work
 
 ### Speaker Enablement — Talks I Supported

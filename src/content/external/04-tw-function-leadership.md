@@ -38,9 +38,6 @@ The team went through two major reorganizations in this period without disruptio
 
 In July 2025 I moved into a senior individual contributor role. The function still looked to me for direction. I wrote the team charter and strategy that secured VP-level buy-in, and I set and tracked two of the team's OKR key results.
 
-> *"Although I manage the tech writers, I rely on Rebecca to lead most of the team's work."*
-> — **Senior Product Director, Indeed**
-
 ## Back in the manager role (2026)
 
 In a 2026 reorganization I was asked to resume managing the team of three technical writers who own docs.indeed.com.
@@ -50,9 +47,6 @@ In a 2026 reorganization I was asked to resume managing the team of three techni
 - **A clear front door:** Wrote a "How to work with us" page with five request paths, each with an intake form and a published turnaround target, and redesigned the team's Jira project around how writers actually work.
 - **Governance that lasts:** Authored a content governance strategy covering eight domains, from information architecture to API schema ownership, and rewrote the team's workflow documentation with a teammate.
 - **Growing the team:** Coached writers on AI-assisted workflows; one went on to build an AI skill that automated most of the weekly GraphQL schema log. I wrote a case study of each writer's work and presented it to the VP of Product.
-
-> *"Rebecca consistently looks beyond individual documentation tasks to improve the systems through which the entire team operates. She connects metrics to process changes, converts recurring work into reusable tooling, and establishes governance so that improvements remain sustainable over the long term."*
-> — **Manager, 2026 review**
 
 ---
 
@@ -66,8 +60,3 @@ In a 2026 reorganization I was asked to resume managing the team of three techni
 | **Japanese API coverage** | 88% (target: 50%) |
 | **Reorganizations** | 2, without disruption to delivery |
 
-> *"A strong leader in the technical writing function... the steady force in the changes that drastically affected teams and product."*
-> — **Product Director, Indeed**
-
-> *"Rebecca is a tremendous collaborator and great at stakeholder management — she framed changes so it was easy to focus on needful content... allowing us to ship."*
-> — **Senior Strategy Lead, Indeed**

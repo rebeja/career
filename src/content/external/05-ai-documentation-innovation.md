@@ -28,9 +28,6 @@ In 2025 I built AI tools for three bottlenecks on the docs team. In 2026, back a
 - **Translation Sync:** An LLM agent with codified prompts, terminology, and guardrails for Japanese localization. Together with the Tokyo writers we hired, it helped take Japanese API documentation coverage to 88% against a 50% target.
 - **Release Notes Generator:** Cut release notes curation from days to minutes (see *Release Notes Refresh*).
 
-> *"Not only did she experiment, but she started producing meaningful time savings and quality improvements leveraging AI."*
-> — **Senior Product Director, Indeed**
-
 ## The program (2026)
 
 I gave the team's AI work a governance model, review requirements, and machine-readability standards. The team now shares 17 AI skills, many of which I wrote, including a proofreader built on the docs.indeed.com style guide. I also wrote a how-to guide so writers can build their own skills.

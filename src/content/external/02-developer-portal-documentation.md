@@ -30,15 +30,9 @@ The developer portal has been rebuilt three times, and I was part of each one.
 
 **The original portal (2021):** I was on the team that built Indeed's first developer portal. I wrote its foundational integration guides, managed access for private users, led bi-weekly sprint planning, and deployed content to QA and production.
 
-> *"The developer portal was a success due largely to Rebecca's hard work validating various approaches, processes, and testing requirements."*
-> — **Software Engineer, Indeed**
-
 **Developer Home migration (2023):** I led the content migration and passed the 80% migration target before the end of July. I also coordinated publication of legal terms, developer agreements, and data privacy documentation, including Japanese translations.
 
 **The public docs site (2024):** I moved all integration documentation to the public site, so engineers no longer maintained multiple versions. That also cleared the way for the Knowledge Management team to add an AI assistant. Before the move, I ran a cross-org evaluation of ReadMe and Docusaurus and published the technical writing requirements that guided the platform decision.
-
-> *"Rebecca is the most technical Technical Writer I've ever worked with. She has been reviewing merge requests and deploying to both QA and Production — skills I wouldn't expect a Technical Writer to have."*
-> — **Principal Software Engineer, Indeed**
 
 ## Writing the APIs, from REST to GraphQL
 
@@ -56,9 +50,6 @@ An earlier redesign of the site was never finished, and it left structural probl
 - **A Help Center:** A central, data-driven hub with 114 glossary terms, 156 FAQ items, 59 error references, and 7 troubleshooting guides, replacing content that had been scattered across the site.
 - **English and Japanese fixes:** Resolved 24 bug-bash tickets covering navigation, links, localization, and usability.
 - **Accurate examples:** Corrected partner-facing errors so that partners, and the AI agents they use, copy working requests: the right OAuth Content-Type, no deprecated fields, and examples that validate against the schema.
-
-> *"Rebecca led the docs.indeed.com redesign… she owned the project end to end and delivered a much clearer, easier-to-navigate site for our partners and developers, something we'd be struggling to improve for quarters."*
-> — **Product Manager, Partner Experience**
 
 I also rebuilt the site's release notes around products; that work has its own case study, *Release Notes Refresh*.
 

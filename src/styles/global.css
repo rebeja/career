@@ -566,36 +566,6 @@ main {
 /* ——————————————————————————————————————————————
    Endorsements
 —————————————————————————————————————————————— */
-.endorsements {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.endorsement {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-left: 3px solid var(--color-accent);
-  border-radius: var(--radius);
-  padding: 1.25rem 1.5rem;
-}
-
-.endorsement blockquote {
-  font-style: italic;
-  color: var(--color-text);
-  font-size: 0.95rem;
-  line-height: 1.6;
-  margin: 0 0 0.75rem;
-}
-
-.endorsement cite {
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--color-text-muted);
-  font-style: normal;
-}
-
 /* ——————————————————————————————————————————————
    Case study page
 —————————————————————————————————————————————— */
@@ -1007,10 +977,6 @@ main {
   }
 
   .skills-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .endorsements {
     grid-template-columns: 1fr;
   }
 

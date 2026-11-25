@@ -62,24 +62,6 @@ const education = [
   },
 ];
 
-const endorsements = [
-  {
-    quote: 'Rebecca exemplifies the kind of strategic contributor, a continuous learner, while maintaining operational excellence. Her combination of technical curiosity, collaborative leadership, and willingness to expand beyond traditional role boundaries makes her invaluable.',
-    source: 'Senior Product Director, Manager',
-  },
-  {
-    quote: 'A great collaborator cross-functionally and a strong leader in the technical writing function. Demonstrated both strategic direction and tactical guidance. Was the steady force in the changes that drastically affected teams and product.',
-    source: 'Product Director, Manager',
-  },
-  {
-    quote: 'Strong technical expertise in the documentation site architecture. Openness to alternative approaches to solve problems, demonstrating a collaborative and open approach.',
-    source: 'Engineering Manager',
-  },
-  {
-    quote: "An excellent manager. Forward thinking and always keeps customers' needs in the forefront.",
-    source: 'Technical Writer, Direct Report',
-  },
-];
 ---
 
 <Base title="Rebecca Alves — Technical Writing & Documentation Systems">
@@ -160,21 +142,6 @@ const endorsements = [
               <li>{item}</li>
             ))}
           </ul>
-        </div>
-      ))}
-    </div>
-  </section>
-
-  <hr class="section-divider container" />
-
-  <!-- Endorsements -->
-  <section class="container" style="padding-bottom: 4rem;">
-    <h2 class="section-heading">What colleagues say</h2>
-    <div class="endorsements">
-      {endorsements.map((e) => (
-        <div class="endorsement">
-          <blockquote>"{e.quote}"</blockquote>
-          <cite>— {e.source}</cite>
         </div>
       ))}
     </div>

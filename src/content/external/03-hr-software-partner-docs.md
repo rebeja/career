@@ -44,15 +44,7 @@ Partners needed a front door, too. I built the intake and support infrastructure
 
 ## Designed for Handoff
 
-The most important thing about the system was that it didn't depend on me.
-
-> *"Rebecca has created a repeatable process for publishing the implementation guides used by Indeed Built ATS Sync integrations. The implementation guides are critical to a successful ATS Sync launch, and Rebecca also reduced the publication time by putting the guides in a system that allows us to make updates without involving engineering."*
-> — **Senior Technical Product Manager, Indeed**
-
-The guides were validated by user research:
-
-> *"All participants had high praise for the installation guide despite any other issues they experienced during the install process."*
-> — **Indeed Candidate Sync Diary Study, 2022**
+The most important thing about the system was that it didn't depend on me. The guides lived in a system the team could update without involving engineering, which cut publication time, and in user research every participant praised the installation guides.
 
 ## Refreshing the guides with AI (2025)
 

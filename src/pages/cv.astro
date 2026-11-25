@@ -24,12 +24,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       <h2>Summary</h2>
       <p>I build the systems that documentation runs on: the information architecture, quality standards, contribution workflows, and AI tooling that let a small writing team operate at the scale of a full organization. At Indeed I own <a href="https://docs.indeed.com" target="_blank" rel="noopener noreferrer">docs.indeed.com</a>, the production documentation site for partner developers, and I lead the team that writes it, a function I built in 2023 and steered through two reorgs. I bring a rare combination of instructional design, technical writing, and production AI tooling. A doctoral background in Communication Studies and a decade of university teaching shape how I design for learners, and the tools I build with Claude Code, Python, and MCP make that design repeatable.</p>
 
-      <ul class="cv-highlights">
-        <li><strong>77% → 93%</strong> of documentation merge requests resolved within three days, beating a 90% target</li>
-        <li><strong>Days → minutes</strong> release notes curation time with an automated LLM pipeline</li>
-        <li><strong>~650 FTE hours</strong> saved per quarter by a partner support form I designed and built</li>
-        <li><strong>163</strong> technical writers registered for my Document360 webinar on AI coding agents</li>
-      </ul>
 
       <h2>Professional Experience</h2>
 
@@ -207,34 +201,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     padding-bottom: 5rem;
   }
 
-  .cv-highlights {
-    list-style: none;
-    padding-left: 0 !important;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 0.75rem;
-    margin-top: 1.5rem;
-  }
-
-  .cv-highlights li {
-    margin: 0;
-    padding: 0.85rem 1rem;
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius);
-    background: var(--color-surface);
-    font-size: 0.85rem;
-    color: var(--color-text-muted);
-    line-height: 1.4;
-  }
-
-  .cv-highlights strong {
-    display: block;
-    font-family: var(--font-heading);
-    font-size: 1.2rem;
-    color: var(--color-accent);
-    margin-bottom: 0.2rem;
-  }
-
   .cv-org {
     display: flex;
     justify-content: space-between;
@@ -350,17 +316,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       text-decoration: none;
     }
 
-    .cv-highlights li {
-      background: #fff;
-      border-color: #bbb;
-      color: #333;
-      padding: 0.5rem 0.65rem;
-    }
-
-    .cv-highlights strong {
-      color: #000;
-      font-size: 12pt;
-    }
 
     .cv-body :global(li) {
       break-inside: avoid;

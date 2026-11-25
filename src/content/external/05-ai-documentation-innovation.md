@@ -20,7 +20,7 @@ skills:
 
 # AI Tooling for Documentation
 
-In 2025 I built AI tools for three bottlenecks on the docs team. In 2026, back as manager, I turned them into a program the whole team runs on.
+In 2025 I built AI tools for three bottlenecks on the docs team, with Claude Code and LLM agents through Indeed's internal MCP server. In 2026, back as manager, I turned them into a program the whole team runs on.
 
 ## The tools (2025)
 
@@ -32,7 +32,7 @@ In 2025 I built AI tools for three bottlenecks on the docs team. In 2026, back a
 
 I gave the team's AI work a governance model, review requirements, and machine-readability standards. The team now shares 17 AI skills, many of which I wrote, including a proofreader built on the docs.indeed.com style guide. I also wrote a how-to guide so writers can build their own skills.
 
-Beyond writing tools, I ran a pilot that used AI agents to review and repair another team's documentation, and drafted starter skills and llms.txt notes so partners' coding agents can read the docs.
+Beyond writing tools, I ran a pilot that used AI agents to review and repair another team's documentation. At an agent-ready docs hackathon, I drafted starter skills and llms.txt notes so partners' coding agents could read the docs.
 
 ---
 
@@ -44,3 +44,8 @@ Beyond writing tools, I ran a pilot that used AI agents to review and repair ano
 | Japanese API coverage | 88% (target: 50%) |
 | Release notes curation time | Days → minutes |
 | Team AI skills | 17 |
+
+## Live Work
+
+- **[Docs Automation Examples](https://rebeja.github.io/docs-automation-examples/)**: public tutorial site with a release notes automation tool and a portfolio doc site builder.
+- **[GitHub: docs-automation-examples](https://github.com/rebeja/docs-automation-examples)**: working Python tools and end-to-end tutorials.

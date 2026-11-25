@@ -1,7 +1,7 @@
 ---
 title: "Release Notes Refresh"
 period: "2025–2026"
-role: "Technical Writing Manager"
+role: "Senior Technical Writer → Technical Writing Manager"
 organization: "Indeed"
 order: 3
 summary: "I reorganized docs.indeed.com's release notes by product and automated release staging, so writers now only review."
@@ -20,19 +20,15 @@ skills:
 
 # Release Notes Refresh
 
-Release notes are how partner developers find out what changed in the APIs they depend on. At [docs.indeed.com](https://docs.indeed.com/release-notes/), they were organized by date. A partner who only used one product had to read every release to find the changes that applied to them, in English or Japanese. The GraphQL schema change logs were raw diffs. Assembling each release still took a writer several manual steps.
+Release notes are how partner developers find out what changed in the APIs they depend on. I've written and published Indeed's release notes since 2021, and soft-launched release notes for Indeed Plus in 2024. On [docs.indeed.com](https://docs.indeed.com/release-notes/), they were organized by date, with no way to see one product's changes on their own, in English or Japanese. The GraphQL schema change logs were raw diffs. Assembling each release still took a writer several manual steps.
 
-I'd already automated the first step. In 2025, my Release Notes Generator cut curation time from days to minutes. In late 2026, I took on the rest: how the notes are structured, how partners find them, and how each release gets staged.
+I started in 2025. My Release Notes Generator cut curation time from days to minutes, and I simplified the Japanese release notes: the index went from 206 lines to 82, with date-based navigation and detailed schema changelogs. In late 2026, I took on the rest: how the notes are structured, how partners find them, and how each release gets staged.
 
 ## Restructuring around products
 
-I rebuilt the release notes around per-product partials. Each product's bullets are written once and appear in three places: the year page, the landing page, and a new release notes page for that product. I also grouped every release from 2024 through 2026 by change type, so partners can scan each release by the kind of change.
+I rebuilt the release notes around per-product partials. Each product's bullets are written once and appear in three places: the year page, the landing page, and a new release notes page for that product. I also grouped every release from 2024 through 2026 by change type, so partners can scan each release by the kind of change. The result is 17 English and 17 Japanese product pages, every 2025 and 2026 release summarized, and redirects for every retired page so no partner bookmark breaks.
 
-- **17 English and 17 Japanese** product release notes pages
-- **All 19 releases of 2025 and all 19 of 2026** grouped by change type and summarized
-- **Redirects** for every retired page, so no partner bookmark breaks
-
-The restructure touched more than 500 files, which was too large for our automated code reviewer to process. Instead of merging it unreviewed, I split it into five stacked parts, each aligned to one reviewer. After review I consolidated them into a single merge of about 535 files.
+The restructure touched more than 500 files, too many for our automated code reviewer, which skipped it. Instead of merging it unreviewed, I split it into five stacked parts, each aligned to one reviewer. After review I consolidated them into a single merge of about 535 files.
 
 ## Making schema changes readable
 
@@ -62,6 +58,7 @@ A pipeline only one person can run isn't finished. I coached a writer through si
 | **Files shipped in one restructure merge** | ~535, after review in five stacked parts |
 | **October 31, 2026 release** | 59 merge requests, 12 sections, writer's part review only |
 | **Curation time (2025 generator)** | Days → minutes |
+| **Japanese release notes index** | 206 → 82 lines |
 
 ## Live Work
 
